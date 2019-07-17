@@ -1,14 +1,14 @@
 """Harvest Metadata from an OAI-PMH Feed."""
 from __future__ import unicode_literals
-import requests
-import zlib
-import time
-import re
-import xml.dom.pulldom
-import xml.dom.minidom
-import codecs
 from argparse import ArgumentParser
 from builtins import chr
+import codecs
+import re
+import time
+import xml.dom.pulldom
+import xml.dom.minidom
+import zlib
+import requests
 
 nDataBytes = 0
 nRawBytes = 0

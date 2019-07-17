@@ -1,4 +1,6 @@
+"""Lookups Script Class to Match values against Geonames."""
 import requests
+
 
 def lookupGeonames(search_dict):
     # http://www.geonames.org/export/geonames-search.html

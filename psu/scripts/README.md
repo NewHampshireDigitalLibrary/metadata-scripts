@@ -92,3 +92,45 @@ $ python analysisCDM.py test/output.xml -e dc:creator | sort | uniq -c
 ```
 
 ## Lookup XSLT (e.g. remediation.xslt) Generation & Updates
+
+The `recon.py` script imports `lookupAPIs.py`, `parseXML.py`, and `reconLookups.py` to take in an existing `remediation.xslt` file, read a harvested OAI xml file (like `p15828coll1.qdc.xml`), and update a given param set in `remediation.xslt` with more findings from a given authority.
+
+It is written primarily to work with Spatial strings, parse them from the XML, match them against Geonames API ([with a limited number of calls each day for your free account](http://www.geonames.org/login)), and put the results (original search string, Geonames Label, Geonames URI, Geonames Coordinates) into an updated `reconciled-remediation.xslt` file. This file then can be used with the XSLT (rename it as `xslt/remediation.xslt` or rename and import it into Combine) to match XML values within `dcterms:spatial` to the NHDL spatial MAP fields for label, URI, and coordinates.
+
+This is an approach made to work against the current DPLA recommendations and processes for geo-spatial data in particular; namely, they use the strings provided to lookup coordinates, and have less of a use currently for geo-spatial data URIs. See the DPLA Geographic guidelines here: https://docs.google.com/document/d/1b2iJI90I24hUp-8kCfnZhAQcefBt0vPUjMzhDn9HOZ0/edit.
+
+To run a OAI harvested files through this `recon.py` script:
+
+```
+$ python recon.py -d ';' p15828coll7.qdc.xml
+```
+
+This leverages a few defaults - `remediation.xslt` (the file read in & updated) is in the same directory; the element matched against from the OAI harvest file is `dcterms:spatial`; and the output param in `remediation.xslt` is `geonamesLocation`. It also says to split the values from the OAI harvest file on `;` via the -d argument.
+
+The output will be `reconciled-remediation.xslt` with the updated geonamesLocation parameter.
+
+Nota bene:
+- you will need to tweak namespaces for this to work currently for reloading into XSLT;
+- added lines will not have pretty-print structure, as a trade-off to not add large classes to the environment - they will be valid XML however;
+- it will ignore existing values in the `remediation.xslt` param & other params (copy over to the new file);
+- you can also create a lookup table and add it into the `remediation.xslt` file, in case you want to generate these lookup values in something like OpenRefine or manually update certain values (like add a typo match);
+- this recon.py script is built around Geonames lookups, but is structured so it could be expanded to do other lookups if needed / wanted. See the CLI args setup for how it could be modified:
+
+```
+$ python recon.py --help
+
+positional arguments:
+  file                  datafile you want parsed for reconciliation values
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -d DELIMITER, --delimiter DELIMITER
+                        delimiter to split the field value on.
+  -e ELEMENT, --element ELEMENT
+                        element to reconcile
+  -r RECONCILED, --reconciled RECONCILED
+                        name of file with reconciled XSL dictionary.
+  -p PARAM, --param PARAM
+                        name of XSL file's reconciled values param to parse
+                        and extend.
+```

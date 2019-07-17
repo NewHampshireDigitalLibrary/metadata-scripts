@@ -1,9 +1,7 @@
-import hashlib
+"""Script Class for Parsing ContentDM-harvested OAI-PMH XML Files."""
 import sys
-import pprint
 from argparse import ArgumentParser
 from xml.etree import ElementTree as etree
-import six
 
 OAI_NS = "{http://www.openarchives.org/OAI/2.0/}"
 DC_NS = "{http://purl.org/dc/elements/1.1/}"
