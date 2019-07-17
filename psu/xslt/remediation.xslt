@@ -1,4 +1,6 @@
 <ns0:stylesheet xmlns:ns0="http://www.w3.org/1999/XSL/Transform" xmlns:ns1="http://github.com/cmharlow/nhdl-mdx/" version="2.0">
+    <ns0:output encoding="UTF-8" indent="yes" method="xml" omit-xml-declaration="no" />
+
     <ns0:param name="dcmiType">
         <ns1:lookup string="collection" uri="http://purl.org/dc/dcmitype/Collection">collection</ns1:lookup>
         <ns1:lookup string="dataset" uri="http://purl.org/dc/dcmitype/Dataset">dataset</ns1:lookup>
@@ -16,1317 +18,1323 @@
 
 
     <ns0:param name="geonamesLocation">
-      <ns1:lookup string="Walking sticks">Walking sticks</ns1:lookup>
-      <ns1:lookup string="Altamonte, The (Grafton county, New Hampshire : inhabited place)">altamonte, the, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="43.7548, -71.39674" string="Moultonborough (Carroll county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5089850/">Moultonborough, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Lost River Road (Grafton county, New Hampshire : road)">lost river road, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Temple (Hillsborough county, New Hampshire : inhabited place)">temple, hillsborough county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="43.07704, -70.75766" string="Portsmouth (Rockingham county, New Hampshire : inhabited place)&#10;Atlantic Ocean (ocean)" uri="http://sws.geonames.org/5091383/">Portsmouth, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="West Dunneston (Windham county, Vermont : inhabited place)">west dunneston, windham county, vermont</ns1:lookup>
-      <ns1:lookup coordinates="44, -71" string="New England (United States : general region)" uri="http://sws.geonames.org/11919979/">New England, United States</ns1:lookup>
-      <ns1:lookup string="Dorchester (Suffolk county, Massachusetts : neighborhood)">dorchester, suffolk county, massachusetts</ns1:lookup>
-      <ns1:lookup string="Diana's Baths (Carroll county, New Hampshire : cascade)">diana's baths, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Hart Island (Knox county, Maine : island)">hart island, knox county, maine</ns1:lookup>
-      <ns1:lookup string="Robert Poisson">Robert Poisson</ns1:lookup>
-      <ns1:lookup string="Exeter (Rockingham county, New Hampshire : inhabited place)">exeter, rockingham county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Starr King, Mount (Coos county, New Hampshire : peak)">starr king, mount, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Flume, The (Grafton county, New Hampshire : valley) Indian Head (Grafton county, New Hampshire : rock) Old Man of the Mountain (Grafton county, New Hampshire : peak) White Mountains (New Hampshire : mountains)">flume, the (grafton county, new hampshire : valley) indian head (grafton county, new hampshire : rock) old man of the mountain, grafton county, new hampshire : peak) white mountains (new hampshire</ns1:lookup>
-      <ns1:lookup string="Maple Grove House (Carroll county, New Hampshire : inhabited place)">maple grove house, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="43.98979, -72.4476" string="Chelsea (Orange county, Vermont : inhabited place)" uri="http://sws.geonames.org/5234814/">Chelsea, Vermont, United States</ns1:lookup>
-      <ns1:lookup coordinates="42.55343, -70.85366" string="Beverly (Essex county, Massachusetts : inhabited place)" uri="http://sws.geonames.org/4930511/">Beverly Cove, Massachusetts, United States</ns1:lookup>
-      <ns1:lookup string="Jackson Covered Bridge (Carroll county, New Hampshire : landmark)">jackson covered bridge, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Crawford Notch State Park (New Hampshire : state park)">crawford notch state park, new hampshire</ns1:lookup>
-      <ns1:lookup string="Brunswick (Cumberland county, Maine : inhabited place)">brunswick, cumberland county, maine</ns1:lookup>
-      <ns1:lookup coordinates="44.38396, -70.24922" string="Livermore (Androscoggin county, Maine : inhabited place)" uri="http://sws.geonames.org/4970214/">Livermore, Maine, United States</ns1:lookup>
-      <ns1:lookup string="Winchester (Middlesex county, Massachusetts : inhabited place)">winchester, middlesex county, massachusetts</ns1:lookup>
-      <ns1:lookup string="Union Village (Carroll county, New Hampshire : inhabited place)">union village, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="43.92091, -71.22729" string="Pequawket (Carroll county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5090954/">Pequawket, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Pendexter Mansion (Carroll county, New Hampshire : inhabited place)">pendexter mansion, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.46867, -71.18508" string="Berlin (Coos County, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5083330/">Berlin, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="44.24229, -71.01674" string="North Chatham (Carroll county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5090342/">North Chatham, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Lyndeborough (Hillsborough county, New Hampshire : inhabited place)">lyndeborough, hillsborough county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Lost River Gorge (Grafton county, New Hampshire : gorge)">lost river gorge, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Sandwich Dome (New Hampshire : peak)">sandwich dome, new hampshire</ns1:lookup>
-      <ns1:lookup string="Dixfield (Oxford county, Maine : inhabited place)">dixfield, oxford county, maine</ns1:lookup>
-      <ns1:lookup coordinates="44.82439, -70.87084" string="Upper Richardson Lake (Oxford county, Maine : lake)" uri="http://sws.geonames.org/4981659/">Upper Richardson Lake, Maine, United States</ns1:lookup>
-      <ns1:lookup string="West Tunbridge (Orange county, Vermont : inhabited place)">west tunbridge, orange county, vermont</ns1:lookup>
-      <ns1:lookup coordinates="44.3284, -71.27785" string="Madison, Mount (Coos county, New Hampshire : peak)" uri="http://sws.geonames.org/5089161/">Mount Madison, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Kearsarge House (Carroll county, New Hampshire : inhabited place)">kearsarge house, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Alpine, The (Grafton county, New Hampshire : inhabited place)">alpine, the, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Connecticut River (New Hampshire, Vermont, Massachusetts, Connecticut : river)">connecticut river, new hampshire, vermont, massachusetts, connecticut</ns1:lookup>
-      <ns1:lookup string="Sunset Hill House (Carroll county, New Hampshire : inhabited place)">sunset hill house, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Great Ox Bow (Grafton county, New Hampshire : landmark)">great ox bow, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Gulf Brook (Carroll county, New Hampshire : stream)">gulf brook, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.26508, -69.15893" string="Hope (Knox county, Maine : inhabited place)" uri="http://sws.geonames.org/4832408/">Hope, Maine, United States</ns1:lookup>
-      <ns1:lookup string="Union House (Carroll county, New Hampshire : inhabited place)">union house, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Giants Pothole (Grafton county, New Hampshire : rock)">giants pothole, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.81213, -70.68822" string="Beaver Pond (Franklin county, Maine : lake)" uri="http://sws.geonames.org/4957867/">Beaver Pond, Maine, United States</ns1:lookup>
-      <ns1:lookup string="Warren (Grafton county, New Hampshire : inhabited place)">warren, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="43.04812, -76.14742" string="Syracuse (Onondaga county, New York : inhabited place)" uri="http://sws.geonames.org/5140405/">Syracuse, New York, United States</ns1:lookup>
-      <ns1:lookup coordinates="43.0362, -71.1834" string="Raymond (Rockingham county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5091636/">Raymond, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="42.88897, -73.21539" string="Bennington Battle Monument (Bennington county, Vermont : monument)" uri="http://sws.geonames.org/5233745/">Bennington Battle Monument, Vermont, United States</ns1:lookup>
-      <ns1:lookup string="Eagle Mountain House (Carroll county, New Hampshire : inhabited place)">eagle mountain house, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="East Hebron (Androscoggin county, Maine : inhabited place)">east hebron, androscoggin county, maine</ns1:lookup>
-      <ns1:lookup string="What Not (Carroll county, New Hampshire : inhabited place)">what not, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Adams, Mount (Coos county, New Hampshire :peak)">adams, mount, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Crotched Mountain (Hillsborough county, New Hampshire : peak)">crotched mountain, hillsborough county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="43.90675, -69.51505" string="Pemaquid (Lincoln county, Maine : inhabited place)" uri="http://sws.geonames.org/4974905/">Pemaquid, Maine, United States</ns1:lookup>
-      <ns1:lookup string="Profile House (Grafton county, New Hampshire : inhabited place">Profile House (Grafton county, New Hampshire : inhabited place</ns1:lookup>
-      <ns1:lookup string="Moosilauke, Mount (Grafton county, New Hampshire : peak)">moosilauke, mount, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Sleeper Brook (Sullivan county, New Hampshire : stream)">sleeper brook, sullivan county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Churchill House (Carroll county, New Hampshire : inhabited place)">churchill house, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.63322, -71.23624" string="Pontook Reservoir (Coos county, New Hampshire : reservoir)" uri="http://sws.geonames.org/5091363/">Pontook Reservoir, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="43.75702, -71.68813" string="Plymouth (Grafton county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5091310/">Plymouth, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Isolation, Mount (Coos county, New Hampshire : peak)">isolation, mount, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Hotham Inlet (Northwest Arctic division, Alaska : inlet)">hotham inlet, northwest arctic division, alaska</ns1:lookup>
-      <ns1:lookup string="Mill Pond (Carroll county, New Hampshire : pond)">mill pond, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.18452, -69.07615" string="Rockport (Knox county, Maine : inhabited place)" uri="http://sws.geonames.org/4976817/">Rockport, Maine, United States</ns1:lookup>
-      <ns1:lookup string="Greenfield (Hillsborough county, New Hampshire : inhabited place)">greenfield, hillsborough county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.25812, -71.44119" string="Bretton Woods (Coos county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5083784/">Bretton Woods, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="42.4251, -71.06616" string="Malden (Middlesex county, Massachusetts : inhabited place)" uri="http://sws.geonames.org/4942939/">Malden, Massachusetts, United States</ns1:lookup>
-      <ns1:lookup string="Sam Adams, Mount (Coos county, New Hampshire : peak)">sam adams, mount, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.40784, -71.53758" string="Bray Hill (Coos county, New Hampshire : peak)" uri="http://sws.geonames.org/5083766/">Bray Hill, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="63.46944, -162.10744" string="Saint Michael (Nome division, Alaska : inhabited place)" uri="http://sws.geonames.org/7117710/">City of Saint Michael, Alaska, United States</ns1:lookup>
-      <ns1:lookup string="Arlington House (Grafton county, New Hampshire : inhabited place)">arlington house, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.77862, -70.89344" string="Lower Richardson Lake (Oxford county, Maine : reservoir)" uri="http://sws.geonames.org/4970762/">Lower Richardson Lake, Maine, United States</ns1:lookup>
-      <ns1:lookup coordinates="43.8523, -69.6281" string="Boothbay Harbor (Lincoln county, Maine : inhabited place)" uri="http://sws.geonames.org/4958958/">Boothbay Harbor, Maine, United States</ns1:lookup>
-      <ns1:lookup coordinates="42.6362, -71.90785" string="Ashburnham (Worcester county, Massachusetts : inhabited place)" uri="http://sws.geonames.org/4929256/">Ashburnham, Massachusetts, United States</ns1:lookup>
-      <ns1:lookup string="Enfield (Grafton county, New Hampshire : inhabited place)">enfield, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.05368, -71.1284" string="North Conway (Carroll county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5090347/">North Conway, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="43.96296, -69.71198" string="Wiscasset (Lincoln county, Maine : inhabited place)" uri="http://sws.geonames.org/4983360/">Wiscasset Airport, Maine, United States</ns1:lookup>
-      <ns1:lookup string="Sunapee (Sullivan county, New Hampshire : inhabited place)">sunapee, sullivan county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Franconia Notch (Grafton county, New Hampshire : valley) Echo Lake (Grafton county, Carroll county, New Hampshire : lake)">franconia notch (grafton county, new hampshire : valley) echo lake, grafton county, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Peckett's-on-Sugar Hill">Peckett's-on-Sugar Hill</ns1:lookup>
-      <ns1:lookup coordinates="44.56396, -68.80587" string="Fort Knox (Waldo county, Maine : historic site)" uri="http://sws.geonames.org/4964643/">Fort Knox State Historic Site, Maine, United States</ns1:lookup>
-      <ns1:lookup string="Presidential Inn (Carroll county, New Hampshire : inhabited place)">presidential inn, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="43.76091, -70.52561" string="Sebago Lake (Cumberland county, Maine : lake)" uri="http://sws.geonames.org/4978135/">Sebago Lake, Maine, United States</ns1:lookup>
-      <ns1:lookup string="Conway (Carroll county, New Hampshire : inhabited place)">conway, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Merrimack Square (Hillsborough county, New Hampshire : inhabited place)">merrimack square, hillsborough county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Two Bush Island (Hancock county, Maine : island)">two bush island, hancock county, maine</ns1:lookup>
-      <ns1:lookup string="Bearcamp River (Carroll county, New Hampshire : river)">bearcamp river, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Deer Park Hotel (Grafton county, New Hampshire : inhabited place)">deer park hotel, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="43.90924, -71.08368" string="Eaton Center (Carroll county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5085792/">Eaton Center, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="43.75508, -71.15201" string="Ossipee Center (Carroll county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5084387/">Center Ossipee, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Square Ledge Trail (Coos county, New Hampshire : trail)">square ledge trail, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Artists Falls (Carroll county, New Hampshire : inhabited place) Bartlett (Carroll county, New Hampshire : inhabited place) Diana's Baths (Carroll county, New Hampshire : cascade) Echo Lake (Grafton county, Carroll county, New Hampshire : lake) Enchanted Woods (Carroll county, New Hampshire : woods) Intervale (Carroll county, New Hampshire : inhabited place) Saco Lake (Coos county, New Hampshire : lake) Thompson Falls (Carroll county, New Hampshire : waterfall)">artists falls (carroll county, new hampshire : inhabited place) bartlett (carroll county, new hampshire : inhabited place) diana's baths (carroll county, new hampshire : cascade) echo lake (grafton county, carroll county, new hampshire : lake) enchanted woods (carroll county, new hampshire : woods) intervale (carroll county, new hampshire : inhabited place) saco lake (coos county, new hampshire : lake) thompson falls, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Comeau's Canoe House">Comeau's Canoe House</ns1:lookup>
-      <ns1:lookup coordinates="45.10005, -70.97452" string="Lynchtown (Oxford county, Maine : inhabited place)" uri="http://sws.geonames.org/4970864/">Lynchtown Township, Maine, United States</ns1:lookup>
-      <ns1:lookup string="Carter Mountain (Coos county, New Hampshire : peak)">carter mountain, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Maple Villa (Carroll county, New Hampshire : inhabited place)">maple villa, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.44923, -71.10258" string="Bald Cap (Coos county, New Hampshire : peak)" uri="http://sws.geonames.org/5082921/">Bald Cap, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Georgianna Falls (Grafton county, New Hampshire : stream)">georgianna falls, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="New City Hotel (Strafford county, New Hampshire : inhabited place)">new city hotel, strafford county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="45.10755, -70.77146" string="Kennebago (Franklin county, Maine : inhabited place)" uri="http://sws.geonames.org/4968697/">Kennebago, Maine, United States</ns1:lookup>
-      <ns1:lookup string="Sinclair House (Grafton county, New Hampshire : inhabited place)">sinclair house, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Chocorua Lake (Carroll county, New Hampshire : lake)">chocorua lake, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="41.48038, -71.52256" string="Kingston (Washington county, Rhode Island : inhabited place)" uri="http://sws.geonames.org/5223006/">Kingston, Rhode Island, United States</ns1:lookup>
-      <ns1:lookup coordinates="42.93814, -72.70537" string="Newfane (Windham county, Vermont : inhabited place)" uri="http://sws.geonames.org/5241307/">South Newfane, Vermont, United States</ns1:lookup>
-      <ns1:lookup string="Gray's Inn (Carroll county, New Hampshire : inhabited place)">gray's inn, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Davis Path (Carroll county, New Hampshire : trail)">davis path, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Cape Lisburne (North Slope division, Alaska : cape)">cape lisburne, north slope division, alaska</ns1:lookup>
-      <ns1:lookup string="Wolfeboro (Carroll county, New Hampshire : inhabited place)">wolfeboro, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Mount Lookoff (Grafton county, New Hampshire : inhabited place)">mount lookoff, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Nancy's Brook (Carroll county, New Hampshire : brook)">nancy's brook, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Upton (Oxford county, Maine : inhabited place)">upton, oxford county, maine</ns1:lookup>
-      <ns1:lookup string="Belfast (Waldo county, Maine : inhabited place)">belfast, waldo county, maine</ns1:lookup>
-      <ns1:lookup string="Glen Boulder (Coos county, New Hampshire : rock)">glen boulder, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="42.47509, -71.47451" string="West Acton (Middlesex county, Massachusetts : inhabited place)" uri="http://sws.geonames.org/4954831/">West Acton, Massachusetts, United States</ns1:lookup>
-      <ns1:lookup coordinates="37.35175, -80.38108" string="Appalachian Trail" uri="http://sws.geonames.org/11383702/">Appalachian National Scenic Trail, Virginia, United States</ns1:lookup>
-      <ns1:lookup string="Bucksport (Hancock county, Maine : inhabited place)">bucksport, hancock county, maine</ns1:lookup>
-      <ns1:lookup string="Saylesville (Providence county, Rhode Island : inhabited place)">saylesville, providence county, rhode island</ns1:lookup>
-      <ns1:lookup coordinates="44.37284, -71.43869" string="Stag Hollow Brook (Coos county, New Hampshire : stream)" uri="http://sws.geonames.org/5093074/">Stag Hollow Brook, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Woodbridge Island (Essex county, Massacusetts : island)">woodbridge island, essex county, massacusetts</ns1:lookup>
-      <ns1:lookup string="Silver Center for the Arts (Grafton county, New Hampshire : inhabited place)">silver center for the arts, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Belknap Range (Belknap county, New Hampshire : ridge)">belknap range, belknap county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.43756, -71.19091" string="Tinker Brook (Coos county, New Hampshire : stream)" uri="http://sws.geonames.org/5093689/">Tinker Brook, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Oak Birch Inn (Belknap county, New Hampshire : inhabited place)">oak birch inn, belknap county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Highland House (Grafton county, New Hampshire : inhabited place)' Jackson (Carroll county, New Hampshire : inhabited place)">highland house (grafton county, new hampshire : inhabited place)' jackson, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.23062, -71.07785" string="South Baldface (Carroll county, New Hampshire : mountain)" uri="http://sws.geonames.org/5092850/">South Baldface, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="44.05201, -71.32702" string="Bartlett Haystack (Carroll county, New Hampshire : peak)" uri="http://sws.geonames.org/5083041/">Bartlett Haystack, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Lover's Lane (Grafton county, New Hampshire : inhabited place)">lover's lane, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.48729, -70.78701" string="Newry (Oxford county, Maine : inhabited place)" uri="http://sws.geonames.org/4973342/">Newry, Maine, United States</ns1:lookup>
-      <ns1:lookup string="Monadnock Mountain (Cheshire county, New Hampshire : mountain)">monadnock mountain, cheshire county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.9581, -71.29536" string="Diamond Ridge (Coos county, New Hampshire : ridge)" uri="http://sws.geonames.org/5085410/">Diamond Ridge, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Monroe, Mount (Coos county, New Hampshire : peak)">monroe, mount, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Shelter House (Grafton county, New Hampshire : inhabited place)">shelter house, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.98978, -70.78312" string="Kennebago River (Franklin County, Maine : river)" uri="http://sws.geonames.org/4968702/">Kennebago River, Maine, United States</ns1:lookup>
-      <ns1:lookup string="Randall House (Carroll county, New Hampshire : inhabited place)">randall house, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Ammonoosuc Falls (Coos county, New Hampshire : stream) Ammonoosuc River (Coos county, Grafton county, New Hampshire : river)">ammonoosuc falls (coos county, new hampshire : stream) ammonoosuc river, coos county, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Rindge (Chesire county, New Hampshire : inhabited place)">rindge, chesire county, new hampshire</ns1:lookup>
-      <ns1:lookup string="North Woodstock (Grafton county, New Hampshire : inhabited place)&#10;Eskimo Sled Dog Ranch (Grafton county, New Hampshire : inhabited place)">north woodstock, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Pequawket House (Carroll county, New Hampshire : inhabited place)">pequawket house, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.75172, -71.6287" string="North Stratford (Coos county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5090429/">North Stratford, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Lakes of the Clouds (Coos county, New Hampshire : lake)">lakes of the clouds, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="43.7928, -71.13116" string="Ossipee Lake (Carroll county, New Hampshire : lake)" uri="http://sws.geonames.org/5090685/">Ossipee Lake, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="44.30617, -71.77009" string="Littleton (Grafton county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5088856/">Littleton, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="44.57092, -70.95365" string="Old Speck Mountain (Oxford county, Maine : mountain)" uri="http://sws.geonames.org/4974223/">Old Speck Mountain, Maine, United States</ns1:lookup>
-      <ns1:lookup string="Mount Washington House (Coos county, New Hampshire : inhabited place)">mount washington house, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Narrows Bridge (Carroll County, New Hampshire : structure)">narrows bridge, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Sutton (Caledonia county, Vermont : inhabited place)">sutton, caledonia county, vermont</ns1:lookup>
-      <ns1:lookup string="Hammond House (Carroll county, New Hampshire : inhabited place)">hammond house, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="42.88064, -71.32729" string="Derry (Rockingham county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5085374/">Derry, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Rochester City Hotel (Strafford county, New Hampshire : inhabited place)">rochester city hotel, strafford county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="43.33147, -71.11506" string="Blue Job Mountain (Strafford county, New Hampshire : peak)" uri="http://sws.geonames.org/5083581/">Blue Job Mountain, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="44.89449, -71.49592" string="Colebrook (Coos county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5084820/">Colebrook, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Elmwood Inn (Carroll county, New Hampshire : inhabited place)">elmwood inn, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="42.74814, -71.85424" string="New Ipswich (Hillsborough county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5090183/">New Ipswich, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Lake View Farm (Grafton county, New Hampshire : inhabited place)">lake view farm, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.40117, -71.0748" string="Shelburne (Coos county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5092608/">Shelburne, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Winnipesaukee, Lake (New Hampshire : lake)">winnipesaukee, lake, new hampshire</ns1:lookup>
-      <ns1:lookup string="Clark's Hotel (Middlesex county, Massachusetts : inhabited place)">clark's hotel, middlesex county, massachusetts</ns1:lookup>
-      <ns1:lookup string="Abenaki, Mount (Coos county, New Hampshire : mountain)">abenaki, mount, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="East Bethel (Windsor county, Vermont : inhabited place)">east bethel, windsor county, vermont</ns1:lookup>
-      <ns1:lookup string="Cold Spring Hill (Coos county, New Hampshire : hill)">cold spring hill, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="43.44424, -71.6473" string="Franklin (Merrimack county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5086344/">Franklin, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Marshfield (Plymouth county, Massachusetts : inhabited place)">marshfield, plymouth county, massachusetts</ns1:lookup>
-      <ns1:lookup coordinates="44.0559, -71.12979" string="North Conway Railroad Station (Carroll county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5090349/">North Conway Depot, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Leighton's Corner (Carroll county, New Hampshire : inhabited place)">leighton's corner, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Newburyport (Essex county, Massachusetts : inhabited place)">newburyport, essex county, massachusetts</ns1:lookup>
-      <ns1:lookup string="Brattleboro (Windham county, Vermont : inhabited place)">brattleboro, windham county, vermont</ns1:lookup>
-      <ns1:lookup string="Moat Mountain House (Carroll county, New Hampshire : inhabited place)">moat mountain house, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="45.13452, -70.77108" string="Kennebago Lake (Franklin county, Maine : Lake)" uri="http://sws.geonames.org/4969898/">Little Kennebago Lake, Maine, United States</ns1:lookup>
-      <ns1:lookup string="Hartford (Windsor county, Vermont : inhabited place)">hartford, windsor county, vermont</ns1:lookup>
-      <ns1:lookup string="Avalon, Mount (Grafton county, New Hampshire : peak)">avalon, mount, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="43.65757, -71.50035" string="Meredith (Belknap county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5089449/">Meredith, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Carter Hotel Path (Carrol county, New Hampshire : trail)">carter hotel path, carrol county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Agassiz Basin (Grafton county, New Hampshire : basin)">agassiz basin, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Pittston (Kennebec county, Maine : inhabited place)">pittston, kennebec county, maine</ns1:lookup>
-      <ns1:lookup coordinates="44.13369, -69.09421" string="Glen Cove (Knox county, Maine : inhabited place)" uri="http://sws.geonames.org/4965288/">Glen Cove, Maine, United States</ns1:lookup>
-      <ns1:lookup string="White Mountain Wilderness Compromise of 1984">White Mountain Wilderness Compromise of 1984</ns1:lookup>
-      <ns1:lookup coordinates="44.10118, -71.00701" string="South Chatham (Carroll county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5092876/">South Chatham, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Moody Beach (York county, Maine : inhabited place)">moody beach, york county, maine</ns1:lookup>
-      <ns1:lookup string="The Proctor House (Norfolk county, Massachusetts: inhabited place)">the proctor house, norfolk county, massachusetts</ns1:lookup>
-      <ns1:lookup coordinates="43.53634, -71.51101" string="Winnisquam, Lake (Belknap county, New Hampshire : lake)" uri="http://sws.geonames.org/5088496/">Lake Winnisquam, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Memorial Hospital (Carroll county, New Hampshire : inhabited place)">memorial hospital, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="32.78764, -94.03102" string="Trees" uri="http://sws.geonames.org/4343818/">Trees, Louisiana, United States</ns1:lookup>
-      <ns1:lookup coordinates="43.83535, -72.36621" string="Strafford (Orange county, Vermont : inhabited place)" uri="http://sws.geonames.org/5241344/">South Strafford, Vermont, United States</ns1:lookup>
-      <ns1:lookup string="Alpine House (Coos county, New Hampshire : inhabited place)">alpine house, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.38784, -71.17313" string="Gorham (Coos County, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5086700/">Gorham, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Flume, Mount (Grafton county, New Hampshire : peak)">flume, mount, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Durham (Strafford county, New Hampshire : inhabited place)">durham, strafford county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="43.65424, -71.24729" string="Tuftonboro (Carroll county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5084401/">Center Tuftonboro, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="44.24034, -71.35035" string="Eisenhower, Mount (Coos county, New Hampshire : peak)" uri="http://sws.geonames.org/5085830/">Mount Eisenhower, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Whitneys Inn (Carroll county, New Hampshire : inhabited place)">whitneys inn, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Grafton (Grafton county, New Hampshire : inhabited place)">grafton, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Merrill House (Merrimack county, New Hampshire : inhabited place)">merrill house, merrimack county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Isolation Hut (Coos county, New Hampshire : inhabited place)">isolation hut, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Milliken Bowlder (Carroll county, New Hampshire : rock)">milliken bowlder, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Double Gate (Carroll county, New Hampshire : valley)">double gate, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Brookfield (Carroll county, New Hampshire : inhabited place)">brookfield, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="43.66029, -71.76813" string="Newfound Lake (Grafton county, New Hampshire : lake)" uri="http://sws.geonames.org/5090223/">Newfound Lake, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="44.88856, -72.22526" string="Newport (Orleans county, Vermont : inhabited place)" uri="http://sws.geonames.org/5239066/">Newport State Airport, Vermont, United States</ns1:lookup>
-      <ns1:lookup coordinates="44.1159, -71.64203" string="Liberty, Mount (Grafton county, New Hampshire : peak)" uri="http://sws.geonames.org/5088662/">Mount Liberty, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="The Glen (Coos county, New Hampshire : inhabited place)">the glen, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Morse's Lodge (Coos county, New Hampshire : inhabited place)">morse's lodge, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="43.65737, -70.2589" string="Portland (Cumberland county, Maine : inhabited place)" uri="http://sws.geonames.org/4975802/">Portland, Maine, United States</ns1:lookup>
-      <ns1:lookup string="Thorn Mountain Park (Carroll county, New Hampshire : natural reserve)">thorn mountain park, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="43.46966, -71.6862" string="Webster (Merrimack county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5094352/">Webster Lake, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="44.56339, -71.5587" string="Northumberland (Coos county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5090464/">Northumberland, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Zealand Notch (Grafton county, New Hampshire : valley)">zealand notch, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Androscoggin River (United States, North and Central America : river)">androscoggin river, united states, north and central america</ns1:lookup>
-      <ns1:lookup string="Plum Island (Essex county, Massachusetts : island)">plum island, essex county, massachusetts</ns1:lookup>
-      <ns1:lookup string="Royalston (Worcester county, Massachusetts : inhabited place)">royalston, worcester county, massachusetts</ns1:lookup>
-      <ns1:lookup coordinates="44.17536, -71.69254" string="Echo Lake (Grafton county, New Hampshire : lake)" uri="http://sws.geonames.org/5085803/">Echo Lake, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Crawford Notch Depot (Coos county, New Hampshire : railroad station)">crawford notch depot, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="43.43925, -70.77422" string="Sanford (York county, Maine : inhabited place)" uri="http://sws.geonames.org/4977762/">Sanford, Maine, United States</ns1:lookup>
-      <ns1:lookup string="Peabody (Essex county, Massachusetts : inhabited place)">peabody, essex county, massachusetts</ns1:lookup>
-      <ns1:lookup string="Hotel Randall (Carroll county, New Hampshire : inhabited place)">hotel randall, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Mount Jefferson Tourist Court and Restaurant (Coos county, New Hampshire : inhabited place)">mount jefferson tourist court and restaurant, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Howard (Providence county, Rhode Island : inhabited place)">howard, providence county, rhode island</ns1:lookup>
-      <ns1:lookup coordinates="44.14423, -71.18091" string="Jackson (Carroll county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5088043/">Jackson, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Cathedral Ledge (Carroll county, New Hampshire : peak)">cathedral ledge, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.46867, -71.18508" string="Berlin (Coos county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5083330/">Berlin, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Bloomfield (Essex county, Vermont : inhabited place)">bloomfield, essex county, vermont</ns1:lookup>
-      <ns1:lookup string="Damariscotta River (Lincoln county, Maine : river)">damariscotta river, lincoln county, maine</ns1:lookup>
-      <ns1:lookup string="Prospect Mountain (Carroll county, New Hampshire : peak)">prospect mountain, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Old Homestead Tea Room (Carroll county, New Hampshire : inhabited place)">old homestead tea room, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="New Hampshire State Parks New Hampshire (United States : state)">new hampshire state parks new hampshire, united states</ns1:lookup>
-      <ns1:lookup coordinates="43.95424, -71.2734" string="Chocorua, Mount (Carroll county, New Hampshire : peak)" uri="http://sws.geonames.org/5084573/">Mount Chocorua, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Mount Washington Cog Railway Mount Washington Base Station (Coos county, New Hampshire : inhabited place)">mount washington cog railway mount washington base station, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.22701, -71.74786" string=") Franconia (Grafton county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5086325/">Franconia, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Odell Pulp and Paper Company (Coos county, New Hampshire : inhabited place)">odell pulp and paper company, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Piper House (Grafton county, New Hampshire : inhabited place)">piper house, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="New Castle (Rockingham county, New Hampshire : inhabited place)">new castle, rockingham county, new hampshire</ns1:lookup>
-      <ns1:lookup string="White Mountains (New Hampshire : mountains)">white mountains, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.26536, -68.72892" string="Pickering Island (Hancock county, Maine : island)" uri="http://sws.geonames.org/4970018/">Little Pickering Island, Maine, United States</ns1:lookup>
-      <ns1:lookup string="Little Hedgehog (Carroll county, New Hampshire : peak)">little hedgehog, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Tin Mountain (Carroll county, New Hampshire : peak)">tin mountain, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Bethlehem House">Bethlehem House</ns1:lookup>
-      <ns1:lookup coordinates="44.37312, -71.61008" string="Whitefield (Coos county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5094647/">Whitefield, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Goodrich Falls (Carroll county, New Hampshire : waterfall)">goodrich falls, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Mount Webster (Coos county, Carroll count, New Hampshire: mountain)">mount webster, coos county, carroll count, new hampshire</ns1:lookup>
-      <ns1:lookup string="Jefferson Hill (Orange county, Vermont : peak)">jefferson hill, orange county, vermont</ns1:lookup>
-      <ns1:lookup string="West Baldwin (Cumberland county, Maine : inhabited place)">west baldwin, cumberland county, maine</ns1:lookup>
-      <ns1:lookup string="Bennington (Hillsborough county, New Hampshire : inhabited place)">bennington, hillsborough county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.33397, -68.74114" string="Buck Harbor (Hancock county, Maine : bay)" uri="http://sws.geonames.org/4959541/">Bucks Harbor, Maine, United States</ns1:lookup>
-      <ns1:lookup string="Theodore Roosevelt Highway">Theodore Roosevelt Highway</ns1:lookup>
-      <ns1:lookup string="Oldtown (Penobscot county, Maine : inhabited place)">oldtown, penobscot county, maine</ns1:lookup>
-      <ns1:lookup string="Boulder Trail (Carroll county, New Hampshire : trail)">boulder trail, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="42.7762, -71.07728" string="Haverhill (Essex county, Massachusetts : inhabited place)" uri="http://sws.geonames.org/4939085/">Haverhill, Massachusetts, United States</ns1:lookup>
-      <ns1:lookup string="Groton (Grafton county, New Hampshire : inhabited place)">groton, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Rockland (Knox county, Maine : inhabited place)">rockland, knox county, maine</ns1:lookup>
-      <ns1:lookup coordinates="42.93369, -72.27814" string="Keene (Cheshire county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5088262/">Keene, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Conway Scenic Railroad (Carroll county, New Hampshire : railroad station)">conway scenic railroad, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Newton Center (Middlesex county, Massachusetts : inhabited place)">newton center, middlesex county, massachusetts</ns1:lookup>
-      <ns1:lookup string="Berwick (York county, Maine : inhabited place)">berwick, york county, maine</ns1:lookup>
-      <ns1:lookup string="Cave Mountain (Carroll county, Coos county, New Hampshire : peak)">cave mountain, carroll county, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Tully (Franklin county, Massachusetts : inhabited place)">tully, franklin county, massachusetts</ns1:lookup>
-      <ns1:lookup coordinates="57.15811, -170.22991" string="Saint Paul (Aleutians West, Alaska : inhabited place)" uri="http://sws.geonames.org/5873215/">Saint Paul Island Airport, Alaska, United States</ns1:lookup>
-      <ns1:lookup string="Pawtucket (Providence county, Rhode Island : inhabited place)">pawtucket, providence county, rhode island</ns1:lookup>
-      <ns1:lookup string="Uncanoonuc (Hillsborough county, New Hampshire : inhabited place)">uncanoonuc, hillsborough county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Six Husbands (New Hampshire : trail)">six husbands, new hampshire</ns1:lookup>
-      <ns1:lookup string="Camp Onaway (Grafton county, New Hampshire : summer camp)">camp onaway, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.57228, -71.22313" string="Milan Hill (Coos county, New Hampshire : peak)" uri="http://sws.geonames.org/5089549/">Milan Hill State Park, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Parker's Ledge (Grafton county, New Hampshire : peak)">parker's ledge, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Felchville (Windsor county, Vermont : inhabited place)">felchville, windsor county, vermont</ns1:lookup>
-      <ns1:lookup string="Park View, The (Grafton county, New Hampshire : inhabited place)">park view, the, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="International Paper Company Plant (Coos county, New Hampshire : inhabited place)">international paper company plant, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Madison Boulder (Carroll county, New Hampshire : rock)">madison boulder, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Washington, Mount (Coos county, New Hampshire : Mountain)">washington, mount, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="43.7651, -71.703" string="Plymouth Elementary School (Grafton county, New Hampshire : school)" uri="http://sws.geonames.org/5091312/">Plymouth Elementary School, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Kancamagus Highway (Grafton county, New Hampshire : highway)">kancamagus highway, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.67455, -71.0213" string="Mollidgewock Pond (Oxford county, Maine : lake)" uri="http://sws.geonames.org/4972340/">Mollidgewock Pond, Maine, United States</ns1:lookup>
-      <ns1:lookup string="Haystack Mountain (Coos county, Merrimack county, Grafton county, New Hampshire : peak)">haystack mountain, coos county, merrimack county, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Willey Brook Bridge (Carroll county, New Hampshire : structure)">willey brook bridge, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="43.93396, -71.40591" string="Whiteface, Mount (Grafton county, New Hampshire : peak)" uri="http://sws.geonames.org/5094654/">Mount Whiteface, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Dana Place Inn (Carroll county, New Hampshire : inhabited place)">dana place inn, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="25.79065, -80.13005" string="Miami Beach (Miami-Dade county, Florida : inhabited place)" uri="http://sws.geonames.org/4164143/">Miami Beach, Florida, United States</ns1:lookup>
-      <ns1:lookup string="Carter Trail (Coos county, New Hampshire : trail)">carter trail, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Swift River Falls (Carroll county, New Hampshire : waterfall)">swift river falls, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Rocks">Rocks</ns1:lookup>
-      <ns1:lookup string="Prospect Mountain (Carroll county, New Hampshire : peak) Lancaster (Coos county, New Hampshire : inhabited place)">prospect mountain (carroll county, new hampshire : peak) lancaster, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Pemigewasset House (Grafton county, New Hampshire : inhabited place)">pemigewasset house, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Livermore Falls (Grafton county, New Hampshire : waterfall)">livermore falls, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="42.76537, -71.46757" string="Nashua (Hillsborough county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5090046/">Nashua, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Sunset Pavilion (Carroll county, New Hampshire : inhabited place)">sunset pavilion, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Point Lay (North Slope division, Alaska : inhabited place)">point lay, north slope division, alaska</ns1:lookup>
-      <ns1:lookup string="Attitash Mountain (Carroll county, New Hampshire : peak)">attitash mountain, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Hammond Path (Carroll county, New Hampshire : trail)">hammond path, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Tunbridge (Orange county, Vermont : inhabited place)">tunbridge, orange county, vermont</ns1:lookup>
-      <ns1:lookup string="Blodgett Landing (Merrimack county, New Hampshire : inhabited place)">blodgett landing, merrimack county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Lincoln (Grafton county, New Hampshire : inhabited place)">lincoln, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Hill (Merrimack county, New Hampshire : inhabited place)">hill, merrimack county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Hyde Park (Suffolk county, Massachusetts : neighborhood)">hyde park, suffolk county, massachusetts</ns1:lookup>
-      <ns1:lookup string="Redstone Quarry (Carroll county, New Hampshire : inactive mine)">redstone quarry, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="43.85118, -71.57424" string="Weetamoo, Mount (Grafton county, New Hampshire : peak)" uri="http://sws.geonames.org/5094389/">Mount Weetamoo, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Hillside Inn (Grafton county, New Hampshire : inhabited place)">hillside inn, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Quechee (Windsor county, Vermont : inhabited place)">quechee, windsor county, vermont</ns1:lookup>
-      <ns1:lookup coordinates="42.08343, -71.01838" string="Bridgewater (Plymouth county, Massachusetts : inhabited place)" uri="http://sws.geonames.org/4931429/">Brockton, Massachusetts, United States</ns1:lookup>
-      <ns1:lookup string="Glen Station (Carroll county, New Hampshire : inhabited place)">glen station, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Whitehead Lighthouse (Hancock county, Maine : inhabited place)">whitehead lighthouse, hancock county, maine</ns1:lookup>
-      <ns1:lookup coordinates="45.0631, -71.16452" string="Magalloway Mountain (Coos county, New Hampshire : peak)" uri="http://sws.geonames.org/5089154/">Magalloway Mountain, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Davis Trail (Carroll county, New Hampshire : trail)">davis trail, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Barnes Hotel (Grafton county, New Hampshire : inhabited place)">barnes hotel, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Waltham (Middlesex county, Massachusetts : inhabited place)">waltham, middlesex county, massachusetts</ns1:lookup>
-      <ns1:lookup string="Eaton (Carroll county, New Hampshire : inhabited place)">eaton, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Boston and Maine Railroad Bretton Woods (Coos county, New Hampshire : inhabited place)">boston and maine railroad bretton woods, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Rutland (Rutland county, Vermont : inhabited place)">rutland, rutland county, vermont</ns1:lookup>
-      <ns1:lookup string="Crawford House Station (Coos county, New Hampshire : inhabited place)">crawford house station, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="43.72285, -72.47982" string="North Pomfret (Windsor county, Vermont : inhabited place)" uri="http://sws.geonames.org/5239220/">North Pomfret, Vermont, United States</ns1:lookup>
-      <ns1:lookup string="Maplewood Hotel (Grafton county, New Hampshire : inhabited place)">maplewood hotel, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Hanover Inn (Grafton count, New Hampshire : inhabited place)">hanover inn, grafton count, new hampshire</ns1:lookup>
-      <ns1:lookup string="Stairs Mountain (Coos county, New Hampshire : peak)">stairs mountain, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Spruce Island (Kennebec county, Maine : island)">spruce island, kennebec county, maine</ns1:lookup>
-      <ns1:lookup coordinates="42.45008, -73.24538" string="Pittsfield (Berkshire county, Massachusetts : inhabited place)" uri="http://sws.geonames.org/4947459/">Pittsfield, Massachusetts, United States</ns1:lookup>
-      <ns1:lookup coordinates="43.67202, -71.3184" string="Geneva Point (Carroll county, New Hampshire : cape)" uri="http://sws.geonames.org/5086498/">Geneva Point, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Tuckerman Ravine (Coos county, New Hampshire : valley) Washington, Mount (Coos county, New Hampshire : mountain)">tuckerman ravine (coos county, new hampshire : valley) washington, mount, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Fairview House (Grafton county, New Hampshire : inhabited place)">fairview house, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Flume, The (Grafton county, New Hampshire : valley) Franconia Notch (Grafton county, New Hampshire : valley)">flume, the (grafton county, new hampshire : valley) franconia notch, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="42.86147, -71.62535" string="Amherst (Hillsborough county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5082636/">Amherst, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Willey House Station ( Carroll county, New Hampshire : inhabited place)">willey house station, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.07897, -69.18171" string="Thomaston (Knox county, Maine : inhabited place)" uri="http://sws.geonames.org/4980629/">Thomaston, Maine, United States</ns1:lookup>
-      <ns1:lookup string="Weetamoo Trail (Grafton county, New Hampshire : trail)">weetamoo trail, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.52645, -69.887" string="Belgrade Lakes (Kennebec county, Maine : inhabited place)" uri="http://sws.geonames.org/4957964/">Belgrade Lakes, Maine, United States</ns1:lookup>
-      <ns1:lookup string="Lost River (Grafton county, New Hampshire : river)">lost river, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="45.01005, -71.79482" string="Norton (Essex county, Vermont : inhabited place)" uri="http://sws.geonames.org/5239306/">Norton, Vermont, United States</ns1:lookup>
-      <ns1:lookup string="Notchland Inn (Carroll county, New Hampshire : inhabited place)">notchland inn, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.97307, -71.01555" string="Aziscohos Lake (Oxford County, Maine : Reservoir)" uri="http://sws.geonames.org/4957043/">Aziscohos Lake, Maine, United States</ns1:lookup>
-      <ns1:lookup string="Kearsarge Hall (Carroll county, New Hampshire : inhabited place)">kearsarge hall, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Boston and Maine Railroad Conway (Carroll county, New Hampshire : inhabited place)">boston and maine railroad conway, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Four Winds (Grafton county, New Hampshire : hotel)">four winds, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Mount Washington Cog Railway Mount Whittier Station (Carroll county, New Hampshire : inhabited place)">mount washington cog railway mount whittier station, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Oakes Gulf (Coos county, New Hampshire : valley)">oakes gulf, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Gilford (Belknap county, New Hampshire : inhabited place)">gilford, belknap county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Ossipee Valley (Carroll county, New Hampshire : inhabited place)">ossipee valley, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Freeport (Cumberland county, Maine : inhabited place)">freeport, cumberland county, maine</ns1:lookup>
-      <ns1:lookup string="Wentworth Hall (Carroll county, New Hampshire : inhabited place)">wentworth hall, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Mayhew Program (Grafton county, New Hampshire : summer camp)">mayhew program, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.57232, -71.04213" string="Success Pond (Coos county, New Hampshire : lake)" uri="http://sws.geonames.org/5093293/">Success Pond, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="44.03563, -70.43867" string="West Poland (Androscoggin county, Maine : inhabited place)" uri="http://sws.geonames.org/4982698/">West Poland, Maine, United States</ns1:lookup>
-      <ns1:lookup string="Smith Cove (Hancock county, Maine : bay)">smith cove, hancock county, maine</ns1:lookup>
-      <ns1:lookup coordinates="44.24841, -68.97503" string="Tumble down Dick (Waldo county, Maine : sand bar)" uri="http://sws.geonames.org/4981223/">Tumble down Dick, Maine, United States</ns1:lookup>
-      <ns1:lookup string="Rockingham Hotel (Rockingham county, New Hampshire : inhabited place)">rockingham hotel, rockingham county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Great Gulf (Coos county, New Hampshire : valley)">great gulf, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Fabyan Station (Coos county, New Hampshire : inhabited place)">fabyan station, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Strafford Corners (Coos county, New Hampshire : inhabited place)">strafford corners, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Nashua Junction (Hillsborough county, New Hampshire : inhabited place)">nashua junction, hillsborough county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="43.59035, -71.53452" string="Loon Island (Belknap county, New Hampshire : island)" uri="http://sws.geonames.org/5088974/">Loon Island, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="42.72648, -70.81616" string="Rowley River (Essex county, Massachusetts : river)" uri="http://sws.geonames.org/4949149/">Rowley River, Massachusetts, United States</ns1:lookup>
-      <ns1:lookup string="Bolles Trail (Carroll county, New Hampshire : trail)">bolles trail, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Center Lovell (Oxford county, Maine : inhabited place)">center lovell, oxford county, maine</ns1:lookup>
-      <ns1:lookup coordinates="43.99896, -71.27868" string="Albany Intervale (New Hampshire : valley)" uri="http://sws.geonames.org/5082559/">Albany Intervale, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Webster, Mount (Coos county, Carroll county, New Hampshire: peak)">webster, mount, coos county, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Walker's Brook (Grafton county, New Hampshire : stream)">walker's brook, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Cardigan, Mount (Grafton county, New Hampshire : peak)">cardigan, mount, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.18201, -71.39952" string="Willey House Camps (Carroll county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5094769/">Willey House Camps, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="42.59981, -71.36728" string="Chelmsford (Middlesex county, Massachusetts : inhabited place)" uri="http://sws.geonames.org/4932869/">Chelmsford, Massachusetts, United States</ns1:lookup>
-      <ns1:lookup string="Warwick (Franklin county, Massachusetts : inhabited place)">warwick, franklin county, massachusetts</ns1:lookup>
-      <ns1:lookup string="Dezhneva, Mys (Chukotskiy Avtonomnyy Okrug, Rossiya republic : cape)">dezhneva, mys, chukotskiy avtonomnyy okrug, rossiya republic</ns1:lookup>
-      <ns1:lookup string="Umbagog Lake (United States, North and Central America : lake)">umbagog lake, united states, north and central america</ns1:lookup>
-      <ns1:lookup coordinates="43.64896, -72.31926" string="White River Junction (Windsor county, Vermont : inhabited place)" uri="http://sws.geonames.org/5242889/">White River Junction, Vermont, United States</ns1:lookup>
-      <ns1:lookup string="Gulfside Trail (Coos county, New Hampshire : trail)">gulfside trail, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Dunstable (Hillsborough county, New Hampshire : inhabited place)">dunstable, hillsborough county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Madison Spring Hut (Coos county, New Hampshire : inhabited place)">madison spring hut, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Wonalancet Falls (Carroll county, New Hampshire : waterfall)">wonalancet falls, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.50617, -71.1823" string="Cates Hill (Coos county, New Hampshire : peak)" uri="http://sws.geonames.org/5084321/">Cates Hill, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Meserve Hall (Carroll county, New Hampshire : inhabited place)">meserve hall, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Profile Shelter (Grafton county, New Hampshire : inhabited place)">profile shelter, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Maplewood Caddy Camp (Grafton county, New Hampshire : inhabited place)">maplewood caddy camp, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.1159, -71.64203" string="Mount Liberty (Grafton county, New Hampshire : peak)" uri="http://sws.geonames.org/5088662/">Mount Liberty, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Beaver Brook Path (Coos county, New Hampshire : trail)">beaver brook path, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Wizard Tree (Carroll county, New Hampshire : landmark)">wizard tree, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Mohawk River (Coos county, New Hampshire : river)">mohawk river, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Earle Dwelly Town Shop">Earle Dwelly Town Shop</ns1:lookup>
-      <ns1:lookup string="Gale River (Grafton county, New Hampshire : river)">gale river, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Lake Pleasant (Franklin county, Massachusetts : lake)">lake pleasant, franklin county, massachusetts</ns1:lookup>
-      <ns1:lookup coordinates="45.05959, -70.94799" string="Lincoln Pond (Oxford county, Maine : lake)" uri="http://sws.geonames.org/4969568/">Lincoln Pond, Maine, United States</ns1:lookup>
-      <ns1:lookup coordinates="44.02757, -71.68564" string="Moosilauke Brook (Grafton county, New Hampshire : stream)" uri="http://sws.geonames.org/5089805/">Moosilauke Brook, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Elm House (Grafton county, New Hampshire : inhabited place)">elm house, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Maplewood (Grafton county, Hillsborough county, New Hampshire : inhabited place)">maplewood, grafton county, hillsborough county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Birchmont Inn (Carroll county, New Hampshire : inhabited place)">birchmont inn, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="South Bristol (Lincoln county, Maine : inhabited place)">south bristol, lincoln county, maine</ns1:lookup>
-      <ns1:lookup string="East Northwood (Hamilton county, New Hampshire : former community)">east northwood, hamilton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="East Conway (Carroll county, New Hampshire : inhabited place)">east conway, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="North Woodstock (Grafton county, New Hampshire : inhabited place)">north woodstock, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Beaver Meadows (Carroll county, New Hampshire : meadow)">beaver meadows, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="East Orange (Essex county, New Jersey : inhabited place)">east orange, essex county, new jersey</ns1:lookup>
-      <ns1:lookup string="Mountains">Mountains</ns1:lookup>
-      <ns1:lookup string="Songo River (Cumberland county, Maine : river)">songo river, cumberland county, maine</ns1:lookup>
-      <ns1:lookup string="Bethlehem House (Grafton county, New Hampshire : inhabited place)">bethlehem house, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.2298, -68.69142" string="Northwest Harbor (Hancock county, Maine : harbor)" uri="http://sws.geonames.org/4973796/">Northwest Harbor, Maine, United States</ns1:lookup>
-      <ns1:lookup string="Tuckerman Ravine (Coos county, New Hampshire : valley)">tuckerman ravine, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Sunny Villa Restaurant (Carroll county, New Hampshire : inhabited place)">sunny villa restaurant, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="42.24398, -71.9923" string="Spencer (Worcester county, Massachusetts : inhabited place)" uri="http://sws.geonames.org/4951699/">Spencer, Massachusetts, United States</ns1:lookup>
-      <ns1:lookup coordinates="44.10383, -71.67704" string="The Pool (Grafton county, New Hampshire : pool)" uri="http://sws.geonames.org/5091368/">The Pool, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Wilsons Cottages (Carroll county, New Hampshire : inhabited place)">wilsons cottages, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Peru Mountain (Rutland county, Vermont : peak)">peru mountain, rutland county, vermont</ns1:lookup>
-      <ns1:lookup coordinates="42.27788, -70.86616" string="Nantasket Beach (Plymouth county, Massachusetts : inhabited place)" uri="http://sws.geonames.org/4944895/">Nantasket Beach, Massachusetts, United States</ns1:lookup>
-      <ns1:lookup coordinates="41.58227, -85.83444" string="Goshen (Elkhart county, Indiana : inhabited place)" uri="http://sws.geonames.org/4920808/">Goshen, Indiana, United States</ns1:lookup>
-      <ns1:lookup string="Eagle Rock Company">Eagle Rock Company</ns1:lookup>
-      <ns1:lookup string="Dingmaul Rock (Coos county, New Hampshire : rock)">dingmaul rock, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="43.85924, -71.64536" string="Sunset Hill (Grafton county, New Hampshire : peak)" uri="http://sws.geonames.org/5093386/">Sunset Hill, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="43.26285, -72.59509" string="Chester Depot (Windsor county, Vermont : inhabited place)" uri="http://sws.geonames.org/5234827/">Chester, Vermont, United States</ns1:lookup>
-      <ns1:lookup string="Whitefield NH (Coos county, New Hampshire : inhabited place)">whitefield nh, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Mote Mountain (Carroll county, New Hampshire : peak)">mote mountain, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Whittier, Mount (Carroll county, New Hampshire : peak)">whittier, mount, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Hawthorn Cottage (Carroll county, New Hampshire : inhabited place)">hawthorn cottage, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="North Adams (Berkshire county, Massachusetts : inhabited place)">north adams, berkshire county, massachusetts</ns1:lookup>
-      <ns1:lookup coordinates="42.12371, -71.17866" string="Sharon (Norfolk county, Massachusetts : inhabited place)" uri="http://sws.geonames.org/4950654/">Sharon, Massachusetts, United States</ns1:lookup>
-      <ns1:lookup string="Barre (Worcester county, Massachusetts : inhabited place)">barre, worcester county, massachusetts</ns1:lookup>
-      <ns1:lookup string="West Pownal (Cumberland county, Maine : inhabited place)">west pownal, cumberland county, maine</ns1:lookup>
-      <ns1:lookup string="Twin Mountain (Coos county, New Hampshire : inhabited place">Twin Mountain (Coos county, New Hampshire : inhabited place</ns1:lookup>
-      <ns1:lookup string="Marshfield House (Coos county New Hampshire : inhabited place)">marshfield house, coos county new hampshire</ns1:lookup>
-      <ns1:lookup string="Lonesome Lake (Grafton county, New Hampshire : lake)">lonesome lake, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.15117, -72.6565" string="Northfield (Washington county, Vermont : inhabited place)" uri="http://sws.geonames.org/5239281/">Northfield, Vermont, United States</ns1:lookup>
-      <ns1:lookup string="Androscoggin River (United States. North and Central America : river)">androscoggin river, united states. north and central america</ns1:lookup>
-      <ns1:lookup string="Intervale (Carroll county, New Hampshire : inhabited place) New Hampshire (United States : state) Dublin (Cheshire county, New Hampshire : inhabited place) North Conway (Carroll county, New Hampshire : inhabited place) Cornish (York county, Maine : inhabited place) Peterborough (Hillsborough county, New Hampshire : inhabited place) Bethlehem (Grafton county, New Hampshire : inhabited place) Wilton (Hillsborough county, New Hampshire : inhabited place) Portsmouth (Rockingham county, New Hampshire : inhabited place) Center Harbor (Belknap county, New Hampshire : inhabited place) Lake Winnipesaukee (New Hampshire : lake) Antrim (Hillsborough county, New Hampshire : inhabited place) Enfield (Grafton county, New Hampshire : inhabited place) Rye (Rockingham county, New Hampshire : inhabited place) Pemigewasset Valley Branch (Grafton county, New Hampshire : inhabited place)">intervale (carroll county, new hampshire : inhabited place) new hampshire (united states : state) dublin (cheshire county, new hampshire : inhabited place) north conway (carroll county, new hampshire : inhabited place) cornish (york county, maine : inhabited place) peterborough (hillsborough county, new hampshire : inhabited place) bethlehem (grafton county, new hampshire : inhabited place) wilton (hillsborough county, new hampshire : inhabited place) portsmouth (rockingham county, new hampshire : inhabited place) center harbor (belknap county, new hampshire : inhabited place) lake winnipesaukee (new hampshire : lake) antrim (hillsborough county, new hampshire : inhabited place) enfield (grafton county, new hampshire : inhabited place) rye (rockingham county, new hampshire : inhabited place) pemigewasset valley branch, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Westbrook (Cumberland county, Maine : inhabited place)">westbrook, cumberland county, maine</ns1:lookup>
-      <ns1:lookup string="Three Sisters Range (Carroll county, New Hampshire : ridge)">three sisters range, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="43.05231, -70.73339" string="The Wentworth (Rockingham county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5094421/">Wentworth Golf Club, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="43.92091, -71.29813" string="Claybank Brook (Carroll county, New Hampshire : stream)" uri="http://sws.geonames.org/5084692/">Claybank Brook, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Middle Mountain (Carroll county, Coos county, New Hampshire : peak)">middle mountain, carroll county, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Central House  (Grafton county, New Hampshire : inhabited place)">central house, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Starr King Hotel (Coos county, New Hampshire : inhabited place)">starr king hotel, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.64144, -71.97871" string="West Burke (Caledonia county, Vermont : inhabited place)" uri="http://sws.geonames.org/5242663/">West Burke, Vermont, United States</ns1:lookup>
-      <ns1:lookup string="Bridgton (Cumberland county, Maine : inhabited place)">bridgton, cumberland county, maine</ns1:lookup>
-      <ns1:lookup string="Franklin, Mount (Coos county, New Hampshire : peak)">franklin, mount, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Long Pond (Grafton county, New Hampshire : lake)">long pond, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Magalloway River (United States, North and Central America : river)">magalloway river, united states, north and central america</ns1:lookup>
-      <ns1:lookup string="Linekin Bay (Lincoln county, Maine : bay)">linekin bay, lincoln county, maine</ns1:lookup>
-      <ns1:lookup string="Edincott Rock (Belknap county, New Hampshire : rock)">edincott rock, belknap county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="43.63035, -71.75702" string="Groton School Camp (Grafton county, New Hampshire : summer camp)" uri="http://sws.geonames.org/5086968/">Groton School Camp, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Brook Path (Carroll county, New Hampshire : trail)">brook path, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Massabesic Lake (New Hampshire : lake)">massabesic lake, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.15896, -71.36174" string="Crawford Notch (New Hampshire : valley)" uri="http://sws.geonames.org/5085076/">Crawford Notch, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="43.75089, -71.52459" string="Squam Lake (New Hampshire : lake)" uri="http://sws.geonames.org/5093052/">Squam Lake, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Route 18">Route 18</ns1:lookup>
-      <ns1:lookup coordinates="43.05981, -70.73505" string="Sagamore Creek (Rockingham county, New Hampshire : creek)" uri="http://sws.geonames.org/5092063/">Sagamore Creek, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Johns Bay (Lincoln county, Maine : bay)">johns bay, lincoln county, maine</ns1:lookup>
-      <ns1:lookup string="Holy Ghost Hospital (Middlesex county, Massachusetts : inhabited place)">holy ghost hospital, middlesex county, massachusetts</ns1:lookup>
-      <ns1:lookup string="Intervale(Carroll county, New Hampshire : inhabited place)">intervale, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="42.97619, -71.69396" string="New Boston (Hillsborough county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5090096/">New Boston, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="43.27785, -71.87341" string="Newmarket (Merrimack county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5090245/">Newmarket, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Dolly Copp Homestead (Coos county, New Hampshire : inhabited place)">dolly copp homestead, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.57339, -71.18508" string="Milan (Coos county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5089546/">Milan, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Jockey Cap (Oxford county, Maine : peak)">jockey cap, oxford county, maine</ns1:lookup>
-      <ns1:lookup string="Mount Washington Auto Road (Coos county, New Hampshire : road)">mount washington auto road, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Bartlett House (Carroll county, New Hampshire : inhabited place)">bartlett house, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="North Grantham (Sullivan county, New Hampshire : inhabited place)">north grantham, sullivan county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Spaulding Lake (Coos county, New Hampshire : lake)">spaulding lake, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Turkey Mountain (Windham county, Vermont : peak)">turkey mountain, windham county, vermont</ns1:lookup>
-      <ns1:lookup coordinates="43.84063, -71.39702" string="Sandwich (Carroll county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5090425/">North Sandwich, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="North Conway (Carroll county, New Hampshire : inhabited place) Presidential Inn (Carroll county, New Hampshire : inhabited place) Putney Store Company">north conway (carroll county, new hampshire : inhabited place) presidential inn, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="42.84342, -71.73507" string="Wilton (Hillsborough county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5094802/">Wilton, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="26.71534, -80.05337" string="West Palm Beach (Palm Beach county, Florida : inhabited place)" uri="http://sws.geonames.org/4177887/">West Palm Beach, Florida, United States</ns1:lookup>
-      <ns1:lookup string="The Balsams Winter Inn (Coos county, New Hampshire : inhabited place)">the balsams winter inn, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="32.95505, -117.11726" string="Views" uri="http://sws.geonames.org/5406310/">Views West Park, California, United States</ns1:lookup>
-      <ns1:lookup string="Robinson House (Penobscot county, Maine : inhabited place)">robinson house, penobscot county, maine</ns1:lookup>
-      <ns1:lookup coordinates="42.76203, -72.51342" string="Vernon (Windham county, Vermont : inhabited place)" uri="http://sws.geonames.org/5242285/">Vernon, Vermont, United States</ns1:lookup>
-      <ns1:lookup coordinates="44.33201, -71.34369" string="Bowman, Mount (Coos county, New Hampshire : peak)" uri="http://sws.geonames.org/5083708/">Mount Bowman, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="44.15229, -72.03731" string="Woodsville (Grafton county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5094941/">Woodsville, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Millbrook (Windsor county, Vermont : inhabited place)">millbrook, windsor county, vermont</ns1:lookup>
-      <ns1:lookup string="Clarendon, The (Carroll county, New Hampshire : inhabited place)">clarendon, the, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Silver Cascade (New Hampshire, United States : stream)">silver cascade, new hampshire, united states</ns1:lookup>
-      <ns1:lookup string="Silver Lake Hotel (Carroll county, New Hampshire : inhabited place)">silver lake hotel, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="45.54104, -122.41382" string="Route 16" uri="http://sws.geonames.org/11811733/">US Route 30 Bypass Eastbound terminus, Oregon, United States</ns1:lookup>
-      <ns1:lookup string="Pownal (Bennington county. Vermont : inhabited place)">pownal, bennington county. vermont</ns1:lookup>
-      <ns1:lookup string="Walpole (Cheshire county, New Hampshire : inhabited place)">walpole, cheshire county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="43.26175, -70.86534" string="Great Falls (Strafford county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5092813/">Somersworth, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="42.6862, -72.04397" string="Winchendon (Worcester county, Massachusetts : inhabited place)" uri="http://sws.geonames.org/4955873/">Winchendon, Massachusetts, United States</ns1:lookup>
-      <ns1:lookup string="The Cow (Carroll county, New Hampshire : rock)">the cow, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="41.06704, -73.70707" string="Westchester (New York state, United States : county)" uri="http://sws.geonames.org/5144051/">Westchester County Airport, New York, United States</ns1:lookup>
-      <ns1:lookup coordinates="42.76342, -72.51592" string="Central Park Station (Windham county, Vermont : inhabited place)" uri="http://sws.geonames.org/5234739/">Central Park Station, Vermont, United States</ns1:lookup>
-      <ns1:lookup string="The Falls (Carroll county, New Hampshire : waterfall)">the falls, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Wentworth Castle (Carroll county, New Hampshire : inhabited place)">wentworth castle, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="White Mountain National Forest">White Mountain National Forest</ns1:lookup>
-      <ns1:lookup string="Russell Cottages (Carroll county, New Hampshire : inhabited place)">russell cottages, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Fryeberg (Oxford county, Maine : inhabited place)">fryeberg, oxford county, maine</ns1:lookup>
-      <ns1:lookup string="Langdon, Mount (Carroll county, New Hampshire : peak)">langdon, mount, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="East Hiram (Oxford county, Maine : inhabited place)">east hiram, oxford county, maine</ns1:lookup>
-      <ns1:lookup string="Steamer 'Mt. Washington'">Steamer 'Mt. Washington'</ns1:lookup>
-      <ns1:lookup coordinates="41.74816, -71.18977" string="Swansea (Bristol county, Massachusetts : inhabited place)" uri="http://sws.geonames.org/4952487/">Swansea, Massachusetts, United States</ns1:lookup>
-      <ns1:lookup string="Passaconaway, Mount (Grafton county, New Hampshire : peak)">passaconaway, mount, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Deer Pond (Rockingham county, New Hampshire : lake)">deer pond, rockingham county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Ammonoosuc Trail (Coos county, New Hampshire : trail)">ammonoosuc trail, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="North Randolph (Orange county, Vermont : inhabited place)">north randolph, orange county, vermont</ns1:lookup>
-      <ns1:lookup string="Steamboat Landing (Belknap county, New Hampshire : inhabited place)">steamboat landing, belknap county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="43.36493, -72.20013" string="Newport (Sullivan county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5090267/">Town of Newport, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Mount Washington Base Station (Coos county, New Hampshire : inhabited place)">mount washington base station, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.64866, -71.57203" string="Maidstone (Essex county, Vermont : inhabited place)" uri="http://sws.geonames.org/5238236/">Maidstone, Vermont, United States</ns1:lookup>
-      <ns1:lookup coordinates="43.27027, -73.09838" string="Long Trail (Vermont : trail)" uri="http://sws.geonames.org/7181341/">Long Trail School, Vermont, United States</ns1:lookup>
-      <ns1:lookup string="Peak House (Carroll county, New Hampshire : inhabited place)">peak house, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="43.61146, -71.79286" string="Alexandria (Grafton county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5082573/">Alexandria, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="44.59176, -71.26923" string="Cedar Pond (Coos county, New Hampshire : lake)" uri="http://sws.geonames.org/5084348/">Cedar Pond, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Jackman Brook (Grafton county, New Hampshire : stream)">jackman brook, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.14951, -71.68675" string="Franconia Notch (Grafton county, New Hampshire : valley)" uri="http://sws.geonames.org/5086334/">Franconia Notch State Park, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Lost Trail (New Hampshire : trail)">lost trail, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.59339, -70.94785" string="Grafton Notch (Oxford county, Maine : peak)" uri="http://sws.geonames.org/4965562/">Grafton Notch, Maine, United States</ns1:lookup>
-      <ns1:lookup string="Thompsons Falls (Coos county, New Hampshire : stream)">thompsons falls, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Mount Washington Cog Railway">Mount Washington Cog Railway</ns1:lookup>
-      <ns1:lookup string="Blackington (Berkshire county, Massachusetts : neighborhood)">blackington, berkshire county, massachusetts</ns1:lookup>
-      <ns1:lookup string="Mountain View House (Coos county, New Hampshire : inhabited place)">mountain view house, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.36757, -71.54553" string="Washington, Mount (Coos county, New Hampshire : mountain)" uri="http://sws.geonames.org/5089919/">Mount Washington Regional Airport, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Russell House (Grafton county, New Hampshire : inhabited place)">russell house, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="41.9001, -71.08977" string="Taunton (Bristol county, Massachusetts : inhabited place)" uri="http://sws.geonames.org/4952629/">Taunton, Massachusetts, United States</ns1:lookup>
-      <ns1:lookup coordinates="44.66839, -71.20675" string="Newell Brook (Coos county, New Hampshire : stream)" uri="http://sws.geonames.org/5090216/">Newell Brook, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="42.91531, -71.71601" string="Hillsborough (Hillsborough county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5087463/">Hillsborough, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Francestown (Hillsborough county, New Hampshire : inhabited place)">francestown, hillsborough county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Mary Hitchcock Hospital (Grafton county, New Hampshire : inhabited place)">mary hitchcock hospital, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Maine General Hospital (Cumberland county, Maine : inhabited place)">maine general hospital, cumberland county, maine</ns1:lookup>
-      <ns1:lookup coordinates="44.22645, -71.36591" string="Pierce, Mount (Coos county, New Hampshire : peak)" uri="http://sws.geonames.org/5091079/">Mount Pierce, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="44.16062, -70.98507" string="Stow (Oxford county, Maine : inhabited place)" uri="http://sws.geonames.org/4980024/">Stow, Maine, United States</ns1:lookup>
-      <ns1:lookup string="Suspended Boulder (Grafton county, New Hampshire : rock)">suspended boulder, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Wildcat River (Carroll county, New Hampshire : river)">wildcat river, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Tip-Top House (Coos county, New Hampshire : inhabited place)">tip-top house, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Presidential Range (Coos county, New Hampshire : ridge)">presidential range, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Odd Fellows Hall (Carroll county, New Hampshire : inhabited place)">odd fellows hall, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.14895, -71.64453" string="Lincoln, Mount (Grafton county, New Hampshire : peak)" uri="http://sws.geonames.org/5088715/">Mount Lincoln, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="George Washington Profile (Coos county, New Hampshire : rock)">george washington profile, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="First Connecticut Lake (Coos county, New Hampshire : lake)">first connecticut lake, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Frost Place (Grafton county, New Hampshire : inhabited place)">frost place, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.97307, -71.01555" string="Aziscohos Lake (Oxford county, Maine : reservoir)" uri="http://sws.geonames.org/4957043/">Aziscohos Lake, Maine, United States</ns1:lookup>
-      <ns1:lookup coordinates="44.722, -70.63062" string="Byron (Oxford county, Maine : inhabited place)" uri="http://sws.geonames.org/4959809/">Byron, Maine, United States</ns1:lookup>
-      <ns1:lookup string="Profile House (Grafton county, New Hampshire : inhabited place)">profile house, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Red Eagle Pond (Carroll county, New Hampshire : lake)">red eagle pond, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Dunham Point Ledge (Hancock county, Maine : sand bar)">dunham point ledge, hancock county, maine</ns1:lookup>
-      <ns1:lookup coordinates="43.82035, -71.1334" string="White Mountain Airport (Carroll county, New Hampshire : airport)" uri="http://sws.geonames.org/5094624/">White Mountain Gateway Airport, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="East Lempster (Sullivan county, New Hampshire : inhabited place)">east lempster, sullivan county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Cannell's Shop Intervale (Carroll county, New Hampshire : inhabited place)">cannell's shop intervale, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Quincy Adams, Mount (Coos county, New Hampshire : peak)">quincy adams, mount, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Community Shopping Center Incorporated North Conway (Carroll county, New Hampshire : inhabited place)">community shopping center incorporated north conway, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Cabot (Washington county, Vermont : inhabited place)">cabot, washington county, vermont</ns1:lookup>
-      <ns1:lookup string="Franconia Notch (Grafton county, New Hampshire : inhabited place)">franconia notch, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.26173, -71.19535" string="Carter Notch (Coos county, New Hampshire : valley)" uri="http://sws.geonames.org/5084264/">Carter Notch, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="37.77493, -122.41942" string="San Francisco (San Francisco county, California : inhabited place)" uri="http://sws.geonames.org/5391959/">San Francisco, California, United States</ns1:lookup>
-      <ns1:lookup string="Antrim (Hillsborough county, New Hampshire : inhabited place)">antrim, hillsborough county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="42.8698, -72.28175" string="Swanzey (Cheshire county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5093422/">Swanzey, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="43.73202, -71.58841" string="Holderness (Grafton county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5087552/">Holderness, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="44.96644, -70.77368" string="Oquossoc (Franklin county, Maine : inhabited place)" uri="http://sws.geonames.org/4974276/">Oquossoc, Maine, United States</ns1:lookup>
-      <ns1:lookup coordinates="43.53175, -71.26035" string="Mark Island (Belknap county, New Hampshire : island)" uri="http://sws.geonames.org/5088886/">Littlemark Island, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="45.1142, -71.05508" string="Bosebuck Mountain (Oxford county, Maine : peak)" uri="http://sws.geonames.org/4958978/">Bosebuck Mountain, Maine, United States</ns1:lookup>
-      <ns1:lookup string="Camp Hale - United South End Settlements (Carroll county, New Hampshire : summer camp)">camp hale - united south end settlements, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Frankenstein Cliff (Carroll county, New Hampshire : rock)">frankenstein cliff, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Dice Head Light (Hancock county, Maine : inhabited place)">dice head light, hancock county, maine</ns1:lookup>
-      <ns1:lookup string="Unidentified Location">Unidentified Location</ns1:lookup>
-      <ns1:lookup string="Dawnes Brook (New Hampshire : stream)">dawnes brook, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.09536, -69.3756" string="Waldoboro (Lincoln county, Maine : inhabited place)" uri="http://sws.geonames.org/4982044/">Waldoboro, Maine, United States</ns1:lookup>
-      <ns1:lookup string="Farm, The (Carroll country, New Hampshire : inhabited place)">farm, the, carroll country, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="42.70898, -71.31728" string="Pulpit Rock (Hillsborough county, New Hampshire : peak)" uri="http://sws.geonames.org/5091531/">Pulpit Rock, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="West Hartford (Windsor county, Vermont : inhabited place)">west hartford, windsor county, vermont</ns1:lookup>
-      <ns1:lookup coordinates="42.83536, -71.64896" string="Milford (Hillsborough county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5089578/">Milford, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="43.21036, -70.87034" string="Garrison Hill (Strafford county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5086475/">Garrison Hill Park, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Franconia Notch State Park (Grafton county, New Hampshire : inhabited place)">franconia notch state park, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Jefferson Junction (Coos county, New Hampshire : inhabited place)">jefferson junction, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Echo Lake (Grafton county, Carroll county, New Hampshire : lake)">echo lake, grafton county, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Passaconawy Valley (Carroll county, New Hampshire : valley)">passaconawy valley, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="43.86508, -69.58643" string="East Boothbay (Lincoln county, Maine : inhabited place)" uri="http://sws.geonames.org/4963160/">East Boothbay, Maine, United States</ns1:lookup>
-      <ns1:lookup string="Falls of Songs (Carroll county, New Hampshire : waterfall)">falls of songs, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.28034, -71.68814" string="Bethlehem (Grafton county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5083374/">Bethlehem, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Simonsville (Windsor county, Vermont : inhabited place)">simonsville, windsor county, vermont</ns1:lookup>
-      <ns1:lookup string="Mount Madison House (Coos county, New Hampshire : inhabited place)">mount madison house, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="43.52563, -71.86175" string="Danbury (Merrimack county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5085222/">Danbury, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Turner House (Grafton county, New Hampshire : inhabited place)">turner house, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.79172, -71.14952" string="Akers Pond (Coos county, New Hampshire : lake)" uri="http://sws.geonames.org/5082551/">Akers Pond, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Crawford, Mount (Coos county, New Hampshire : peak)">crawford, mount, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Flume House (Grafton county, New Hampshire : inhabited place)">flume house, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Crawford Notch (New Hampshire, United States : valley)">crawford notch, new hampshire, united states</ns1:lookup>
-      <ns1:lookup string="Jamaica (Windham county, Vermont : inhabited place)">jamaica, windham county, vermont</ns1:lookup>
-      <ns1:lookup coordinates="42.81397, -72.02314" string="East Jaffrey (Cheshire county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5088061/">Jaffrey, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Marlow (Chesire county, New Hampshire : inhabited place)">marlow, chesire county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="43.62741, -72.14736" string="Mascoma Lake (Grafton county, New Hampshire : lake)" uri="http://sws.geonames.org/5089286/">Mascoma Lake, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="44.25895, -71.20146" string="Wildcat Mountain (Coos county, New Hampshire : peak)" uri="http://sws.geonames.org/5094738/">Wildcat Mountain, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="43.95785, -71.16757" string="Albany (Carroll county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5082554/">Albany, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Ashland (Grafton county, New Hampshire : inhabited place)">ashland, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.15729, -71.21118" string="Meserve Brook (Carroll county, New Hampshire : stream)" uri="http://sws.geonames.org/5089507/">Meserve Brook, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="44.24618, -71.28202" string="Gulf of Slides (Coos county, New Hampshire : valley)" uri="http://sws.geonames.org/5087009/">Gulf of Slides, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="45.20364, -71.06354" string="Rump Mountain (Oxford county, Maine : mountain)" uri="http://sws.geonames.org/4977136/">Rump Mountain, Maine, United States</ns1:lookup>
-      <ns1:lookup coordinates="45.50032, -69.24977" string="Maine (United States : state)" uri="http://sws.geonames.org/4971068/">Maine, Maine, United States</ns1:lookup>
-      <ns1:lookup string="Unknown">Unknown</ns1:lookup>
-      <ns1:lookup string="Notch House (Carroll county , New Hampshire : inhabited place)">notch house, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Amsden (Windsor county, Vermont : inhabited place)">amsden, windsor county, vermont</ns1:lookup>
-      <ns1:lookup string="Upland Terrace (Grafton county, New Hampshire : inhabited place)">upland terrace, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Stratford Mountains (Coos county, New Hampshire : ridge)">stratford mountains, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Sunset Hill (Carroll county, New Hampshire :peak)">sunset hill, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Artists Bluff (Grafton county, New Hampshire : peak)">artists bluff, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Newmarket (Rockingham county, New Hampshire : inhabited place)">newmarket, rockingham county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="42.40843, -71.05366" string="Everett (Middlesex county, Massachusetts : inhabited place)" uri="http://sws.geonames.org/4936008/">Everett, Massachusetts, United States</ns1:lookup>
-      <ns1:lookup coordinates="44.0459, -71.69258" string="Fay Reservation (Grafton county, New Hampshire : nature reserve)" uri="http://sws.geonames.org/5086047/">Fay State Forest, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="44.5095, -71.84593" string="Victory (Essex county, Vermont : inhabited place)" uri="http://sws.geonames.org/5242301/">Victory, Vermont, United States</ns1:lookup>
-      <ns1:lookup string="Twin Mountain (Coos county, New Hampshire : inhabited place)">twin mountain, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="42.34593, -71.55229" string="Marlborough (Middlesex county, Massachusetts : inhabited place)" uri="http://sws.geonames.org/4943170/">Marlborough, Massachusetts, United States</ns1:lookup>
-      <ns1:lookup string="Tourists">Tourists</ns1:lookup>
-      <ns1:lookup string="Silver Springs Lodge and Cabins (Carroll county, New Hampshire : inhabited place)">silver springs lodge and cabins, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Jefferson Notch (Coos county, New Hampshire : valley)">jefferson notch, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Josiah Bartlett Elementary School (Carroll county, New Hampshire : inhabited place)">josiah bartlett elementary school, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.07091, -68.82448" string="Vinalhaven (Knox county, Vinalhaven Island, Maine : inhabited place)" uri="http://sws.geonames.org/4981807/">Vinalhaven Island, Maine, United States</ns1:lookup>
-      <ns1:lookup string="Goodnows House (Grafton county, New Hampshire : inhabited place)">goodnows house, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Paugus Falls (Carroll county, New Hampshire : waterfall)">paugus falls, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Lyndonville (Caledonia county, Vermont : inhabited place)">lyndonville, caledonia county, vermont</ns1:lookup>
-      <ns1:lookup string="Cannon Mountain Aerial Tramway">Cannon Mountain Aerial Tramway</ns1:lookup>
-      <ns1:lookup coordinates="42.69593, -70.77866" string="Plum Island River (Essex county, Massachusetts : river)" uri="http://sws.geonames.org/4947587/">Plum Island Sound, Massachusetts, United States</ns1:lookup>
-      <ns1:lookup string="Chocorua Peak House (Carroll county, New Hampshire : inhabited place)">chocorua peak house, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="45.05116, -71.39147" string="Pittsburg (Coos county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5091247/">Pittsburg, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Harts Ledge (Carroll county, New Hampshire : rock)">harts ledge, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.2509, -71.4423" string="Stickney Memorial Chapel (Coos county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5084617/">Church of the Transfiguration, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="New Exchange House (Rockingham county, New Hampshire : inhabited place)">new exchange house, rockingham county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Brentwood (Rockingham county, New Hampshire : inhabited place)">brentwood, rockingham county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Columbus, The (Grafton county, New Hampshire : inhabited place)">columbus, the, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Eagle Mountain (Carroll county, New Hampshire : peak)">eagle mountain, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.93705, -71.86444" string="Norton Pond (Essex county, Vermont : pond)" uri="http://sws.geonames.org/5239313/">Norton Pond, Vermont, United States</ns1:lookup>
-      <ns1:lookup string="Willey House (Carroll county, New Hampshire : inhabited place)">willey house, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="43.8598, -71.26313" string="Tamworth (Carroll county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5093469/">Tamworth, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Hight, Mount (Coos county, New Hampshire : peak)">hight, mount, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.10451, -71.17229" string="Ellis River (New Hampshire : river)" uri="http://sws.geonames.org/5085854/">Ellis River, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Gem Theatre (Coos county, New Hampshire : inhabited place)">gem theatre, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Great Brook (Carroll county, New Hampshire : stream)">great brook, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Gardner (Worcester county, Massachusetts : inhabited place)">gardner, worcester county, massachusetts</ns1:lookup>
-      <ns1:lookup string="Heritage-New Hampshire (Carroll county, New Hampshire : inhabited place)">heritage-new hampshire, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.07952, -69.48505" string="Nobleboro (Lincoln county, Maine : inhabited place)" uri="http://sws.geonames.org/4973402/">Nobleboro, Maine, United States</ns1:lookup>
-      <ns1:lookup string="Kearsarge Peg Mill (Carroll county, New Hampshire : inhabited place)">kearsarge peg mill, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Conway Beauty Parlor (Carroll county, New Hampshire : inhabited place)">conway beauty parlor, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="39.60678, -75.83327" string="Elkton (Cecil county, Maryland : inhabited place)" uri="http://sws.geonames.org/4354234/">Elkton, Maryland, United States</ns1:lookup>
-      <ns1:lookup string="Little's Path (Grafton county, New Hampshire : trail)">little's path, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Old Man of the Mountain (Grafton county, New Hampshire : peak)">old man of the mountain, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Piper's Trail (Carroll county, New Hampshire : trail)">piper's trail, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="42.08343, -71.01838" string="Brockton (Plymouth county, Massachusetts : inhabited place)" uri="http://sws.geonames.org/4931429/">Brockton, Massachusetts, United States</ns1:lookup>
-      <ns1:lookup coordinates="42.26259, -71.80229" string="Worcester (Worcester county, Massachusetts : inhabited place)" uri="http://sws.geonames.org/4956184/">Worcester, Massachusetts, United States</ns1:lookup>
-      <ns1:lookup coordinates="43.32146, -72.03592" string="Newbury (Merrimack county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5090214/">Newbury, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Gassetts (Windsor county, Vermont : inhabited place)">gassetts, windsor county, vermont</ns1:lookup>
-      <ns1:lookup string="Ogontz White Mountain Camp (Grafton county, New Hampshire : summer camp)">ogontz white mountain camp, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Mizpah Spring Hut (Coos county, New Hampshire : inhabited place)">mizpah spring hut, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Whiteface Mountain (Carroll county, New Hampshire : peak)">whiteface mountain, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Harpers Brook (Belknap county, New Hampshire : stream)">harpers brook, belknap county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Jackman's Falls (Grafton county, New Hampshire : waterfall)">jackman's falls, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="43.59119, -71.73675" string="Bristol (Grafton county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5083812/">Bristol, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Ammonoosuc River (Coos county, Grafton county, New Hampshire : river)">ammonoosuc river, coos county, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Washington (Knox county, Maine : inhabited place)">washington, knox county, maine</ns1:lookup>
-      <ns1:lookup string="Washington Boulder (Carroll county, New Hampshire : landmark)">washington boulder, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="43.78369, -71.15451" string="Lovell River (Carroll county, New Hampshire : river)" uri="http://sws.geonames.org/5089040/">Lovell River, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="43.75508, -71.15201" string="Center Ossipee (Carroll county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5084387/">Center Ossipee, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Mount Washington Observatory (Coos county, New Hampshire : inhabited place)">mount washington observatory, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Arlington (Middlesex county, Massachusetts : inhabited place)">arlington, middlesex county, massachusetts</ns1:lookup>
-      <ns1:lookup coordinates="44.35073, -68.24411" string="Acadia National Park" uri="http://sws.geonames.org/4956449/">Acadia National Park, Maine, United States</ns1:lookup>
-      <ns1:lookup string="Old Man of the Lake (Sullivan county, New Hampshire : landmark)">old man of the lake, sullivan county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Ammonoosuc River Valley (Coos county, Grafton county, New Hampshire : inhabited place)">ammonoosuc river valley, coos county, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.64339, -70.76257" string="Abbott Brook (Oxford county, Maine : stream)" uri="http://sws.geonames.org/4956405/">Abbott Brook, Maine, United States</ns1:lookup>
-      <ns1:lookup coordinates="44.26006, -72.57539" string="Montpelier (Washington county, Vermont : inhabited place)" uri="http://sws.geonames.org/5238685/">Montpelier, Vermont, United States</ns1:lookup>
-      <ns1:lookup string="East Side Boulevard (Carroll county, New Hampshire : road)">east side boulevard, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Society for the Protection of New Hampshire Forests">Society for the Protection of New Hampshire Forests</ns1:lookup>
-      <ns1:lookup coordinates="44.70283, -71.17397" string="Thirteen Mile Woods (Coos county, New Hampshire : woods)" uri="http://sws.geonames.org/5093599/">Thirteen Mile Woods, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Gibbs Falls (Coos county, New Hampshire : waterfall)">gibbs falls, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Evans Notch (Oxford county, Maine : valley)">evans notch, oxford county, maine</ns1:lookup>
-      <ns1:lookup string="Sunset Hill (Carroll county, New Hampshire : peak)">sunset hill, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Merrimack River (United States : river)">merrimack river, united states</ns1:lookup>
-      <ns1:lookup string="Willey, Mount (Grafton county, New Hampshire : peak)">willey, mount, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Washington (District of Colombia : inhabited place)">washington, district of colombia</ns1:lookup>
-      <ns1:lookup string="Weetamoo Rock (Grafton county, New Hampshire : rock)">weetamoo rock, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.54366, -72.81429" string="Mansfield, Mount (Vermont : mountain)" uri="http://sws.geonames.org/5238283/">Mount Mansfield, Vermont, United States</ns1:lookup>
-      <ns1:lookup string="Dundee Road (Carroll county, New Hampshire : road)">dundee road, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Mountain View House (Coos county, New Hampshire : inhabited place) Whitefield NH (Coos county, New Hampshire : inhabited place)">mountain view house (coos county, new hampshire : inhabited place) whitefield nh, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Paradise Falls (Grafton county, New Hampshire : waterfall)">paradise falls, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="United States. Forest Service Pinkham Notch (Coos county, New Hampshire : valley)">united states. forest service pinkham notch, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="42.65287, -71.67174" string="Townsend Harbor (Middlesex county, Massachusetts : inhabited place)" uri="http://sws.geonames.org/4953224/">Townsend Harbor, Massachusetts, United States</ns1:lookup>
-      <ns1:lookup coordinates="43.07397, -72.73482" string="East Jamaica (Windham county, Vermont : inhabited place)" uri="http://sws.geonames.org/5235731/">East Jamaica, Vermont, United States</ns1:lookup>
-      <ns1:lookup coordinates="43.37591, -72.05592" string="Sunapee Lake (New Hampshire : lake)" uri="http://sws.geonames.org/5093351/">Sunapee Lake, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Blueberry Ledges Trail (Carroll county, New Hampshire : trail)">blueberry ledges trail, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="42.45843, -71.06616" string="Melrose (Middlesex county, Massachusetts : inhabited place)" uri="http://sws.geonames.org/4943677/">Melrose, Massachusetts, United States</ns1:lookup>
-      <ns1:lookup string="Wonalancet Out-Door Club (Carroll county, New Hampshire : inhabited place)">wonalancet out-door club, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Webster Profile (Coos county, New Hampshire : landmark)">webster profile, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.38784, -71.17313" string="Gorham (Coos county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5086700/">Gorham, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="45.15206, -70.98634" string="Parmachenee Lake (Oxford county, Maine : lake)" uri="http://sws.geonames.org/4974685/">Parmachenee Lake, Maine, United States</ns1:lookup>
-      <ns1:lookup string="Augusta (Kennebec county, Maine : inhabited place)">augusta, kennebec county, maine</ns1:lookup>
-      <ns1:lookup string="Pythian Hall (Carroll county, New Hampshire : inhabited place)">pythian hall, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.11035, -70.67923" string="Harrison (Cumberland county, Maine : inhabited place)" uri="http://sws.geonames.org/4966598/">Harrison, Maine, United States</ns1:lookup>
-      <ns1:lookup string="Thayer Cottage (Cheshire county, New Hampshire : inhabited place)">thayer cottage, cheshire county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.19757, -71.17174" string="Black Mountain Cabin (Carroll county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5083498/">Black Mountain Cabin, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Kezar Lake (Oxford county, Maine : lake)">kezar lake, oxford county, maine</ns1:lookup>
-      <ns1:lookup coordinates="43.20814, -71.53757" string="Concord (Merrimack county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5084868/">Concord, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="44.61061, -71.20091" string="Dummer (Coos county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5085591/">Dummer, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Brewster (Barnstable county, Massachusetts : inhabited place)">brewster, barnstable county, massachusetts</ns1:lookup>
-      <ns1:lookup string="Cliffs">Cliffs</ns1:lookup>
-      <ns1:lookup string="West Somerville (Middlesex county, Massachusetts : inhabited place)">west somerville, middlesex county, massachusetts</ns1:lookup>
-      <ns1:lookup string="The Pines (Carroll county, New Hampshire : inhabited place)">the pines, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Pemaquid Harbor (Lincoln county, Maine : inhabited place)">pemaquid harbor, lincoln county, maine</ns1:lookup>
-      <ns1:lookup string="Chocorua Hotel (Carroll county, New Hampshire : inhabited place)">chocorua hotel, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Northborough (Worcester county, Massachusetts : inhabited place)">northborough, worcester county, massachusetts</ns1:lookup>
-      <ns1:lookup coordinates="42.71202, -73.20372" string="Williamstown (Berkshire county, Massachusetts : inhabited place)" uri="http://sws.geonames.org/4955786/">Williamstown, Massachusetts, United States</ns1:lookup>
-      <ns1:lookup string="Harrison (Cumberland county, New Hampshire : inhabited place)">harrison, cumberland county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.06396, -70.98007" string="West Fryeburg (Oxford county, Maine : inhabited place)" uri="http://sws.geonames.org/4982604/">West Fryeburg, Maine, United States</ns1:lookup>
-      <ns1:lookup string="Hebron (Grafton county, New Hampshire : inhabited place)">hebron, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="New York (United States : state)">new york, united states</ns1:lookup>
-      <ns1:lookup coordinates="44.2509, -71.4423" string="Joseph Stickney Memorial Church (Coos county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5084617/">Church of the Transfiguration, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Old King Rock (Coos county, New Hampshire : landmark)">old king rock, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.39423, -70.97285" string="Gilead (Oxford county, Maine : inhabited place)" uri="http://sws.geonames.org/4965217/">Gilead, Maine, United States</ns1:lookup>
-      <ns1:lookup string="Table Rocks (Coos county, New Hampshire : landmark)">table rocks, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="42.41843, -71.10616" string="Medford (Middlesex county, Massachusetts : inhabited place)" uri="http://sws.geonames.org/4943629/">Medford, Massachusetts, United States</ns1:lookup>
-      <ns1:lookup coordinates="44.2634, -71.45841" string="Fabyan (Coos county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5085989/">Fabyan, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Union Congregational Church (Carroll county, New Hampshire : inhabited place)">union congregational church, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Madison (Carroll county, New Hampshire : inhabited place)">madison, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Woodlawn, The (Grafton county, New Hampshire : inhabited place)">woodlawn, the, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Hingham (Plymouth county, Massachusetts : inhabited place)">hingham, plymouth county, massachusetts</ns1:lookup>
-      <ns1:lookup coordinates="44.41117, -72.13926" string="Danville (Caledonia county, Vermont : inhabited place)" uri="http://sws.geonames.org/5235353/">Danville, Vermont, United States</ns1:lookup>
-      <ns1:lookup coordinates="44.21534, -71.79953" string="Sugar Hill (Grafton county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5093309/">Sugar Hill, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Mount Washington, The (Grafton county, New Hampshire : inhabited place)">mount washington, the, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="43.27008, -71.96008" string="Bradford (Merrimack county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5083731/">Bradford, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Salisbury (Merrimack county, New Hampshire : inhabited place)">salisbury, merrimack county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="43.63342, -70.04949" string="Casco Bay (Cumberland county, Maine : bay)" uri="http://sws.geonames.org/4960359/">Casco Bay, Maine, United States</ns1:lookup>
-      <ns1:lookup string="Humphrey's Ledge (Carroll county, New Hampshire : rock)">humphrey's ledge, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Mount Adams House (Grafton county, New Hampshire : inhabited place)">mount adams house, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Crystal Cascade (Coos county, New Hampshire : stream)">crystal cascade, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Moultonboro (Carroll county, New Hampshire : inhabited place)">moultonboro, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="42.35843, -71.05977" string="Boston (Suffolk county, Massachusetts : inhabited place)" uri="http://sws.geonames.org/4930956/">Boston, Massachusetts, United States</ns1:lookup>
-      <ns1:lookup string="Swift River Valley (Carroll county, New Hampshire : valley)">swift river valley, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Center Conway (Carroll county, New Hampshire : inhabited place)">center conway, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Idlewild (Carroll county, New Hampshire : inhabited place)">idlewild, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Wonalancet Valley (Carroll county, New Hampshire : valley)">wonalancet valley, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Croyden Flats (Sullivan county, New Hampshire : inhabited place)">croyden flats, sullivan county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Albany Valley (Carroll county, New Hampshire : valley)">albany valley, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Bartett (Carroll county, New Hampshire : inhabited place)">bartett, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="42.67787, -71.82035" string="Ashby (Middlesex county, Massachusetts : inhabited place)" uri="http://sws.geonames.org/4929262/">Ashby, Massachusetts, United States</ns1:lookup>
-      <ns1:lookup string="Railroad Square (Carroll county, New Hampshire : inhabited place)">railroad square, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="41.5626, -70.94254" string="Nonquitt (Bristol county, Massachusetts : inhabited place)" uri="http://sws.geonames.org/4945429/">Nonquitt, Massachusetts, United States</ns1:lookup>
-      <ns1:lookup coordinates="44.13479, -71.23924" string="Iron Mountain (Carroll county, New Hampshire : peak)" uri="http://sws.geonames.org/5088003/">Iron Mountain, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="42.72509, -70.99117" string="Georgetown (Essex county, Massachusetts : inhabited place)" uri="http://sws.geonames.org/4937684/">Georgetown, Massachusetts, United States</ns1:lookup>
-      <ns1:lookup string="Swasey Lane (Grafton county, New Hampshire : inhabited place)">swasey lane, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.07424, -71.14007" string="Intervale (Carroll county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5087992/">Intervale, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="42.89453, -71.67424" string="Mount Vernon (Hillsborough county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5089746/">Mont Vernon, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Cold Spring House (Coos county, New Hampshire : inhabited place)">cold spring house, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Story Land (Carroll county, New Hampshire : inhabited place)">story land, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="The Balsams (Coos county, New Hampshire : inhabited place)">the balsams, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Kearsarge North (Carroll county, New Hampshire : peak)">kearsarge north, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="43.95578, -71.2005" string="Iona (Carroll county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5087998/">Iona Lake, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="46.69547, -68.04747" string="Presque Isle (Aroostook county, Maine : inhabited place)" uri="http://sws.geonames.org/4973770/">Northern Maine Regional Airport at Presque Isle, Maine, United States</ns1:lookup>
-      <ns1:lookup string="Monadnock Inn (Cheshire county, New Hampshire : inhabited place)">monadnock inn, cheshire county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Bear Mountain Notch (Carroll county, New Hampshire : trail)">bear mountain notch, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Giants Stairs (Coos county, New Hampshire : rock)">giants stairs, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Carter Lakes (Coos county, New Hampshire : ponds)">carter lakes, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="43.22286, -71.04701" string="Barrington (Strafford county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5083023/">Barrington, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Ossipee Mountain Park Ossipee Range (Carroll county, New Hampshire : ridge)">ossipee mountain park ossipee range, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="85, 0" string="Arctic Ocean (ocean)" uri="http://sws.geonames.org/2960860/">Arctic Ocean</ns1:lookup>
-      <ns1:lookup coordinates="43.67952, -70.44422" string="Gorham (Cumberland county, Maine : inhabited place)" uri="http://sws.geonames.org/4965481/">Gorham, Maine, United States</ns1:lookup>
-      <ns1:lookup string="Halfway House (Coos county, New Hampshire : inhabited place)">halfway house, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Pemigewasset (New Hampshire : river)">pemigewasset, new hampshire</ns1:lookup>
-      <ns1:lookup string="Warner House (Rockingham county, New Hampshire : inhabited place)">warner house, rockingham county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="43.90729, -71.35063" string="Wonalancet (Carroll county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5094897/">Wonalancet, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="44.05201, -71.32702" string="Bartlett Mountain (Carroll county, New Hampshire : peak)" uri="http://sws.geonames.org/5083041/">Bartlett Haystack, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="44.56457, -123.26204" string="Corvallis (Benton county, Oregon : inhabited place)" uri="http://sws.geonames.org/5720727/">Corvallis, Oregon, United States</ns1:lookup>
-      <ns1:lookup coordinates="45.23371, -70.98604" string="Thrasher Peaks (Oxford county, Maine : peak)" uri="http://sws.geonames.org/4980714/">Thrasher Peaks, Maine, United States</ns1:lookup>
-      <ns1:lookup string="Waumbek Hotel and Cottages (Coos county, New Hampshire : inhabited place)">waumbek hotel and cottages, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Castellated Ridge (Coos county, New Hampshire : ridge)">castellated ridge, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.2984, -71.54064" string="Carroll (Coos county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5084246/">Carroll, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="43.97035, -70.8034" string="Denmark (Oxford county, Maine : inhabited place)" uri="http://sws.geonames.org/4962442/">Denmark, Maine, United States</ns1:lookup>
-      <ns1:lookup string="Lisbon (Grafton county, New Hampshire : inhabited place)">lisbon, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Hollis Depot (Hillsborough county, New Hampshire : inhabited place)">hollis depot, hillsborough county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.86452, -71.02227" string="Sturtevant Pond (Oxford county, Maine : lake)" uri="http://sws.geonames.org/4980101/">Sturtevant Pond, Maine, United States</ns1:lookup>
-      <ns1:lookup string="Fabyan House (Coos county, New Hampshire : inhabited place)">fabyan house, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Eastern Slope Inn (Carroll county, New Hampshire : inhabited place)">eastern slope inn, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Agassiz, The (Grafton county, New Hampshire : inhabited place)">agassiz, the, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Wentworth Hall and Cottages (Carroll county, New Hampshire : inhabited place)">wentworth hall and cottages, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Melvin Village (Carroll county, New Hampshire : inhabited place)">melvin village, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="East Northfield (Franklin county, Massachusetts : neighborhood)">east northfield, franklin county, massachusetts</ns1:lookup>
-      <ns1:lookup coordinates="44.25757, -71.25369" string="Pinkham Notch (Coos county, New Hampshire : valley)" uri="http://sws.geonames.org/5091187/">Pinkham Notch, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="43.13341, -72.44398" string="Bellows Falls (Windham county, Vermont : inhabited place)" uri="http://sws.geonames.org/5233738/">Bellows Falls, Vermont, United States</ns1:lookup>
-      <ns1:lookup coordinates="43.85122, -71.63401" string="Campton Elementary School (Grafton county, New Hampshire : school)" uri="http://sws.geonames.org/5084139/">Campton Elementary School, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="43.91924, -70.35811" string="Dry Mills (Cumberland county, Maine : inhabited place)" uri="http://sws.geonames.org/4962880/">Dry Mills, Maine, United States</ns1:lookup>
-      <ns1:lookup coordinates="44.09673, -71.69786" string="Indian Head (Grafton county, New Hampshire : rock)" uri="http://sws.geonames.org/5087860/">Indian Head, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="43.56868, -71.92758" string="East Grafton (Grafton county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5085701/">East Grafton, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="43.14619, -71.21645" string="Deerfield (Rockingham county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5085344/">Deerfield, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Mote Mountain (Carroll county, New Hampshire : mountain)">mote mountain, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Saint George (Aleutians West, Alaska : inhabited place)">saint george, aleutians west, alaska</ns1:lookup>
-      <ns1:lookup string="Standish (Cumberland county, Maine : inhabited place)">standish, cumberland county, maine</ns1:lookup>
-      <ns1:lookup string="Hanover (Grafton county, New Hampshire : inhabited place)">hanover, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Canaan (Grafton county, New Hampshire : inhabited place)">canaan, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Quincy (Norfolk county, Massachusetts : inhabited place)">quincy, norfolk county, massachusetts</ns1:lookup>
-      <ns1:lookup coordinates="44.8825, -71.07167" string="Swift Diamond River (Coos county, New Hampshire : river)" uri="http://sws.geonames.org/5093442/">Swift Diamond River, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Bernardston (Franklin county, Massachusetts : inhabited place)">bernardston, franklin county, massachusetts</ns1:lookup>
-      <ns1:lookup coordinates="42.54453, -72.60564" string="Deerfield (Franklin county, Massachusetts : inhabited place)" uri="http://sws.geonames.org/4934711/">Deerfield, Massachusetts, United States</ns1:lookup>
-      <ns1:lookup string="Eastern Slope Ski Club Jackson (Carroll county, New Hampshire : inhabited place)">eastern slope ski club jackson, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Icy Cape (North Slope division, Alaska : cape)">icy cape, north slope division, alaska</ns1:lookup>
-      <ns1:lookup string="Knowles Path (Carroll county, New Hampshire : trail)">knowles path, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Blazed Trail (New Hampshire : trail)">blazed trail, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.17118, -70.36589" string="West Minot (Androscoggin county, Maine : inhabited place)" uri="http://sws.geonames.org/4982657/">West Minot, Maine, United States</ns1:lookup>
-      <ns1:lookup string="Lowell Ledge (Knox county, Maine : sand bar)">lowell ledge, knox county, maine</ns1:lookup>
-      <ns1:lookup string="Silver Lake (Carroll county, New Hampshire : lake)">silver lake, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Parker River (Barnstable county, Massachusetts : river)">parker river, barnstable county, massachusetts</ns1:lookup>
-      <ns1:lookup string="Cannon Mountain Aerial Tramway Franconia Notch (Grafton county, New Hampshire : valley)">cannon mountain aerial tramway franconia notch, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="42.43981, -72.48009" string="East Leverett (Franklin county, Massachusetts : inhabited place)" uri="http://sws.geonames.org/4935429/">East Leverett, Massachusetts, United States</ns1:lookup>
-      <ns1:lookup string="Canada (nation)">Canada (nation)</ns1:lookup>
-      <ns1:lookup string="Artists Falls (Carroll county, New Hampshire : inhabited place)">artists falls, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="28.8278, -81.3162" string="Florida (United States, North and Central America : state)" uri="http://sws.geonames.org/6949564/">Central Florida Zoo and Botanical Gardens, Florida, United States</ns1:lookup>
-      <ns1:lookup coordinates="42.66592, -71.5884" string="Pepperell (Middlesex county, Massachusetts : inhabited place)" uri="http://sws.geonames.org/4946990/">Pepperell, Massachusetts, United States</ns1:lookup>
-      <ns1:lookup string="Eastman House (Carroll county, New Hampshire : inhabited place)">eastman house, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Bell Hurst Cabins (Carroll county, New Hampshire : inhabited place)">bell hurst cabins, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.82617, -70.84868" string="Metallak Brook (Oxford county, Maine : stream)" uri="http://sws.geonames.org/4971862/">Metallak Brook, Maine, United States</ns1:lookup>
-      <ns1:lookup string="Agassiz, Mount (Grafton county, New Hampshire : peak)">agassiz, mount, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="43.75902, -71.68898" string="Plymouth State University (Grafton county, New Hampshire : school)" uri="http://sws.geonames.org/5091319/">Plymouth State University, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Black Mountain (Carroll county, New Hampshire : peak)">black mountain, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.20951, -71.27507" string="Rocky Branch Ridge (Coos county, New Hampshire : ridge)" uri="http://sws.geonames.org/5091873/">Rocky Branch Ridge, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Breezy Point (Grafton county, New Hampshire : inhabited place)">breezy point, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Reynolds, The (Grafton county, New Hampshire : inhabited place)">reynolds, the, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="60, -175" string="Bering Sea (sea)" uri="http://sws.geonames.org/4031788/">Bering Sea</ns1:lookup>
-      <ns1:lookup coordinates="44.31089, -71.79703" string="The Dells (Grafton county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5093560/">The Dells, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="43.88563, -70.33172" string="Gray (Cumberland county, Maine : inhabited place)" uri="http://sws.geonames.org/4965671/">Gray, Maine, United States</ns1:lookup>
-      <ns1:lookup string="Spaulding Inn (Coos county, New Hampshire : inhabited place)">spaulding inn, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Burkehaven (Sullivan county, New Hampshire : inhabited place)">burkehaven, sullivan county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="42.06677, -71.10366" string="North Easton (Bristol county, Massachusetts : inhabited place)" uri="http://sws.geonames.org/4945609/">North Easton, Massachusetts, United States</ns1:lookup>
-      <ns1:lookup string="North Wakefield (Carroll county, New Hampshire : inhabited place)">north wakefield, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Brookfield Inn (Worcester county, Massachusetts : inhabited place)">brookfield inn, worcester county, massachusetts</ns1:lookup>
-      <ns1:lookup coordinates="42.49065, -71.27617" string="Bedford (Middlesex county, Massachusetts : inhabited place)" uri="http://sws.geonames.org/4930183/">Bedford, Massachusetts, United States</ns1:lookup>
-      <ns1:lookup string="Imp, Mount (Coos county, New Hampshire : peak)">imp, mount, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Point Hope (North Slope division, Alaska : inhabited place)">point hope, north slope division, alaska</ns1:lookup>
-      <ns1:lookup string="East Brownfield (Oxford county, Maine : inhabited place)">east brownfield, oxford county, maine</ns1:lookup>
-      <ns1:lookup string="North Moat Mountain (Carroll county, New Hampshire : peak)">north moat mountain, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.35867, -71.3523" string="Bowman (Coos county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5083703/">Bowman, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Jaffrey (Cheshire county, New Hampshire : inhabited place)">jaffrey, cheshire county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Marblehead (Essex county, Masssachusetts : inhabited place)">marblehead, essex county, masssachusetts</ns1:lookup>
-      <ns1:lookup string="Sanbornville Junction (Carroll county, New Hamsphire : inhabited place)">sanbornville junction, carroll county, new hamsphire</ns1:lookup>
-      <ns1:lookup string="Chaplino (Chukotskiy Avtonomnyy Okrug, Rossiya republic : inhabited place)">chaplino, chukotskiy avtonomnyy okrug, rossiya republic</ns1:lookup>
-      <ns1:lookup string="Wildcat Valley (Carroll county, New Hampshire : inhabited place)">wildcat valley, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="43.3898, -71.06506" string="Farmington (Strafford county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5086024/">Farmington, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Pearl Cascade (Grafton county, New Hampshire : waterfall)">pearl cascade, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.00146, -71.53591" string="Osceola, Mount (Grafton county, New Hampshire : peak)" uri="http://sws.geonames.org/5090694/">Mount Osceola, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="43.97618, -71.28702" string="Champney Falls (Carroll county, New Hampshire : waterfall)" uri="http://sws.geonames.org/5084425/">Champney Falls Trail, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="31.23768, -89.21256" string="McCallum (Forrest county, Mississippi : inhabited place)" uri="http://sws.geonames.org/4435288/">McCallum, Mississippi, United States</ns1:lookup>
-      <ns1:lookup coordinates="43.43674, -71.64869" string="Pemigewasset River (New Hampshire : river)" uri="http://sws.geonames.org/5090933/">Pemigewasset River, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="42.99564, -71.45479" string="Manchester (Hillsborough county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5089178/">Manchester, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Campello (Brockton, Plymouth county, Massachusetts : neighborhood)">campello, brockton, plymouth county, massachusetts</ns1:lookup>
-      <ns1:lookup string="West Buxton (York county, Maine : inhabited place)">west buxton, york county, maine</ns1:lookup>
-      <ns1:lookup string="Rochester (Strafford county, New Hampshire : inhabited place)">rochester, strafford county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.26923, -71.47425" string="White Mountain House (Coos county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5085319/">Deception Brook, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="The Basin (Grafton county, New Hampshire : basin)">the basin, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Rockwood Administration Building (Coos county, New Hampshire : inhabited place)">rockwood administration building, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Garrison Hill Observatory (Stafford county, New Hampshire : inhabited place)">garrison hill observatory, stafford county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Clay, Mount (Coos county, New Hampshire : peak)">clay, mount, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Lexington (Middlesex county, Massachusetts : inhabited place)">lexington, middlesex county, massachusetts</ns1:lookup>
-      <ns1:lookup coordinates="43.89285, -71.67591" string="Thornton (Grafton county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5093630/">Thornton, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Bradford (Haverhill, Essex county, Massachusetts : neighborhood)">bradford, haverhill, essex county, massachusetts</ns1:lookup>
-      <ns1:lookup string="Chocorua Inn (Carroll county, New Hampshire : inhabited place)">chocorua inn, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.567, -71.05174" string="Success Hill (Coos county, New Hampshire : peak)" uri="http://sws.geonames.org/5093292/">Success Hill, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Indian Leap (Grafton county, New Hampshire : rock)">indian leap, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Pemigewasset Valley Branch (Grafton county, New Hampshire : inhabited place)">pemigewasset valley branch, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.41895, -71.47453" string="Jefferson (Coos county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5088090/">Jefferson, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Randolph Mountain Club Massachusetts (United States : state)">randolph mountain club massachusetts, united states</ns1:lookup>
-      <ns1:lookup coordinates="39.32538, -77.73888" string="Harpers Ferry (Jefferson county, Virginia : inhabited place)" uri="http://sws.geonames.org/4808234/">Harpers Ferry, West Virginia, United States</ns1:lookup>
-      <ns1:lookup string="Middletown (Middlesex county, Connecticut : inhabited place)">middletown, middlesex county, connecticut</ns1:lookup>
-      <ns1:lookup string="Chandler Ridge (Coos county, New Hampshire : ridge)">chandler ridge, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Lyme (Grafton county, New Hampshire : inhabited place)">lyme, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Idlewild, The (Grafton county, New Hampshire : inhabited place)">idlewild, the, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Martha Washington Profile (Coos county,  New Hampshire : rock)">martha washington profile, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.20423, -71.31063" string="Davis, Mount (Coos county, New Hampshire : peak)" uri="http://sws.geonames.org/5085292/">Mount Davis, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="44.06118, -71.17035" string="Cathedral Ledge (Carroll county, New Hampshire: peak)" uri="http://sws.geonames.org/5085805/">Echo Lake-Cathedral Ledge State Park, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="West Ossipee Station (Carroll county, New Hampshire : inhabited place)">west ossipee station, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Route 302">Route 302</ns1:lookup>
-      <ns1:lookup coordinates="44.47117, -71.20091" string="Forest, Mount (Coos county, New Hampshire : peak)" uri="http://sws.geonames.org/5086270/">Mount Forest, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="42.90435, -71.29796" string="Beaver Lake (Rockingham county, New Hampshire : lake)" uri="http://sws.geonames.org/5083196/">Beaver Lake, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Bretton Woods Caddy Camp (Coos county, New Hampshire : inhabited place)">bretton woods caddy camp, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Charlemont (Franklin county, Massachusetts : inhabited place)">charlemont, franklin county, massachusetts</ns1:lookup>
-      <ns1:lookup string="Nancy's Bridge (Carroll county, New Hampshire : structure)">nancy's bridge, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.04313, -71.21535" string="Moat Mountain (Carroll county, New Hampshire : peak)" uri="http://sws.geonames.org/5090390/">North Moat Mountain, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="43.90174, -71.23618" string="Chocorua (Carroll county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5084569/">Chocorua Lake, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Old Orchard Beach (York county, Maine : inhabited place)">old orchard beach, york county, maine</ns1:lookup>
-      <ns1:lookup coordinates="44.15645, -71.69842" string="Profile Mountain (Grafton county, New Hampshire : peak)" uri="http://sws.geonames.org/5084179/">Cannon Mountain, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Gilsum (Chesire county, New Hampshire : inhabited place)">gilsum, chesire county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Glacier Park Path (Grafton county, New Hampshire : national park)">glacier park path, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Enchanted Woods (Carroll county, New Hampshire : woods)">enchanted woods, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="42.3751, -71.10561" string="Cambridge (Middlesex county, Massachusetts : inhabited place)" uri="http://sws.geonames.org/4931972/">Cambridge, Massachusetts, United States</ns1:lookup>
-      <ns1:lookup string="Eastman House (Carroll county, New Hampshire : inhabited place), North Conway (Carroll county, New Hampshire : inhabited place)">eastman house (carroll county, new hampshire : inhabited place), north conway, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Spruce Mountain (Carroll county, New Hampshire : inhabited place)">spruce mountain, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Hollis (York county, Maine : inhabited place)">hollis, york county, maine</ns1:lookup>
-      <ns1:lookup string="Randolph Path (Coos county, New Hampshire : trail)">randolph path, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Sabbaday Falls (Grafton county, New Hampshire : waterfall)">sabbaday falls, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Abenaki">Abenaki</ns1:lookup>
-      <ns1:lookup string="Boott Spur (Coos county, New Hampshire : peak)">boott spur, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.26507, -71.29285" string="Lion Head (Coos county, New Hampshire : rock)&#10;Huntington Ravine (Coos county, New Hampshire : valley)" uri="http://sws.geonames.org/5088737/">Lion Head, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Thorn Hill Lodge (Carroll county, New Hampshire : inhabited place)">thorn hill lodge, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Moat View Cottage (Carroll county, New Hampshire : inhabited place)">moat view cottage, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="46.63115, -68.40615" string="Ashland (Aroostook county, Maine : inhabited place)" uri="http://sws.geonames.org/4956929/">Ashland, Maine, United States</ns1:lookup>
-      <ns1:lookup coordinates="43.92507, -72.66594" string="Randolph (Orange county, Vermont : inhabited place)" uri="http://sws.geonames.org/5240140/">Randolph, Vermont, United States</ns1:lookup>
-      <ns1:lookup coordinates="44.08368, -71.49369" string="Pemigewasset, Mount (Grafton county, New Hampshire : peak)" uri="http://sws.geonames.org/5087160/">Mount Hancock, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="43.56476, -70.19888" string="Cape Elizabeth (Cumberland county, Maine : inhabited place)" uri="http://sws.geonames.org/4963657/">Cape Elizabeth, Maine, United States</ns1:lookup>
-      <ns1:lookup string="Dudley (Worcester county, Massachusetts : inhabited place)">dudley, worcester county, massachusetts</ns1:lookup>
-      <ns1:lookup coordinates="44.2098, -69.06476" string="Camden (Knox county, Maine : inhabited place)" uri="http://sws.geonames.org/4959908/">Camden, Maine, United States</ns1:lookup>
-      <ns1:lookup string="Northwater Gap (Monroe county, Pennsylvania : inhabited place)">northwater gap, monroe county, pennsylvania</ns1:lookup>
-      <ns1:lookup coordinates="42.36676, -71.30311" string="Weston (Middlesex county, Massachusetts : inhabited place)" uri="http://sws.geonames.org/4955259/">Weston, Massachusetts, United States</ns1:lookup>
-      <ns1:lookup coordinates="44.39089, -71.15924" string="Peabody River (Coos county, New Hampshire : river)" uri="http://sws.geonames.org/5090875/">Peabody River, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Carolyn, Lake (York county, Maine : lake)">carolyn, lake, york county, maine</ns1:lookup>
-      <ns1:lookup string="Appalachian Mountain Club">Appalachian Mountain Club</ns1:lookup>
-      <ns1:lookup string="Jefferson, Mount (Coos county, New Hampshire : peak)">jefferson, mount, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Dublin (Cheshire county, New Hampshire : inhabited place)">dublin, cheshire county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Barnard (Windsor county, Vermont : inhabited place)">barnard, windsor county, vermont</ns1:lookup>
-      <ns1:lookup string="Pleasant Mountain (Oxford county, Maine : peak)">pleasant mountain, oxford county, maine</ns1:lookup>
-      <ns1:lookup coordinates="43.80064, -70.18672" string="Yarmouth (Cumberland county, Maine : inhabited place)" uri="http://sws.geonames.org/4983572/">Yarmouth, Maine, United States</ns1:lookup>
-      <ns1:lookup string="Center Ossipee Inn (Carroll county, New Hampshire : inhabited place)">center ossipee inn, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Sibir' (Russija, Asia : general region)">sibir', russija, asia</ns1:lookup>
-      <ns1:lookup string="Winterport (Waldo county, Maine : transport point)">winterport, waldo county, maine</ns1:lookup>
-      <ns1:lookup coordinates="42.20426, -72.6162" string="Holyoke (Hampden County, Massachusetts : inhabited place)" uri="http://sws.geonames.org/4939783/">Holyoke, Massachusetts, United States</ns1:lookup>
-      <ns1:lookup string="Bald Mountain (Grafton county, New Hampshire : peak)">bald mountain, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Kilkenny (Coos county, New Hampshire : inhabited place)">kilkenny, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.16451, -71.01118" string="Chatham (Carroll county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5084489/">Chatham, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Hermit Lake (Coos county, New Hampshire : lake)">hermit lake, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="42.51954, -70.89672" string="Salem (Essex county, Massachusetts : inhabited place)" uri="http://sws.geonames.org/4950065/">Salem, Massachusetts, United States</ns1:lookup>
-      <ns1:lookup string="Gramercy, The (Grafton county, New Hampshire : inhabited place)">gramercy, the, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Cradle Rock (Worcester county, Massachusetts : rock)">cradle rock, worcester county, massachusetts</ns1:lookup>
-      <ns1:lookup string="Pulpit Rock (Coos county, New Hampshire : peak)">pulpit rock, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="42.70704, -71.16311" string="Lawrence (Essex county, Massachusetts : inhabited place)" uri="http://sws.geonames.org/4941720/">Lawrence, Massachusetts, United States</ns1:lookup>
-      <ns1:lookup coordinates="43.55425, -71.0309" string="Sanbornville (Carroll county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5092346/">Sanbornville, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="44.59867, -71.5112" string="Groveton (Coos county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5086978/">Groveton, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="44.01479, -71.10118" string="Redstone (Carroll county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5091679/">Redstone, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Pemaquid Point (Lincoln county, Maine : inhabited place)">pemaquid point, lincoln county, maine</ns1:lookup>
-      <ns1:lookup string="The Lakeside (Carroll county, New Hampshire : inhabited place)">the lakeside, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.34228, -71.29008" string="Durand Ridge (Coos county, New Hampshire : ridge)" uri="http://sws.geonames.org/5085611/">Durand Ridge, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="West Ossipee (Carroll county, New Hampshire : inhabited place)">west ossipee, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Balance Rock (Carroll county, New Hampshire : rock)">balance rock, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Mount Washington Hotel (Coos county, New Hampshire : inhabited place)">mount washington hotel, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="North Conway House (Carroll county, New Hampshire : inhabited place)">north conway house, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.2884, -71.22535" string="Glen House (Coos county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5086593/">Glen House, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Purgatory Falls (Hillsborough county, New Hampshire : waterfall)">purgatory falls, hillsborough county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Weirs Hotel (Belknap county, Laconia, New Hampshire : inhabited place)">weirs hotel, belknap county, laconia, new hampshire</ns1:lookup>
-      <ns1:lookup string="Resolution Hut (Coos county, New Hampshire : inhabited place)">resolution hut, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Plymouth Union (Windsor county, Vermont : inhabited place)">plymouth union, windsor county, vermont</ns1:lookup>
-      <ns1:lookup coordinates="43.8809, -72.11703" string="Strawberry Hill (Grafton county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5093268/">Strawberry Hill, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="44.02785, -70.3595" string="Poland Spring (Androscoggin county, Maine : inhabited place)" uri="http://sws.geonames.org/4975614/">Poland Spring, Maine, United States</ns1:lookup>
-      <ns1:lookup string="Pownal (Cumberland county, Maine : inhabited place)">pownal, cumberland county, maine</ns1:lookup>
-      <ns1:lookup coordinates="43.0484, -75.3785" string="Clinton (Oneida county, New York state : inhabited place)" uri="http://sws.geonames.org/5112972/">Clinton, New York, United States</ns1:lookup>
-      <ns1:lookup coordinates="44.00034, -72.74983" string="Vermont (United States : state)" uri="http://sws.geonames.org/5242283/">Vermont, Vermont, United States</ns1:lookup>
-      <ns1:lookup string="Union (Carroll county, New Hampshire : inhabited place)">union, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.32534, -71.30063" string="Adams, Mount (Coos county, New Hampshire : peak)" uri="http://sws.geonames.org/5082524/">Mount Abigail Adams, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Campbell River (Vancouver Island, British Columbia : inhabited place)">campbell river, vancouver island, british columbia</ns1:lookup>
-      <ns1:lookup string="Corbin Park (Sullivan county, New Hampshire : preserve)">corbin park, sullivan county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Flat Mountain Pond (Carroll county, New Hampshire : pond)">flat mountain pond, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="42.47926, -71.15228" string="Woburn (Middlesex county, Massachusetts : inhabited place)" uri="http://sws.geonames.org/4956032/">Woburn, Massachusetts, United States</ns1:lookup>
-      <ns1:lookup string="Steamer 'Lady of the Lake'">Steamer 'Lady of the Lake'</ns1:lookup>
-      <ns1:lookup string="Senter House (Belknap county, New Hampshire : inhabited place)">senter house, belknap county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Russell's Observatory (Carroll county, New Hampshire : observatory)">russell's observatory, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="43.70428, -71.51147" string="Center Harbor (Belknap county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5084381/">Town of Center Harbor, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="43.84146, -70.62117" string="Long Beach (Cumberland county, Maine : inhabited place)" uri="http://sws.geonames.org/4970285/">Long Beach, Maine, United States</ns1:lookup>
-      <ns1:lookup coordinates="42.69592, -72.45287" string="Northfield (Franklin county, Massachusetts : inhabited place)" uri="http://sws.geonames.org/4945878/">Northfield, Massachusetts, United States</ns1:lookup>
-      <ns1:lookup string="Buckfield (Oxford county, Maine : inhabited place)">buckfield, oxford county, maine</ns1:lookup>
-      <ns1:lookup string="North Conway Scenic Railroad Frankenstein Cliff (Carroll county, New Hampshire : rock)">north conway scenic railroad frankenstein cliff, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Women">Women</ns1:lookup>
-      <ns1:lookup coordinates="43.67036, -70.28422" string="Woodfords Corner (Cumberland county, Maine : inhabited place)" uri="http://sws.geonames.org/4983445/">Woodfords Corner, Maine, United States</ns1:lookup>
-      <ns1:lookup string="The Eastman Inn (Carroll county, New Hampshire : inhabited place)">the eastman inn, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.07618, -71.18063" string="Dianas Baths (Carroll County, New Hampshire : spring)" uri="http://sws.geonames.org/5085412/">Dianas Baths, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Old Oaken Bucket (Coos county, New Hampshire : landmark)">old oaken bucket, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Falls Pond (Carroll county, New Hampshire : lake)">falls pond, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Port Clarence (Nome division, Alaska : inhabited place)">port clarence, nome division, alaska</ns1:lookup>
-      <ns1:lookup string="Men">Men</ns1:lookup>
-      <ns1:lookup coordinates="43.69006, -71.11488" string="Ossipee Corner (Carroll county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/7712384/">Ossipee Corner Fire Department, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Leeds (Androscoggin county, Maine : inhabited place)">leeds, androscoggin county, maine</ns1:lookup>
-      <ns1:lookup string="Beecher Cascade (Grafton county, New Hampshire : stream)">beecher cascade, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Wakefield (Carroll county, New Hampshire : inhabited place)">wakefield, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Massasecum, Lake (Merrimack county, New Hampshire : lake)">massasecum, lake, merrimack county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Lovewell Pond (Oxford county, Maine : lake)">lovewell pond, oxford county, maine</ns1:lookup>
-      <ns1:lookup string="Elysian Land (Grafton county, New Hampshire : forest)">elysian land, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Jackson Trail (Carroll county, New Hampshire : trail)">jackson trail, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="East Lynn (Essex county, Massachusetts : neighborhood)">east lynn, essex county, massachusetts</ns1:lookup>
-      <ns1:lookup coordinates="44.11007, -71.18257" string="Glen (Carroll county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5086607/">Glen, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Norwood (Norfolk county, Massachusetts : inhabited place)">norwood, norfolk county, massachusetts</ns1:lookup>
-      <ns1:lookup string="Atlantic Ocean (ocean)">Atlantic Ocean (ocean)</ns1:lookup>
-      <ns1:lookup coordinates="31.11748, 30.88313" string="Farm crops" uri="http://sws.geonames.org/11547542/">Mazra&#8216;at R&#363;waynah lil &#7720;&#257;&#351;il&#257;t az Zir&#257;&#8216;&#299;yah, Kafr el-Sheikh, Egypt</ns1:lookup>
-      <ns1:lookup coordinates="44.49591, -68.50169" string="Surry (Hancock county, Maine : inhabited place)" uri="http://sws.geonames.org/4980248/">Surry, Maine, United States</ns1:lookup>
-      <ns1:lookup coordinates="44.10035, -70.21478" string="Lewiston (Androscoggin county, Maine : inhabited place)" uri="http://sws.geonames.org/4969398/">Lewiston, Maine, United States</ns1:lookup>
-      <ns1:lookup string="Sugar Loaf , Mount (Franklin County, Maine : Mountain)">sugar loaf , mount, franklin county, maine</ns1:lookup>
-      <ns1:lookup string="Castner Camps (Carroll county, New Hampshire : inhabited place)">castner camps, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Zoar (Franklin county, Massachusetts : inhabited place)">zoar, franklin county, massachusetts</ns1:lookup>
-      <ns1:lookup coordinates="44.22216, -71.41734" string="Ammonoosuc (New Hampshire, United States : river)" uri="http://sws.geonames.org/5082648/">Ammonoosuc Lake, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Farm Cottage (Grafton county, New Hampshire : inhabited place)">farm cottage, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Rumford (Oxford county, Maine : inhabited place)">rumford, oxford county, maine</ns1:lookup>
-      <ns1:lookup string="Auburn (Androscoggin county, Maine : inhabited place)">auburn, androscoggin county, maine</ns1:lookup>
-      <ns1:lookup coordinates="44.86795, -71.30466" string="Gloriette, Lake (Coos county, New Hampshire : lake)" uri="http://sws.geonames.org/5088475/">Lake Gloriette, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Portsmouth (Rockingham county, New Hampshire : inhabited place)">portsmouth, rockingham county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Long Island (New York State : island)">long island, new york state</ns1:lookup>
-      <ns1:lookup string="Massasecum Rock (Merrimack county, New Hampshire : rock)">massasecum rock, merrimack county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="43.22646, -72.80649" string="Londonderry (Windham county, Vermont : inhabited place)" uri="http://sws.geonames.org/5238077/">Londonderry, Vermont, United States</ns1:lookup>
-      <ns1:lookup coordinates="44.05229, -71.16979" string="White Horse Ledge (Carroll county, New Hampshire : rock)" uri="http://sws.geonames.org/5094610/">White Horse Ledge, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Cathedral Woods (Carroll county, New Hampshire: forest)">cathedral woods, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Crystal Lake (Carroll county, New Hampshire : lake)">crystal lake, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Presidential Highway Gorham (Coos county, New Hampshire : inhabited place)">presidential highway gorham, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Lizzie Bourne Monument (Coos county, New Hampshire : monument)">lizzie bourne monument, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="North Chelmsford (Middlesex county, Massachusetts : neighborhood)">north chelmsford, middlesex county, massachusetts</ns1:lookup>
-      <ns1:lookup string="Kedron Brook (Carroll county, New Hampshire : stream)">kedron brook, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Heart of the Mountains Ravine (Carroll county, New Hampshire : valley)">heart of the mountains ravine, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="42.62425, -73.1176" string="Adams (Berkshire county, Massachusetts : inhabited place)" uri="http://sws.geonames.org/4928733/">Adams, Massachusetts, United States</ns1:lookup>
-      <ns1:lookup string="Chororua (Carroll county, New Hampshire : inhabited place)">chororua, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Unalaska Island (Fox Islands, Aleutian Islands : island)">unalaska island, fox islands, aleutian islands</ns1:lookup>
-      <ns1:lookup string="Champney Falls Trail (Carroll county, New Hampshire : trail)">champney falls trail, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Artists Ledge (Carroll county, New Hampshire : peak)">artists ledge, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Summit House (Coos county, New Hampshire : inhabited place)">summit house, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Spruce Point (Lincoln county, Maine : cape)">spruce point, lincoln county, maine</ns1:lookup>
-      <ns1:lookup coordinates="44.15423, -72.04704" string="Wells River (Orange county, Vermont : inhabited place)" uri="http://sws.geonames.org/5242616/">Wells River, Vermont, United States</ns1:lookup>
-      <ns1:lookup string="Dolly Copp Camp Grounds (Coos county, New Hampshire : inhabited place)">dolly copp camp grounds, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Mount Washington Cog Railway Crawford House (Coos county, New Hampshire : inhabited place)">mount washington cog railway crawford house, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Crawford Notch (New Hampshire, United States : valley) (New Hampshire, United States : valley)">crawford notch (new hampshire, united states : valley), new hampshire, united states</ns1:lookup>
-      <ns1:lookup string="Kearsarge, Mount (Merrimack county, New Hampshire : peak)">kearsarge, mount, merrimack county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Mount Pleasant House (Carroll county, New Hampshire : inhabited place)">mount pleasant house, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Center of the Earth (Grafton county, New Hampshire : cave)">center of the earth, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Brookfield (Worcester county, Massachusetts : inhabited place)">brookfield, worcester county, massachusetts</ns1:lookup>
-      <ns1:lookup string="Maplewood Casino (Grafton county, New Hampshire : inhabited place)">maplewood casino, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Bartlett (Carroll county, New Hampshire : inhabited place)">bartlett, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Ossipee Mountains (Carroll county, New Hampshire : mountain range)">ossipee mountains, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Lakewood (Ocean county, New Jersey : inhabited place)">lakewood, ocean county, new jersey</ns1:lookup>
-      <ns1:lookup string="Mirror Lake (Carroll county, Coos county, New Hampshire : lake)">mirror lake, carroll county, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Saco Lake (Coos county, New Hampshire : lake)">saco lake, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Mount Pisgah (Lincoln county, Maine : inhabited place)">mount pisgah, lincoln county, maine</ns1:lookup>
-      <ns1:lookup coordinates="44.56367, -71.56064" string="Guildhall (Essex county, Vermont : inhabited place)" uri="http://sws.geonames.org/5236700/">Guildhall Square, Vermont, United States</ns1:lookup>
-      <ns1:lookup string="Artists Falls House (Carroll county, New Hampshire : inhabited place)">artists falls house, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Woodshed Cabins (Carroll county, New Hampshire : inhabited place)">woodshed cabins, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Windover (Carroll county, New Hampshire : inhabited place)">windover, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Lynn (Sullivan county, New Hampshire : inhabited place)">lynn, sullivan county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="42.95675, -71.25728" string="Chester (Rockingham county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5084518/">Chester, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Methuen (Essex county, Massachusetts : inhabited place)">methuen, essex county, massachusetts</ns1:lookup>
-      <ns1:lookup string="Bangor (Penobscot county, Maine : inhabited place)">bangor, penobscot county, maine</ns1:lookup>
-      <ns1:lookup string="Frankenstein Trestle (Coos county, New Hampshire : structure)">frankenstein trestle, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.33895, -71.49202" string="Owlshead (Coos county, New Hampshire : peak)" uri="http://sws.geonames.org/5090739/">Owlshead, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="41.43732, -71.50145" string="Wakefield (Washington county, Rhode Island : inhabited place)" uri="http://sws.geonames.org/5225455/">Wakefield, Rhode Island, United States</ns1:lookup>
-      <ns1:lookup string="Dunstable (Hillsborogh county, New Hampshire : inhabited place)">dunstable, hillsborogh county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.20423, -71.41285" string="Willard, Mount (Carroll county, New Hampshire : peak)" uri="http://sws.geonames.org/5094755/">Mount Willard, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Mount Vernon House (Hillsborough county, New Hampshire : inhabited place)">mount vernon house, hillsborough county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Howard Hotel (Carroll county, New Hampshire : inhabited place)">howard hotel, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.14173, -71.18479" string="Honeymoon Bridge (Carroll county, New Hampshire : landmark)" uri="http://sws.geonames.org/5087605/">Honeymoon Bridge, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Winthrop (Kennebec county, Maine : inhabited place)">winthrop, kennebec county, maine</ns1:lookup>
-      <ns1:lookup coordinates="44.31451, -71.4923" string="Cherry Mountain (Coos county, New Hampshire : peak)" uri="http://sws.geonames.org/5084500/">Cherry Mountain, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Thompson's Inn (Carroll county, New Hampshire : inhabited place)">thompson's inn, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Unidentified location">Unidentified location</ns1:lookup>
-      <ns1:lookup coordinates="44.18873, -70.67823" string="Long Pond (Oxford county, Maine : lake)" uri="http://sws.geonames.org/4971617/">McWain Pond, Maine, United States</ns1:lookup>
-      <ns1:lookup coordinates="44.47145, -71.03897" string="Success, Mount (Coos county, New Hampshire : peak)" uri="http://sws.geonames.org/5093295/">Mount Success, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Passaconaway Trail (Carroll county, New Hampshire : trail)">passaconaway trail, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Conway House (Carroll county, New Hampshire : inhabited place)">conway house, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="42.97259, -70.82978" string="North Hampton (Rockingham county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5090383/">North Hampton, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Umbagog, Lake (United States : lake)">umbagog, lake, united states</ns1:lookup>
-      <ns1:lookup string="Waumbek House (Coos county, New Hampshire : inhabited place)">waumbek house, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Elephant Head (Carroll county, New Hampshire : rock)">elephant head, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.25646, -70.25617" string="Turner (Androscoggin county, Maine : inhabited place)" uri="http://sws.geonames.org/4981250/">Turner, Maine, United States</ns1:lookup>
-      <ns1:lookup string="Maine Central Railroad">Maine Central Railroad</ns1:lookup>
-      <ns1:lookup coordinates="42.83648, -71.09478" string="Plaistow (Rockingham county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5091273/">Plaistow, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Moosilauke Notch (Grafton county, New Hampshire : valley)">moosilauke notch, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="43.20814, -71.53757" string="Penacook (Merrimack county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5084868/">Concord, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="44.37534, -71.2798" string="Randolph (Coos county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5091604/">Randolph, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="43.98229, -71.39091" string="Potash Mountain (Grafton county, New Hampshire : peak)" uri="http://sws.geonames.org/5091413/">Potash Mountain, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="44.13433, -71.53001" string="Pemigewasset (Grafton county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5090935/">Pemigewasset Wilderness, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Dartmouth, Mount (Coos county, New Hampshire : peak)">dartmouth, mount, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="42.4201, -71.13033" string="Medford Public Library (Middlesex county, Massachusetts : inhabited place)" uri="http://sws.geonames.org/4943639/">Medford Public Library, Massachusetts, United States</ns1:lookup>
-      <ns1:lookup string="Point Surprise (Carroll county, New Hampshire : peak)">point surprise, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Passaconaway (Carroll county, New Hampshire : inhabited place)">passaconaway, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="43.48924, -71.5823" string="Sanbornton (Belknap county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5092338/">Sanbornton, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="43.5359, -72.72149" string="Plymouth (Windsor county, Vermont : inhabited place)" uri="http://sws.geonames.org/5239903/">Plymouth, Vermont, United States</ns1:lookup>
-      <ns1:lookup coordinates="43.95841, -69.6306" string="Edgecomb (Lincoln county, Maine : inhabited place)" uri="http://sws.geonames.org/4963559/">Edgecomb, Maine, United States</ns1:lookup>
-      <ns1:lookup coordinates="44.21396, -70.54478" string="Norway (Oxford county, Maine : inhabited place)" uri="http://sws.geonames.org/4973840/">Norway, Maine, United States</ns1:lookup>
-      <ns1:lookup coordinates="43.66702, -71.4998" string="New Hampshire (United States : state)" uri="http://sws.geonames.org/5090174/">New Hampshire, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="43.34063, -72.07092" string="Mount Sunapee (Merrimack county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5089911/">Mount Sunapee, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="44.04146, -71.17924" string="Thompson Falls (Carroll county, New Hampshire : waterfall)" uri="http://sws.geonames.org/5093624/">Thompson Falls, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Flume House (Grafton county, New Hampshire : inhabited place)&#10;Franconia (Grafton county, New Hampshire : inhabited place)&#10;Silver Lake (Carroll county, New Hampshire : lake)     &#10;Madison (Carroll county, New Hampshire : inhabited place)">flume house, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Milton (Strafford county, New Hampshire : inhabited place)">milton, strafford county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Ammonoosuc Ravine Trail (New Hampshire : trail)">ammonoosuc ravine trail, new hampshire</ns1:lookup>
-      <ns1:lookup string="Jacob's Ladder (Coos county, New Hampshire : structure)">jacob's ladder, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="42.74314, -71.59174" string="Hollis (Hillsborough county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5087559/">Hollis, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="44.76508, -71.2706" string="Township of Millsfield (Coos county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5089666/">Millsfield Township, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Israel Ridge Path (Coos county, New Hampshire : trail)">israel ridge path, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Bellevue (Carroll county, New Hampshire : inhabited place)">bellevue, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.43923, -71.27035" string="Black Mountain (Coos county, New Hampshire : peak)" uri="http://sws.geonames.org/5083484/">Black Crescent Mountain, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="43.10009, -70.83367" string="Newington (Rockingham county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5090231/">Newington, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="43.95007, -71.49952" string="Waterville Valley (Grafton county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5094304/">Waterville Valley, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="43.47036, -71.23451" string="Merrymeeting River (New Hampshire : river)" uri="http://sws.geonames.org/5089504/">Merrymeeting River, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="42.07205, -70.22058" string="Provincetown (Barnstable county, Massachusetts : inhabited place)" uri="http://sws.geonames.org/4948092/">Provincetown Municipal Airport, Massachusetts, United States</ns1:lookup>
-      <ns1:lookup string="Plummer's Ridge (Strafford county, New Hampshire : ridge)">plummer's ridge, strafford county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Mount Washington Carriage Road (Coos county, New Hampshire : road)">mount washington carriage road, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Rocky Gorge (Carroll county, New Hampshire : gorge)">rocky gorge, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.15645, -71.69842" string="Cannon Mountain (Grafton county, New Hampshire : peak)" uri="http://sws.geonames.org/5084179/">Cannon Mountain, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Campton (Grafton county, New Hampshire : inhabited place)">campton, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.05757, -71.09285" string="Cranmore Mountain (Carroll county, New Hampshire : peak)" uri="http://sws.geonames.org/5085069/">Cranmore Mountain, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Arethusa Falls (Carroll county, New Hampshire : stream)">arethusa falls, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Garfield, Mount (Grafton county, New Hampshire : peak)">garfield, mount, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Gale River Road (Grafton county, New Hampshire : road)">gale river road, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="43.4087, -70.58144" string="Kennebunk (York county, Maine : inhabited place)" uri="http://sws.geonames.org/5281094/">West Kennebunk, Maine, United States</ns1:lookup>
-      <ns1:lookup string="Lincoln's Cottages (Belknap county, New Hampshire : inhabited place)">lincoln's cottages, belknap county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Riverside Cottage (Coos county, New Hampshire : inhabited place)">riverside cottage, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="43.1437, -70.65089" string="York (York county, Maine : inhabited place)" uri="http://sws.geonames.org/4983656/">York Village, Maine, United States</ns1:lookup>
-      <ns1:lookup string="Cavendish (Windsor county, Vermont : inhabited place)">cavendish, windsor county, vermont</ns1:lookup>
-      <ns1:lookup coordinates="43.96923, -71.66119" string="Johnson (Grafton county, New Hampshire : abandoned town)" uri="http://sws.geonames.org/5088174/">Johnson Brook, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="43.38229, -72.63843" string="Proctorsville (Windsor county, Vermont : inhabited place)" uri="http://sws.geonames.org/5240030/">Proctorsville, Vermont, United States</ns1:lookup>
-      <ns1:lookup coordinates="42.19593, -70.72587" string="Scituate (Plymouth county, Massachusetts : inhabited place)" uri="http://sws.geonames.org/4950395/">Scituate, Massachusetts, United States</ns1:lookup>
-      <ns1:lookup string="Dover Point (Strafford county, New Hampshire : inhabited place)">dover point, strafford county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Bridal Veil Falls (Grafton county, New Hampshire : cascade)">bridal veil falls, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Smithurst Cabins (Carroll county, New Hampshire : inhabited place)">smithurst cabins, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Taunton (Bristol county, Massachuesetts : inhabited place)">taunton, bristol county, massachuesetts</ns1:lookup>
-      <ns1:lookup coordinates="44.13979, -71.13174" string="Dundee (Carroll county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5085603/">Dundee, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Big Island (Merrimack county, New Hampshire : island)">big island, merrimack county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Shaker Bridge (Grafton county, New Hampshire : bridge)">shaker bridge, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Boscawen (Merrimack county, New Hampshire : inhabited place)">boscawen, merrimack county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Grandview Hotel (Carroll county, New Hampshire : inhabited place)">grandview hotel, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Forest Inn (Carroll county, New Hampshire : inhabited place)">forest inn, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Plymouth High School (Grafton county, New Hampshire :  school)">plymouth high school, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Fitzwilliam (Cheshire county, New Hampshire : inhabited place)">fitzwilliam, cheshire county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="43.92674, -71.37674" string="Wonalancet, Mount (Grafton county, New Hampshire : peak)" uri="http://sws.geonames.org/5094920/">Mount Wonalancet, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="30.42131, -87.21691" string="Pensacola (Escambia county, Florida : inhabited place)" uri="http://sws.geonames.org/4168228/">Pensacola, Florida, United States</ns1:lookup>
-      <ns1:lookup string="The Guillotine (Grafton county, New Hampshire : rock)">the guillotine, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Chocorua River (Carroll county, New Hampshire : river)">chocorua river, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.6896, -71.30542" string="Coos (New Hampshire : county)" uri="http://sws.geonames.org/5084973/">Coos, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="South Portland (Cumberland county, Maine : inhabited place)">south portland, cumberland county, maine</ns1:lookup>
-      <ns1:lookup string="Saint Johnsbury (Caledonia couny, Vermont : inhabited place)">saint johnsbury, caledonia couny, vermont</ns1:lookup>
-      <ns1:lookup string="Whitefield NH Whitefield (Coos county, New Hampshire : inhabited place)">whitefield nh whitefield, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Fort Point Lighthouse (Waldo county, Maine : inhabited place)">fort point lighthouse, waldo county, maine</ns1:lookup>
-      <ns1:lookup string="Hotel Barre (Worcester county, Massachusetts : inhabited place)">hotel barre, worcester county, massachusetts</ns1:lookup>
-      <ns1:lookup coordinates="44.20256, -71.55786" string="Twin Mountain (Grafton county, New Hampshire : peak)" uri="http://sws.geonames.org/5090435/">North Twin Mountain, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Lakes of the Clouds Hut (Coos county, New Hampshire : inhabited place)">lakes of the clouds hut, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Ossipee Range (Carroll county, New Hampshire : ridge)">ossipee range, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Boston and Maine Railroad">Boston and Maine Railroad</ns1:lookup>
-      <ns1:lookup string="Lake Winnipesaukee (New Hampshire : lake)">lake winnipesaukee, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.60144, -71.42453" string="Stark (Coos county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/4833026/">Stark, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Twin Mountain House (Coos county, New Hampshire : inhabited place)">twin mountain house, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="6.05862, 36.7273" string="People" uri="http://sws.geonames.org/444188/">SNNPR, SNNPR, Ethiopia</ns1:lookup>
-      <ns1:lookup string="Carter Range (Coos county, New Hampshire : mountain range)">carter range, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Route 2">Route 2</ns1:lookup>
-      <ns1:lookup string="Alton Bay (Belknap county, New Hampshire : inhabited place)">alton bay, belknap county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="43.58785, -71.38507" string="Belknap Point (Belknap county, New Hampshire : cape)" uri="http://sws.geonames.org/5083271/">Belknap Point, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Rocky Branch (New Hampshire : stream)">rocky branch, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.40423, -70.79062" string="Bethel (Oxford county, Maine : inhabited place)" uri="http://sws.geonames.org/4958084/">Bethel, Maine, United States</ns1:lookup>
-      <ns1:lookup coordinates="41.87121, -71.55201" string="Greenville (Providence county, Rhode Island : inhabited place)" uri="http://sws.geonames.org/5222476/">Greenville, Rhode Island, United States</ns1:lookup>
-      <ns1:lookup string="North Haverhill (Grafton county, New Hampshire : inhabited place)">north haverhill, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Hurricane Mountain (Carroll county, New Hampshire : peak)">hurricane mountain, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Bath (Sagadahoc county, Maine : inhabited place)">bath, sagadahoc county, maine</ns1:lookup>
-      <ns1:lookup string="North Danville (Caledonia county, Vermont : inhabited place)">north danville, caledonia county, vermont</ns1:lookup>
-      <ns1:lookup string="Beaver Brook (Coos county, New Hampshire : stream)">beaver brook, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Steamer 'Mount Washington' Wolfeboro (Carroll county, New Hampshire : inhabited place)">steamer 'mount washington' wolfeboro, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Grey's Inn (Carroll county, New Hampshire : inhabited place)">grey's inn, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Townsend (Middlesex county, Massachusetts : inhabited place)">townsend, middlesex county, massachusetts</ns1:lookup>
-      <ns1:lookup string="Crawford Path (New Hampshire : trail)">crawford path, new hampshire</ns1:lookup>
-      <ns1:lookup string="Hotel Long (Oxford county, Maine : inhabited place)">hotel long, oxford county, maine</ns1:lookup>
-      <ns1:lookup coordinates="44.79273, -71.16431" string="Errol (Coos county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5085928/">Errol Airport, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Howards General Store (Carroll county, New Hampshire : inhabited place)">howards general store, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.26474, -71.93983" string="Lyman (Grafton county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5089107/">Town of Lyman, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Iron Mountain House (Carroll county, New Hampshire : inhabited place)">iron mountain house, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="42.87064, -71.95175" string="Peterborough (Hillsborough county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5091002/">Peterborough, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="44.97997, -93.26384" string="Minneapolis (Hennepin county, Minnesota : inhabited place)" uri="http://sws.geonames.org/5037649/">Minneapolis, Minnesota, United States</ns1:lookup>
-      <ns1:lookup string="Maplewood Cottage (Grafton county, New Hampshire : inhabited place)">maplewood cottage, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Wonalancet Outdoor Club Trail (Carroll county, New Hampshire : trail)">wonalancet outdoor club trail, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.1209, -70.97729" string="North Fryeburg (Oxford county, Maine : inhabited place)" uri="http://sws.geonames.org/4973570/">North Fryeburg, Maine, United States</ns1:lookup>
-      <ns1:lookup string="Charlotte (Mecklenburg county, North Carolina : inhabited place)">charlotte, mecklenburg county, north carolina</ns1:lookup>
-      <ns1:lookup string="Massasecum Bridge (Merrimack county, New Hampshire : monument)">massasecum bridge, merrimack county, new hampshire</ns1:lookup>
-      <ns1:lookup string="North Conway Scenic Railroad Pearl Cascade (Grafton county, New Hampshire : waterfall)">north conway scenic railroad pearl cascade, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Tripyramid, Mount (Grafton county, New Hampshire : peak)">tripyramid, mount, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.20312, -71.37424" string="Jackson, Mount (Coos county, New Hampshire : peak)" uri="http://sws.geonames.org/5088054/">Mount Jackson, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="44.20757, -71.4048" string="Flume Cascade (New Hampshire : stream)" uri="http://sws.geonames.org/5086225/">Flume Cascade, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="44.12814, -68.8742" string="North Haven (Knox county, Maine : inhabited place)" uri="http://sws.geonames.org/4973580/">North Haven, Maine, United States</ns1:lookup>
-      <ns1:lookup coordinates="43.10758, -71.9098" string="North Branch (Hillsborough county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5090325/">North Branch River, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="43.59666, -71.15664" string="Lake Wentworth (Carroll county, New Hampshire : lake)" uri="http://sws.geonames.org/5094434/">Lake Wentworth, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Berlin Falls (Coos county, New Hampshire : inhabited place)">berlin falls, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Rye (Rockingham county, New Hampshire : inhabited place)">rye, rockingham county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="43.62424, -72.51843" string="Woodstock (Windsor county, Vermont : inhabited place)" uri="http://sws.geonames.org/5243145/">Woodstock, Vermont, United States</ns1:lookup>
-      <ns1:lookup string="Davis Straits (Know county, Maine : strait)">davis straits, know county, maine</ns1:lookup>
-      <ns1:lookup coordinates="43.61445, -71.34397" string="Winnipesaukee, Lake (New Hampshire, United States : lake)" uri="http://sws.geonames.org/5094864/">Lake Winnipesaukee, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Franconia Notch (Grafton county, New Hampshire : valley) Flume, The (Grafton county, New Hampshire : valley) Avalanche Falls (Grafton county, New Hampshire : waterfall)">franconia notch (grafton county, new hampshire : valley) flume, the (grafton county, new hampshire : valley) avalanche falls, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Cranmore Mountain (Carroll county, New Hampshire">Cranmore Mountain (Carroll county, New Hampshire</ns1:lookup>
-      <ns1:lookup string="Locke Falls Cottage (Strafford county, New Hampshire : inhabited place)">locke falls cottage, strafford county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Biddeford (York county, New Hampshire : inhabited place)">biddeford, york county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Agassiz House (Grafton county, New Hampshire : inhabited place)">agassiz house, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="43.93813, -70.90868" string="Brownfield (Oxford county, Maine : inhabited place)" uri="http://sws.geonames.org/4959433/">Brownfield, Maine, United States</ns1:lookup>
-      <ns1:lookup string="Jackson Falls (Carroll county, New Hampshire : inhabited place)">jackson falls, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Troy (Chesire county, New Hampshire : inhabited place)">troy, chesire county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Cooper Island (Washington county, Maine : island)">cooper island, washington county, maine</ns1:lookup>
-      <ns1:lookup coordinates="43.63841, -71.73647" string="Bridgewater (Grafton county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5083803/">Bridgewater, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="43.64229, -72.25176" string="Lebanon (Grafton county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5088597/">Lebanon, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Israel, Mount (Carroll county, New Hampshire : peak)">israel, mount, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="43.62036, -70.73534" string="North Waterboro (York county, Maine : inhabited place)" uri="http://sws.geonames.org/4973711/">North Waterboro, Maine, United States</ns1:lookup>
-      <ns1:lookup coordinates="43.08313, -73.78457" string="Saratoga Springs (Saratoga county, New York state : inhabited place)" uri="http://sws.geonames.org/5136334/">Saratoga Springs, New York, United States</ns1:lookup>
-      <ns1:lookup string="Tyngsboro (Middlesex county, Massachusetts : inhabited place)">tyngsboro, middlesex county, massachusetts</ns1:lookup>
-      <ns1:lookup string="Bugle Cliff (Carroll county, New Hampshire : peak)">bugle cliff, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Castine Harbor (Hancock county, Maine : bay)">castine harbor, hancock county, maine</ns1:lookup>
-      <ns1:lookup coordinates="41.90205, -69.96891" string="Camp Wellfleet Dunes (Barnstable county, Massachusetts : dunes)" uri="http://sws.geonames.org/4932158/">Camp Wellfleet Dunes, Massachusetts, United States</ns1:lookup>
-      <ns1:lookup coordinates="44.37589, -71.28758" string="Ravine House (Coos county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5091633/">Ravine House, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="44.99162, -70.82913" string="Cupsuptic Lake (Oxford county, Maine : lake)" uri="http://sws.geonames.org/4961945/">Cupsuptic Lake, Maine, United States</ns1:lookup>
-      <ns1:lookup coordinates="43.48952, -72.13759" string="Grantham (Sullivan county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5086792/">Grantham, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="43.83146, -71.24701" string="Swift River (Carroll county, New Hampshire : river)" uri="http://sws.geonames.org/5093444/">Swift River, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Hazel Dell (Merrimack county, New Hampshire : inhabited place)">hazel dell, merrimack county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Tilton (Belknap county, New Hampshire : inhabited place)">tilton, belknap county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Lancaster House (Coos county, New Hampshire : inhabited place)">lancaster house, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Sanmaur (Quebec province, Canada : inhabited place)">sanmaur, quebec province, canada</ns1:lookup>
-      <ns1:lookup string="Saco River (United States : river)">saco river, united states</ns1:lookup>
-      <ns1:lookup string="Glenwood (Carroll county, New Hampshire : inhabited place)">glenwood, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Provideniya (Chukotskiy Avtonomnyy Okrug, Rossiya republic : inhabited place)">provideniya, chukotskiy avtonomnyy okrug, rossiya republic</ns1:lookup>
-      <ns1:lookup coordinates="43.60896, -71.46063" string="Weirs (Belknap county, Laconia, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5094390/">Weirs Beach, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="43.26175, -70.86534" string="Somersworth (Strafford county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5092813/">Somersworth, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="44.07618, -71.18063" string="Dianas Baths (Carroll county, New Hampshire: spring)" uri="http://sws.geonames.org/5085412/">Dianas Baths, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Lakeview Inn (Belknap county, New Hampshire : inhabited place)">lakeview inn, belknap county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Carter Dome (Coos county, New Hampshire : peak)">carter dome, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Bonny Eagle (Cumberland county, Maine : inhabited place)">bonny eagle, cumberland county, maine</ns1:lookup>
-      <ns1:lookup string="Martha Washington Profile (Coos county, New Hampshire : rock)">martha washington profile, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.48895, -71.56925" string="Lancaster (Coos county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5088529/">Lancaster, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Flume Cascade (New Hampshire, United States : stream)">flume cascade, new hampshire, united states</ns1:lookup>
-      <ns1:lookup coordinates="43.97757, -71.68508" string="Woodstock (Grafton county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5094939/">Woodstock, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="44.0934, -71.44758" string="Carrigan, Mount (Grafton county, New Hampshire : peak)" uri="http://sws.geonames.org/5084245/">Mount Carrigain, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="44.27979, -71.23202" string="Emerald Pool (Coos county, New Hampshire : lake)" uri="http://sws.geonames.org/5085883/">Emerald Pool, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Cape Cod (Barnstable county, Massachusetts : peninsula)">cape cod, barnstable county, massachusetts</ns1:lookup>
-      <ns1:lookup string="Kennett High School (Carroll county, New Hampshire : inhabited place)">kennett high school, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Artists Brook (Carroll county, New Hampshire : inhabited place)">artists brook, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Eagle Cliff (Grafton county, New Hampshire : peak)">eagle cliff, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Lowell (Middlesex county, Massachusetts : inhabited place)">lowell, middlesex county, massachusetts</ns1:lookup>
-      <ns1:lookup string="Columbia (Coos county, New Hampshire : inhabited place)">columbia, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="South Hiram (Oxford county, Maine : inhabited place)">south hiram, oxford county, maine</ns1:lookup>
-      <ns1:lookup string="McMillan House (Carroll county, New Hampshire : inhabited place)">mcmillan house, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="43.65424, -71.24729" string="Tuftonboro (Carroll county, New Hampshire : inahbited place)" uri="http://sws.geonames.org/5084401/">Center Tuftonboro, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Major, Mount (Belknap county, New Hampshire : peak)">major, mount, belknap county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.02756, -72.57149" string="East Brookfield (Orange county, Vermont : inhabited place)" uri="http://sws.geonames.org/5235663/">East Brookfield, Vermont, United States</ns1:lookup>
-      <ns1:lookup coordinates="43.16702, -72.37953" string="Langdon (Sullivan county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5088542/">Langdon, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Echo Lake (Carroll county, New Hampshire : lake)">echo lake, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Washington, Mount (Coos county, New Hampshire : mountain) Mount Washington Carriage Road">washington, mount, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Roundtop (Grafton county, New Hampshire : peak)">roundtop, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="42.5612, -71.58979" string="Ayer Junction (Middlesex county, Massachusetts : inhabited place)" uri="http://sws.geonames.org/4929501/">Ayer, Massachusetts, United States</ns1:lookup>
-      <ns1:lookup coordinates="41.82399, -71.41283" string="Providence (Providence county, Rhode Island : inhabited place)" uri="http://sws.geonames.org/5224151/">Providence, Rhode Island, United States</ns1:lookup>
-      <ns1:lookup string="Ossipee (Carroll county, New Hampshire : inhabited place)">ossipee, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Black Cap Mountain (Carroll county, New Hampshire : peak)">black cap mountain, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Pleasant, Mount (Coos county, New Hampshire : peak)">pleasant, mount, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Bath (Grafton county, New Hampshire : inhabited place)">bath, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Penobscot River (Maine : river)">penobscot river, maine</ns1:lookup>
-      <ns1:lookup coordinates="42.36565, -71.10832" string="Massachusetts (United States : state)" uri="http://sws.geonames.org/6254926/">Massachusetts, Massachusetts, United States</ns1:lookup>
-      <ns1:lookup string="Northern Peaks (Coos county, New Hampshire : ridge)">northern peaks, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Camp Pasquaney (Grafton county, New Hampshire : summer camp)">camp pasquaney, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Massachusetts (United States : state)Massachusetts (United States : state)">massachusetts (united states : state)massachusetts, united states</ns1:lookup>
-      <ns1:lookup string="Hotel Weirs (Belknap county, New Hampshire : inhabited place)">hotel weirs, belknap county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Strawberry Hill House (Grafton county, New Hampshire : inhabited place)">strawberry hill house, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="43.88813, -71.17535" string="Silver Lake (Carroll county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5092672/">Silver Lake, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Shoal Pond (Grafton county, New Hampshire : lake)">shoal pond, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="43.95063, -69.87755" string="Androscoggin River (United States : river)" uri="http://sws.geonames.org/4956765/">Androscoggin River, Maine, United States</ns1:lookup>
-      <ns1:lookup coordinates="44.33079, -72.25935" string="Peacham Pond (Caledonia county, Vermont : reservoir)" uri="http://sws.geonames.org/5239686/">Peacham Pond, Vermont, United States</ns1:lookup>
-      <ns1:lookup coordinates="43.14591, -72.84038" string="Rawsonville (Windham county, Vermont : inhabited place)" uri="http://sws.geonames.org/5240178/">Rawsonville, Vermont, United States</ns1:lookup>
-      <ns1:lookup coordinates="42.26677, -70.95783" string="Houghs Neck (Norfolk county, Massachusetts : neighborhood)" uri="http://sws.geonames.org/4939969/">Houghs Neck, Massachusetts, United States</ns1:lookup>
-      <ns1:lookup coordinates="44.16075, -71.64433" string="Lafayette, Mount (Grafton county, New Hampshire : mountain)" uri="http://sws.geonames.org/5088464/">Mount Lafayette, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Squog River (Hillsborough county, New Hampshire : river)">squog river, hillsborough county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.93811, -71.03535" string="Wilsons Mills (Oxford County, Maine : inhabited place)" uri="http://sws.geonames.org/4983281/">Wilsons Mills, Maine, United States</ns1:lookup>
-      <ns1:lookup coordinates="44.0534, -71.3573" string="Tremont, Mount (Carroll county, New Hampshire : peak)" uri="http://sws.geonames.org/5093770/">Mount Tremont, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Wells (York county, Maine : inhabited place)">wells, york county, maine</ns1:lookup>
-      <ns1:lookup string="Paugus Brook (Carroll county, New Hampshire : stream)">paugus brook, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Doublehead Mountain (Carroll county, New Hampshire : peak)">doublehead mountain, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="43.8248, -71.30313" string="South Tamworth (Carroll county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5092947/">South Tamworth, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="43.56563, -72.53232" string="South Woodstock (Windsor county, Vermont : inhabited place)" uri="http://sws.geonames.org/5241376/">South Woodstock, Vermont, United States</ns1:lookup>
-      <ns1:lookup string="Carter-Moriah Range (Coos county, New Hampshire : mountain range)">carter-moriah range, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Strafford Hills (Coos county, New Hampshire : hill)">strafford hills, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="43.50119, -70.96367" string="Milton Mills (Strafford county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5089651/">Milton Mills, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Brown Paper Company Cascade Mill (Coos county, New Hampshire : inhabited place)">brown paper company cascade mill, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="43.4147, -72.90831" string="Wallingford (Rutland county, Vermont : inhabited place)" uri="http://sws.geonames.org/5242468/">Wallingford Pond, Vermont, United States</ns1:lookup>
-      <ns1:lookup string="Ashuelot (New Hampshire : river)">ashuelot, new hampshire</ns1:lookup>
-      <ns1:lookup string="Crawford House (Coos county, New Hampshire : inhabited place)">crawford house, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.16381, -71.67777" string="Profile Lake (Grafton county, New Hampshire : lake)" uri="http://sws.geonames.org/5091485/">Profile Lake, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Bear Mountain Notch (New Hampshire : trail)">bear mountain notch, new hampshire</ns1:lookup>
-      <ns1:lookup string="Rocky Birch (Grafton county, New Hampshire : inhabited place)">rocky birch, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Cascade (Coos county, New Hampshire : inhabited place)">cascade, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.89072, -71.58311" string="Lemington (Essex county, Vermont : inhabited place)" uri="http://sws.geonames.org/5237919/">Town of Lemington, Vermont, United States</ns1:lookup>
-      <ns1:lookup string="Lakeport (Belknap county, New Hampshire : neighborhood)">lakeport, belknap county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Flume, The (Grafton county, New Hampshire : valley)">flume, the, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Glen Road (Coos county, New Hampshire : road)">glen road, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Berry's Field (Strafford county, New Hampshire : field)">berry's field, strafford county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="43.39591, -72.70065" string="Ludlow (Windsor county, Vermont : inhabited place)" uri="http://sws.geonames.org/5238156/">Ludlow, Vermont, United States</ns1:lookup>
-      <ns1:lookup string="La Tuque (Quebec province, Canada : inhabited place)">la tuque, quebec province, canada</ns1:lookup>
-      <ns1:lookup string="Highland House (Grafton county, New Hampshire : inhabited place)">highland house, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.167, -74.53795" string="Tupper Lake (Franklin county, New York state : inhabited place)" uri="http://sws.geonames.org/5141569/">Tupper Lake, New York, United States</ns1:lookup>
-      <ns1:lookup coordinates="42.87453, -71.18117" string="Hampstead (Rockingham county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5087105/">Hampstead, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="42.58342, -71.8023" string="Fitchburg (Worcester county, Massachusetts : inhabited place)" uri="http://sws.geonames.org/4936812/">Fitchburg, Massachusetts, United States</ns1:lookup>
-      <ns1:lookup string="Pinkham Notch Trading Post (Coos county, New Hampshire : inhabited place)">pinkham notch trading post, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Big Rock Cave (Carroll county, New Hampshire : cave)">big rock cave, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Manchester (Kennebec county, Maine : inhabited place)">manchester, kennebec county, maine</ns1:lookup>
-      <ns1:lookup coordinates="42.78842, -71.20089" string="Salem (Rockingham county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5092268/">Salem, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Cave of Silence (Grafton county, New Hampshire : cave)">cave of silence, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Point Barrow (North Slope division, Alaska : cape)">point barrow, north slope division, alaska</ns1:lookup>
-      <ns1:lookup string="Camp Shehadi (Grafton county, New Hampshire : inhabited place)">camp shehadi, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Lake Wiloughby (Orleans county, Vermont : lake)">lake wiloughby, orleans county, vermont</ns1:lookup>
-      <ns1:lookup coordinates="44.16075, -71.64433" string="Mount Lafayette (Grafton county, New Hampshire : mountain)" uri="http://sws.geonames.org/5088464/">Mount Lafayette, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Stratford (Coos county, New Hampshire : inhabited place)">stratford, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Middle Mountain (Carroll county, New Hampshire : peak)">middle mountain, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Howard, The (Grafton county, New Hampshire : inhabited place)">howard, the, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Rainbow Lodge (Carroll county, New Hampshire : inhabited place)">rainbow lodge, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="The Langdon (Carroll county, New Hampshire : inhabited place)">the langdon, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.39924, -68.81475" string="Wadsworth Cove (Hancock county, Maine : bay)" uri="http://sws.geonames.org/4982028/">Wadsworth Cove, Maine, United States</ns1:lookup>
-      <ns1:lookup coordinates="43.65737, -70.2589" string="Portland (Cumberland County, Maine : inhabited place)" uri="http://sws.geonames.org/4975802/">Portland, Maine, United States</ns1:lookup>
-      <ns1:lookup string="Pine Trees Restaurant (Carroll county, New Hampshire : inhabited place)">pine trees restaurant, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Surprise, Mount (Carroll county, New Hampshire : peak)">surprise, mount, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="43.8048, -70.80117" string="Cornish (York county, Maine : inhabited place)" uri="http://sws.geonames.org/4961511/">Cornish, Maine, United States</ns1:lookup>
-      <ns1:lookup string="Paugus, Mount (Carroll county, New Hampshire : peak)">paugus, mount, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="-7.57286, 36.10884" string="image" uri="http://sws.geonames.org/11004315/">Image, Iringa, Tanzania</ns1:lookup>
-      <ns1:lookup string="North Windham (Windham county, Vermont : inhabited place)">north windham, windham county, vermont</ns1:lookup>
-      <ns1:lookup string="Garlands Restaurant and Cabins (Carroll county, New Hampshire : inhabited place)">garlands restaurant and cabins, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Clinton (Essex county, New Jersey : inhabited place)">clinton, essex county, new jersey</ns1:lookup>
-      <ns1:lookup coordinates="44.12229, -71.68314" string="Basin, The (Grafton county, New Hampshire : basin)" uri="http://sws.geonames.org/5083061/">The Basin, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Willey Brook (Grafton county, New Hampshire : stream)">willey brook, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Intervale House (Carroll county, New Hampshire : inhabited place)">intervale house, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.14549, -72.85398" string="Green Mountains (Vermont : mountains)" uri="http://sws.geonames.org/5236621/">Green Mountains, Vermont, United States</ns1:lookup>
-      <ns1:lookup coordinates="44.13312, -71.15646" string="Thorn Mountain (Carroll county, New Hampshire : peak)" uri="http://sws.geonames.org/5093627/">Thorn Mountain, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="43.03342, -71.07423" string="Epping (Rockingham county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5085913/">Epping, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Reed's Light (Grafton county, New Hampshire : lighthouse)">reed's light, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Loon Mountain (Grafton county, New Hampshire : ridge)">loon mountain, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Sioux Falls (Minnehaha county, South Dakota : inahbited place)">sioux falls, minnehaha county, south dakota</ns1:lookup>
-      <ns1:lookup string="West Townsend (Windham county, Vermont : inhabited place)">west townsend, windham county, vermont</ns1:lookup>
-      <ns1:lookup string="Moulton Store (Carroll county, New Hampshire : inhabited place)">moulton store, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Ammonoosuc Falls (Coos county, New Hampshire : stream)">ammonoosuc falls, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.30229, -71.28119" string="Stearns Brook (Coos county, New Hampshire : stream)" uri="http://sws.geonames.org/5084427/">Chandler Brook, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Franconia (Grafton county, New Hampshire : inhabited place)">franconia, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.85977, -71.29397" string="Dixville Notch (Coos county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5085447/">Dixville Notch State Park, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Camp Mowglis (Grafton county, New Hampshire : summer camp)">camp mowglis, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Kinsman Mountain (Grafton county, New Hampshire : ridge)">kinsman mountain, grafton county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Base Station (Coos county, New Hampshire : inhabited place)">base station, coos county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Dover (Strafford county, New Hampshire : inhabited place)">dover, strafford county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Nineteen Mile Brook Trail (Carroll county, New Hampshire : trail)">nineteen mile brook trail, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Florida (United States : state)">florida, united states</ns1:lookup>
-      <ns1:lookup coordinates="43.5729, -71.42576" string="Laconia (Belknap county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5088444/">Laconia Municipal Airport, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="44.1284, -71.18452" string="Glen Ellis Falls (Carroll county, New Hampshire : stream)" uri="http://sws.geonames.org/5086589/">Glen Ellis Dam, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup coordinates="43.49035, -72.55315" string="Hammondsville (Windsor county, Vermont : inhabited place)" uri="http://sws.geonames.org/5236783/">Hammondsville, Vermont, United States</ns1:lookup>
-      <ns1:lookup string="Cathedral Woods (Carroll county, New Hampshire : forest)">cathedral woods, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Bow Lake (Strafford county, New Hampshire : reservoir)">bow lake, strafford county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.75172, -71.6287" string="North Stratford (Coos county, New hampshire : inhabited place)" uri="http://sws.geonames.org/5090429/">North Stratford, New Hampshire, United States</ns1:lookup>
-      <ns1:lookup string="Berry's Corner (Strafford county, New Hampshire : inhabited place)">berry's corner, strafford county, new hampshire</ns1:lookup>
-      <ns1:lookup string="Kearsarge (Carroll county, New Hampshire : inhabited place)">kearsarge, carroll county, new hampshire</ns1:lookup>
-      <ns1:lookup coordinates="44.2634, -71.45841" string="Fabyan House (Carroll county, New Hampshire : inhabited place)" uri="http://sws.geonames.org/5085989/">Fabyan, New Hampshire, United States</ns1:lookup>
-    </ns0:param>
+        <ns1:lookup string="unalaska island, fox islands, aleutian islands">Unalaska Island (Fox Islands, Aleutian Islands : island)</ns1:lookup>
+        <ns1:lookup coordinates="43.0484, -75.3785" string="Clinton, New York, United States" uri="http://sws.geonames.org/5112972/">Clinton (Oneida county, New York state : inhabited place)</ns1:lookup>
+        <ns1:lookup string="cascade, coos county, new hampshire">Cascade (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="resolution hut, coos county, new hampshire">Resolution Hut (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.61146, -71.79286" string="Alexandria, New Hampshire, United States" uri="http://sws.geonames.org/5082573/">Alexandria (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="mount webster, coos county, carroll count, new hampshire">Mount Webster (Coos county, Carroll count, New Hampshire: mountain)</ns1:lookup>
+        <ns1:lookup coordinates="45.50032, -69.24977" string="Maine, Maine, United States" uri="http://sws.geonames.org/4971068/">Maine (United States : state)</ns1:lookup>
+        <ns1:lookup coordinates="42.51954, -70.89672" string="Salem, Massachusetts, United States" uri="http://sws.geonames.org/4950065/">Salem (Essex county, Massachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup string="rainbow lodge, carroll county, new hampshire">Rainbow Lodge (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="carter hotel path, carrol county, new hampshire">Carter Hotel Path (Carrol county, New Hampshire : trail)</ns1:lookup>
+        <ns1:lookup string="the proctor house, norfolk county, massachusetts">The Proctor House (Norfolk county, Massachusetts: inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="37.64065, -79.80114" string="Eagle Rock Volunteer Fire and Rescue Company 5, Virginia, United States" uri="http://sws.geonames.org/6345557/">Eagle Rock Company</ns1:lookup>
+        <ns1:lookup coordinates="43.94479, -70.8884" string="East Brownfield, Maine, United States" uri="http://sws.geonames.org/4963230/">East Brownfield (Oxford county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="40.87927, -74.31487" string="Clinton, New Jersey, United States" uri="http://sws.geonames.org/5096708/">Clinton (Essex county, New Jersey : inhabited place)</ns1:lookup>
+        <ns1:lookup string="strawberry hill house, grafton county, new hampshire">Strawberry Hill House (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.09673, -71.69786" string="Indian Head, New Hampshire, United States" uri="http://sws.geonames.org/5087860/">Indian Head (Grafton county, New Hampshire : rock)</ns1:lookup>
+        <ns1:lookup coordinates="43.82035, -71.1334" string="White Mountain Gateway Airport, New Hampshire, United States" uri="http://sws.geonames.org/5094624/">White Mountain Airport (Carroll county, New Hampshire : airport)</ns1:lookup>
+        <ns1:lookup string="pequawket house, carroll county, new hampshire">Pequawket House (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="parker's ledge, grafton county, new hampshire">Parker's Ledge (Grafton county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup coordinates="43.73591, -70.552" string="Standish, Maine, United States" uri="http://sws.geonames.org/4979722/">Standish (Cumberland county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="37.35175, -80.38108" string="Appalachian National Scenic Trail, Virginia, United States" uri="http://sws.geonames.org/11383702/">Appalachian Trail</ns1:lookup>
+        <ns1:lookup string="carter mountain, coos county, new hampshire">Carter Mountain (Coos county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup coordinates="42.65258, -72.93149" string="Zoar, Massachusetts, United States" uri="http://sws.geonames.org/4956385/">Zoar (Franklin county, Massachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.97395, -72.55594" string="North Randolph, Vermont, United States" uri="http://sws.geonames.org/5239228/">North Randolph (Orange county, Vermont : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.72868, -72.61899" string="Barnard, Vermont, United States" uri="http://sws.geonames.org/5233470/">Barnard (Windsor county, Vermont : inhabited place)</ns1:lookup>
+        <ns1:lookup string="gulfside trail, coos county, new hampshire">Gulfside Trail (Coos county, New Hampshire : trail)</ns1:lookup>
+        <ns1:lookup coordinates="26.71534, -80.05337" string="West Palm Beach, Florida, United States" uri="http://sws.geonames.org/4177887/">West Palm Beach (Palm Beach county, Florida : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.93423, -68.64531" string="Old Town, Maine, United States" uri="http://sws.geonames.org/4974231/">Oldtown (Penobscot county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.8923, -69.52449" string="Pemaquid Harbor, Maine, United States" uri="http://sws.geonames.org/4974911/">Pemaquid Harbor (Lincoln county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.2698, -72.26175" string="Sleeper Brook, New Hampshire, United States" uri="http://sws.geonames.org/5092719/">Sleeper Brook (Sullivan county, New Hampshire : stream)</ns1:lookup>
+        <ns1:lookup string="squog river, hillsborough county, new hampshire">Squog River (Hillsborough county, New Hampshire : river)</ns1:lookup>
+        <ns1:lookup coordinates="44.16381, -71.67777" string="Profile Lake, New Hampshire, United States" uri="http://sws.geonames.org/5091485/">Profile Lake (Grafton county, New Hampshire : lake)</ns1:lookup>
+        <ns1:lookup string="wadsworth cove, hancock county, maine">Wadsworth Cove (Hancock county, Maine : bay)</ns1:lookup>
+        <ns1:lookup string="fort point lighthouse, waldo county, maine">Fort Point Lighthouse (Waldo county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup string="icy cape, north slope division, alaska">Icy Cape (North Slope division, Alaska : cape)</ns1:lookup>
+        <ns1:lookup coordinates="43.8923, -70.18533" string="Pownal Center, Maine, United States" uri="http://sws.geonames.org/4975907/">Pownal (Cumberland county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.56457, -123.26204" string="Corvallis, Oregon, United States" uri="http://sws.geonames.org/5720727/">Corvallis (Benton county, Oregon : inhabited place)</ns1:lookup>
+        <ns1:lookup string="rocky gorge, carroll county, new hampshire">Rocky Gorge (Carroll county, New Hampshire : gorge)</ns1:lookup>
+        <ns1:lookup string="farmington, strafford county, new hampshire">Farmington (Strafford county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.38757, -72.08786" string="Sunapee, New Hampshire, United States" uri="http://sws.geonames.org/5093347/">Sunapee (Sullivan county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="mount washington cog railway crawford house, coos county, new hampshire">Mount Washington Cog Railway Crawford House (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.7973, -71.15674" string="Bearcamp River, New Hampshire, United States" uri="http://sws.geonames.org/5083160/">Bearcamp River (Carroll county, New Hampshire : river)</ns1:lookup>
+        <ns1:lookup coordinates="44.10035, -70.21478" string="Lewiston, Maine, United States" uri="http://sws.geonames.org/4969398/">Lewiston (Androscoggin county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup string="piper house, grafton county, new hampshire">Piper House (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="10.83333, -10.66667" string="Guinea, Guinea" uri="http://sws.geonames.org/2420477/">People</ns1:lookup>
+        <ns1:lookup coordinates="43.63841, -71.73647" string="Bridgewater, New Hampshire, United States" uri="http://sws.geonames.org/5083803/">Bridgewater (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="franconia, grafton county, new hampshire">Franconia (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="hotham inlet, northwest arctic division, alaska">Hotham Inlet (Northwest Arctic division, Alaska : inlet)</ns1:lookup>
+        <ns1:lookup coordinates="25.79065, -80.13005" string="Miami Beach, Florida, United States" uri="http://sws.geonames.org/4164143/">Miami Beach (Miami-Dade county, Florida : inhabited place)</ns1:lookup>
+        <ns1:lookup string="auburn, androscoggin county, maine">Auburn (Androscoggin county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup string="whittier, mount, carroll county, new hampshire">Whittier, Mount (Carroll county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup coordinates="43.8248, -71.30313" string="South Tamworth, New Hampshire, United States" uri="http://sws.geonames.org/5092947/">South Tamworth (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="42.25288, -71.00227" string="Quincy, Massachusetts, United States" uri="http://sws.geonames.org/4948247/">Quincy (Norfolk county, Massachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup string="bolles trail, carroll county, new hampshire">Bolles Trail (Carroll county, New Hampshire : trail)</ns1:lookup>
+        <ns1:lookup string="flume, the (grafton county, new hampshire : valley) indian head (grafton county, new hampshire : rock) old man of the mountain, grafton county, new hampshire : peak) white mountains (new hampshire">Flume, The (Grafton county, New Hampshire : valley) Indian Head (Grafton county, New Hampshire : rock) Old Man of the Mountain (Grafton county, New Hampshire : peak) White Mountains (New Hampshire : mountains)</ns1:lookup>
+        <ns1:lookup coordinates="44.97997, -93.26384" string="Minneapolis, Minnesota, United States" uri="http://sws.geonames.org/5037649/">Minneapolis (Hennepin county, Minnesota : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.76508, -71.2706" string="Millsfield Township, New Hampshire, United States" uri="http://sws.geonames.org/5089666/">Township of Millsfield (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="point hope, north slope division, alaska">Point Hope (North Slope division, Alaska : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.17536, -71.69254" string="Echo Lake, New Hampshire, United States" uri="http://sws.geonames.org/5085803/">Echo Lake (Grafton county, New Hampshire : lake)</ns1:lookup>
+        <ns1:lookup coordinates="44.04313, -71.21535" string="North Moat Mountain, New Hampshire, United States" uri="http://sws.geonames.org/5090390/">Moat Mountain (Carroll county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup coordinates="42.99842, -71.87369" string="Crotched Mountain, New Hampshire, United States" uri="http://sws.geonames.org/5085112/">Crotched Mountain (Hillsborough county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup coordinates="42.95064, -71.8723" string="Greenfield, New Hampshire, United States" uri="http://sws.geonames.org/5086911/">Greenfield (Hillsborough county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="elm house, grafton county, new hampshire">Elm House (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="mountain view house, coos county, new hampshire">Mountain View House (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="point barrow, north slope division, alaska">Point Barrow (North Slope division, Alaska : cape)</ns1:lookup>
+        <ns1:lookup string="crawford notch (new hampshire, united states : valley), new hampshire, united states">Crawford Notch (New Hampshire, United States : valley) (New Hampshire, United States : valley)</ns1:lookup>
+        <ns1:lookup coordinates="43.5359, -72.72149" string="Plymouth, Vermont, United States" uri="http://sws.geonames.org/5239903/">Plymouth (Windsor county, Vermont : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.30507, -69.977" string="Winthrop, Maine, United States" uri="http://sws.geonames.org/4983355/">Winthrop (Kennebec county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.14951, -71.68675" string="Franconia Notch State Park, New Hampshire, United States" uri="http://sws.geonames.org/5086334/">Franconia Notch (Grafton county, New Hampshire : valley)</ns1:lookup>
+        <ns1:lookup string="berlin falls, coos county, new hampshire">Berlin Falls (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.20814, -71.53757" string="Concord, New Hampshire, United States" uri="http://sws.geonames.org/5084868/">Concord (Merrimack county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.07812, -71.28285" string="Bartlett, New Hampshire, United States" uri="http://sws.geonames.org/5083033/">Bartlett (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.15645, -71.69842" string="Cannon Mountain, New Hampshire, United States" uri="http://sws.geonames.org/5084179/">Profile Mountain (Grafton county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup string="hawthorn cottage, carroll county, new hampshire">Hawthorn Cottage (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.1834, -71.20868" string="Spruce Mountain, New Hampshire, United States" uri="http://sws.geonames.org/5093038/">Spruce Mountain (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.64147, -70.24088" string="South Portland, Maine, United States" uri="http://sws.geonames.org/4979244/">South Portland (Cumberland county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.63311, -72.02565" string="Sutton, Vermont, United States" uri="http://sws.geonames.org/5241754/">Sutton (Caledonia county, Vermont : inhabited place)</ns1:lookup>
+        <ns1:lookup string="canaan, grafton county, new hampshire">Canaan (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="flume, the (grafton county, new hampshire : valley) franconia notch, grafton county, new hampshire">Flume, The (Grafton county, New Hampshire : valley) Franconia Notch (Grafton county, New Hampshire : valley)</ns1:lookup>
+        <ns1:lookup coordinates="44.26006, -72.57539" string="Montpelier, Vermont, United States" uri="http://sws.geonames.org/5238685/">Montpelier (Washington county, Vermont : inhabited place)</ns1:lookup>
+        <ns1:lookup string="clay, mount, coos county, new hampshire">Clay, Mount (Coos county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup string="grey's inn, carroll county, new hampshire">Grey's Inn (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="dawnes brook, new hampshire">Dawnes Brook (New Hampshire : stream)</ns1:lookup>
+        <ns1:lookup string="swasey lane, grafton county, new hampshire">Swasey Lane (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.53367, -72.00315" string="Lyndonville, Vermont, United States" uri="http://sws.geonames.org/5238203/">Lyndonville (Caledonia county, Vermont : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44, -71" string="New England, United States" uri="http://sws.geonames.org/11919979/">New England (United States : general region)</ns1:lookup>
+        <ns1:lookup coordinates="43.92312, -71.89203" string="Warren, New Hampshire, United States" uri="http://sws.geonames.org/5094264/">Warren (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.14173, -71.18479" string="Honeymoon Bridge, New Hampshire, United States" uri="http://sws.geonames.org/5087605/">Honeymoon Bridge (Carroll county, New Hampshire : landmark)</ns1:lookup>
+        <ns1:lookup coordinates="42.88897, -73.21539" string="Bennington Battle Monument, Vermont, United States" uri="http://sws.geonames.org/5233745/">Bennington Battle Monument (Bennington county, Vermont : monument)</ns1:lookup>
+        <ns1:lookup string="conway beauty parlor, carroll county, new hampshire">Conway Beauty Parlor (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.92118, -71.32868" string="Big Rock Cave Trail, New Hampshire, United States" uri="http://sws.geonames.org/5083416/">Big Rock Cave (Carroll county, New Hampshire : cave)</ns1:lookup>
+        <ns1:lookup coordinates="42.66592, -71.5884" string="Pepperell, Massachusetts, United States" uri="http://sws.geonames.org/4946990/">Pepperell (Middlesex county, Massachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup string="north conway house, carroll county, new hampshire">North Conway House (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.49035, -72.55315" string="Hammondsville, Vermont, United States" uri="http://sws.geonames.org/5236783/">Hammondsville (Windsor county, Vermont : inhabited place)</ns1:lookup>
+        <ns1:lookup string="walker's brook, grafton county, new hampshire">Walker's Brook (Grafton county, New Hampshire : stream)</ns1:lookup>
+        <ns1:lookup string="umbagog lake, united states, north and central america">Umbagog Lake (United States, North and Central America : lake)</ns1:lookup>
+        <ns1:lookup coordinates="42.76203, -72.51342" string="Vernon, Vermont, United States" uri="http://sws.geonames.org/5242285/">Vernon (Windham county, Vermont : inhabited place)</ns1:lookup>
+        <ns1:lookup string="pythian hall, carroll county, new hampshire">Pythian Hall (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.30229, -71.28119" string="Chandler Brook, New Hampshire, United States" uri="http://sws.geonames.org/5084427/">Stearns Brook (Coos county, New Hampshire : stream)</ns1:lookup>
+        <ns1:lookup string="morse's lodge, coos county, new hampshire">Morse's Lodge (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.85702, -70.10311" string="Freeport, Maine, United States" uri="http://sws.geonames.org/4964867/">Freeport (Cumberland county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.06396, -70.98007" string="West Fryeburg, Maine, United States" uri="http://sws.geonames.org/4982604/">West Fryeburg (Oxford county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.61445, -71.34397" string="Lake Winnipesaukee, New Hampshire, United States" uri="http://sws.geonames.org/5094864/">Winnipesaukee, Lake (New Hampshire : lake)</ns1:lookup>
+        <ns1:lookup coordinates="42.81397, -72.02314" string="Jaffrey, New Hampshire, United States" uri="http://sws.geonames.org/5088061/">Jaffrey (Cheshire county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.76149, -71.31157" string="Ossipee Mountains, New Hampshire, United States" uri="http://sws.geonames.org/5090689/">Ossipee Mountains (Carroll county, New Hampshire : mountain range)</ns1:lookup>
+        <ns1:lookup coordinates="44.59176, -71.26923" string="Cedar Pond, New Hampshire, United States" uri="http://sws.geonames.org/5084348/">Cedar Pond (Coos county, New Hampshire : lake)</ns1:lookup>
+        <ns1:lookup string="edincott rock, belknap county, new hampshire">Edincott Rock (Belknap county, New Hampshire : rock)</ns1:lookup>
+        <ns1:lookup coordinates="44.39423, -70.97285" string="Gilead, Maine, United States" uri="http://sws.geonames.org/4965217/">Gilead (Oxford county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup string="crawford house station, coos county, new hampshire">Crawford House Station (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="silver springs lodge and cabins, carroll county, new hampshire">Silver Springs Lodge and Cabins (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="lakeview inn, belknap county, new hampshire">Lakeview Inn (Belknap county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.35073, -68.24411" string="Acadia National Park, Maine, United States" uri="http://sws.geonames.org/4956449/">Acadia National Park</ns1:lookup>
+        <ns1:lookup string="martha washington profile, coos county, new hampshire">Martha Washington Profile (Coos county,  New Hampshire : rock)</ns1:lookup>
+        <ns1:lookup coordinates="43.96618, -71.83481" string="Breezy Point, New Hampshire, United States" uri="http://sws.geonames.org/5083778/">Breezy Point (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.71229, -72.41759" string="West Hartford, Vermont, United States" uri="http://sws.geonames.org/5242708/">West Hartford (Windsor county, Vermont : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.93811, -71.03535" string="Wilsons Mills, Maine, United States" uri="http://sws.geonames.org/4983281/">Wilsons Mills (Oxford County, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.49147, -71.02312" string="Union, New Hampshire, United States" uri="http://sws.geonames.org/5093975/">Union Village (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="mount washington, the, grafton county, new hampshire">Mount Washington, The (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="steamboat landing, belknap county, new hampshire">Steamboat Landing (Belknap county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.99479, -71.39646" string="Sabbaday Falls, New Hampshire, United States" uri="http://sws.geonames.org/5092038/">Sabbaday Falls (Grafton county, New Hampshire : waterfall)</ns1:lookup>
+        <ns1:lookup coordinates="44.27034, -71.30396" string="Tip-Top House, New Hampshire, United States" uri="http://sws.geonames.org/5093701/">Tip-Top House (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.31451, -71.4923" string="Cherry Mountain, New Hampshire, United States" uri="http://sws.geonames.org/5084500/">Cherry Mountain (Coos county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup coordinates="44.167, -74.53795" string="Tupper Lake, New York, United States" uri="http://sws.geonames.org/5141569/">Tupper Lake (Franklin county, New York state : inhabited place)</ns1:lookup>
+        <ns1:lookup string="isolation hut, coos county, new hampshire">Isolation Hut (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="cape lisburne, north slope division, alaska">Cape Lisburne (North Slope division, Alaska : cape)</ns1:lookup>
+        <ns1:lookup string="dolly copp camp grounds, coos county, new hampshire">Dolly Copp Camp Grounds (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="intervale, carroll county, new hampshire">Intervale(Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="berry's corner, strafford county, new hampshire">Berry's Corner (Strafford county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="rochester city hotel, strafford county, new hampshire">Rochester City Hotel (Strafford county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="strafford corners, coos county, new hampshire">Strafford Corners (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="pearl cascade, grafton county, new hampshire">Pearl Cascade (Grafton county, New Hampshire : waterfall)</ns1:lookup>
+        <ns1:lookup string="mount washington auto road, coos county, new hampshire">Mount Washington Auto Road (Coos county, New Hampshire : road)</ns1:lookup>
+        <ns1:lookup string="lost trail, new hampshire">Lost Trail (New Hampshire : trail)</ns1:lookup>
+        <ns1:lookup coordinates="42.99092, -71.60479" string="Uncanoonuc Mountains, New Hampshire, United States" uri="http://sws.geonames.org/5093921/">Uncanoonuc (Hillsborough county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.99507, -71.34007" string="Passaconaway, New Hampshire, United States" uri="http://sws.geonames.org/5281177/">Passaconaway (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.27062, -71.30424" string="White Mountains, New Hampshire, United States" uri="http://sws.geonames.org/5094627/">White Mountains (New Hampshire : mountains)</ns1:lookup>
+        <ns1:lookup coordinates="44.37534, -71.2798" string="Randolph, New Hampshire, United States" uri="http://sws.geonames.org/5091604/">Randolph (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="columbus, the, grafton county, new hampshire">Columbus, The (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.51175, -71.28729" string="Mount Major, New Hampshire, United States" uri="http://sws.geonames.org/5089172/">Major, Mount (Belknap county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup coordinates="4.19734, 33.1354" string="Dongotona Mountains, Eastern Equatoria, South Sudan" uri="http://sws.geonames.org/382404/">Mountains</ns1:lookup>
+        <ns1:lookup coordinates="44.82439, -70.87084" string="Upper Richardson Lake, Maine, United States" uri="http://sws.geonames.org/4981659/">Upper Richardson Lake (Oxford county, Maine : lake)</ns1:lookup>
+        <ns1:lookup coordinates="44.37147, -68.77531" string="Smith Cove, Maine, United States" uri="http://sws.geonames.org/4978827/">Smith Cove (Hancock county, Maine : bay)</ns1:lookup>
+        <ns1:lookup coordinates="44.40915, -69.00871" string="Belfast Municipal Airport, Maine, United States" uri="http://sws.geonames.org/4957958/">Belfast (Waldo county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup string="waumbek house, coos county, new hampshire">Waumbek House (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.16646, -71.38563" string="Willey House, New Hampshire, United States" uri="http://sws.geonames.org/5094759/">Willey House (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="marshfield house, coos county new hampshire">Marshfield House (Coos county New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="square ledge trail, coos county, new hampshire">Square Ledge Trail (Coos county, New Hampshire : trail)</ns1:lookup>
+        <ns1:lookup coordinates="43.36493, -72.20013" string="Town of Newport, New Hampshire, United States" uri="http://sws.geonames.org/5090267/">Newport (Sullivan county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="spaulding inn, coos county, new hampshire">Spaulding Inn (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.66702, -71.4998" string="New Hampshire, New Hampshire, United States" uri="http://sws.geonames.org/5090174/">New Hampshire (United States : state)</ns1:lookup>
+        <ns1:lookup string="haystack mountain, coos county, merrimack county, grafton county, new hampshire">Haystack Mountain (Coos county, Merrimack county, Grafton county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup coordinates="44.54366, -72.81429" string="Mount Mansfield, Vermont, United States" uri="http://sws.geonames.org/5238283/">Mansfield, Mount (Vermont : mountain)</ns1:lookup>
+        <ns1:lookup coordinates="44.97307, -71.01555" string="Aziscohos Lake, Maine, United States" uri="http://sws.geonames.org/4957043/">Aziscohos Lake (Oxford county, Maine : reservoir)</ns1:lookup>
+        <ns1:lookup string="garlands restaurant and cabins, carroll county, new hampshire">Garlands Restaurant and Cabins (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.07735, -71.2801" string="Josiah Bartlett Elementary School, New Hampshire, United States" uri="http://sws.geonames.org/5088204/">Josiah Bartlett Elementary School (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="raymond, rockingham county, new hampshire">Raymond (Rockingham county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.91924, -70.35811" string="Dry Mills, Maine, United States" uri="http://sws.geonames.org/4962880/">Dry Mills (Cumberland county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup string="rindge, chesire county, new hampshire">Rindge (Chesire county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="mount washington carriage road, coos county, new hampshire">Mount Washington Carriage Road (Coos county, New Hampshire : road)</ns1:lookup>
+        <ns1:lookup coordinates="56.60168, -169.54639" string="Saint George, Alaska, United States" uri="http://sws.geonames.org/5873184/">Saint George (Aleutians West, Alaska : inhabited place)</ns1:lookup>
+        <ns1:lookup string="randall house, carroll county, new hampshire">Randall House (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.31508, -71.62091" string="Boscawen, New Hampshire, United States" uri="http://sws.geonames.org/5083654/">Boscawen (Merrimack county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="camp onaway, grafton county, new hampshire">Camp Onaway (Grafton county, New Hampshire : summer camp)</ns1:lookup>
+        <ns1:lookup string="wonalancet outdoor club trail, carroll county, new hampshire">Wonalancet Outdoor Club Trail (Carroll county, New Hampshire : trail)</ns1:lookup>
+        <ns1:lookup coordinates="44.10451, -71.17229" string="Ellis River, New Hampshire, United States" uri="http://sws.geonames.org/5085854/">Ellis River (New Hampshire : river)</ns1:lookup>
+        <ns1:lookup coordinates="44.63322, -71.23624" string="Pontook Reservoir, New Hampshire, United States" uri="http://sws.geonames.org/5091363/">Pontook Reservoir (Coos county, New Hampshire : reservoir)</ns1:lookup>
+        <ns1:lookup coordinates="28.8278, -81.3162" string="Central Florida Zoo and Botanical Gardens, Florida, United States" uri="http://sws.geonames.org/6949564/">Florida (United States, North and Central America : state)</ns1:lookup>
+        <ns1:lookup coordinates="44.85977, -71.29397" string="Dixville Notch State Park, New Hampshire, United States" uri="http://sws.geonames.org/5085447/">Dixville Notch (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.07535, -71.11757" string="Kearsarge, New Hampshire, United States" uri="http://sws.geonames.org/5088229/">Kearsarge (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="monadnock mountain, cheshire county, new hampshire">Monadnock Mountain (Cheshire county, New Hampshire : mountain)</ns1:lookup>
+        <ns1:lookup coordinates="42.24177, -70.88977" string="Hingham, Massachusetts, United States" uri="http://sws.geonames.org/4939549/">Hingham (Plymouth county, Massachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.9058, -71.4321" string="The Balsams Grand Resort Hotel, New Hampshire, United States" uri="http://sws.geonames.org/6523594/">The Balsams (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.08368, -71.49369" string="Mount Hancock, New Hampshire, United States" uri="http://sws.geonames.org/5087160/">Pemigewasset, Mount (Grafton county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup coordinates="43.61445, -71.34397" string="Lake Winnipesaukee, New Hampshire, United States" uri="http://sws.geonames.org/5094864/">Winnipesaukee, Lake (New Hampshire, United States : lake)</ns1:lookup>
+        <ns1:lookup coordinates="44.1159, -71.64203" string="Mount Liberty, New Hampshire, United States" uri="http://sws.geonames.org/5088662/">Liberty, Mount (Grafton county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup string="senter house, belknap county, new hampshire">Senter House (Belknap county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="42.07205, -70.22058" string="Provincetown Municipal Airport, Massachusetts, United States" uri="http://sws.geonames.org/4948092/">Provincetown (Barnstable county, Massachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup string="imp, mount, coos county, new hampshire">Imp, Mount (Coos county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup string="hanover inn, grafton count, new hampshire">Hanover Inn (Grafton count, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.63785, -68.84504" string="Winterport, Maine, United States" uri="http://sws.geonames.org/4983348/">Winterport (Waldo county, Maine : transport point)</ns1:lookup>
+        <ns1:lookup string="saco river, united states">Saco River (United States : river)</ns1:lookup>
+        <ns1:lookup coordinates="44.56396, -68.80587" string="Fort Knox State Historic Site, Maine, United States" uri="http://sws.geonames.org/4964643/">Fort Knox (Waldo county, Maine : historic site)</ns1:lookup>
+        <ns1:lookup string="cradle rock, worcester county, massachusetts">Cradle Rock (Worcester county, Massachusetts : rock)</ns1:lookup>
+        <ns1:lookup coordinates="42.79569, -70.84187" string="Plum Island Airport, Massachusetts, United States" uri="http://sws.geonames.org/4947583/">Plum Island (Essex county, Massachusetts : island)</ns1:lookup>
+        <ns1:lookup coordinates="44.25837, -71.3176" string="Lakes of the Clouds, New Hampshire, United States" uri="http://sws.geonames.org/5084715/">Lakes of the Clouds (Coos county, New Hampshire : lake)</ns1:lookup>
+        <ns1:lookup coordinates="44.65505, -71.55564" string="Stratford, New Hampshire, United States" uri="http://sws.geonames.org/5093242/">Stratford (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.53007, -72.73871" string="Plymouth Union, Vermont, United States" uri="http://sws.geonames.org/5239910/">Plymouth Union (Windsor county, Vermont : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="42.45232, -71.137" string="Winchester, Massachusetts, United States" uri="http://sws.geonames.org/4955884/">Winchester (Middlesex county, Massachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.33079, -72.25935" string="Peacham Pond, Vermont, United States" uri="http://sws.geonames.org/5239686/">Peacham Pond (Caledonia county, Vermont : reservoir)</ns1:lookup>
+        <ns1:lookup coordinates="41.9001, -71.08977" string="Taunton, Massachusetts, United States" uri="http://sws.geonames.org/4952629/">Taunton (Bristol county, Massachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup string="intervale (carroll county, new hampshire : inhabited place) new hampshire (united states : state) dublin (cheshire county, new hampshire : inhabited place) north conway (carroll county, new hampshire : inhabited place) cornish (york county, maine : inhabited place) peterborough (hillsborough county, new hampshire : inhabited place) bethlehem (grafton county, new hampshire : inhabited place) wilton (hillsborough county, new hampshire : inhabited place) portsmouth (rockingham county, new hampshire : inhabited place) center harbor (belknap county, new hampshire : inhabited place) lake winnipesaukee (new hampshire : lake) antrim (hillsborough county, new hampshire : inhabited place) enfield (grafton county, new hampshire : inhabited place) rye (rockingham county, new hampshire : inhabited place) pemigewasset valley branch, grafton county, new hampshire">Intervale (Carroll county, New Hampshire : inhabited place) New Hampshire (United States : state) Dublin (Cheshire county, New Hampshire : inhabited place) North Conway (Carroll county, New Hampshire : inhabited place) Cornish (York county, Maine : inhabited place) Peterborough (Hillsborough county, New Hampshire : inhabited place) Bethlehem (Grafton county, New Hampshire : inhabited place) Wilton (Hillsborough county, New Hampshire : inhabited place) Portsmouth (Rockingham county, New Hampshire : inhabited place) Center Harbor (Belknap county, New Hampshire : inhabited place) Lake Winnipesaukee (New Hampshire : lake) Antrim (Hillsborough county, New Hampshire : inhabited place) Enfield (Grafton county, New Hampshire : inhabited place) Rye (Rockingham county, New Hampshire : inhabited place) Pemigewasset Valley Branch (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="lake view farm, grafton county, new hampshire">Lake View Farm (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="fairview house, grafton county, new hampshire">Fairview House (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="cave mountain, carroll county, coos county, new hampshire">Cave Mountain (Carroll county, Coos county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup coordinates="43.93813, -70.90868" string="Brownfield, Maine, United States" uri="http://sws.geonames.org/4959433/">Brownfield (Oxford county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.61062, -72.97261" string="Rutland, Vermont, United States" uri="http://sws.geonames.org/5240509/">Rutland (Rutland county, Vermont : inhabited place)</ns1:lookup>
+        <ns1:lookup string="the balsams winter inn, coos county, new hampshire">The Balsams Winter Inn (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="bartett, carroll county, new hampshire">Bartett (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.15645, -71.69842" string="Cannon Mountain, New Hampshire, United States" uri="http://sws.geonames.org/5084179/">Cannon Mountain (Grafton county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup string="Walking sticks">Walking sticks</ns1:lookup>
+        <ns1:lookup coordinates="43.13397, -70.92645" string="Durham, New Hampshire, United States" uri="http://sws.geonames.org/5085618/">Durham (Strafford county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="45.02214, -123.97223" string="US Route 101 Northbound entrance from Oregon Route 18, Oregon, United States" uri="http://sws.geonames.org/11819477/">Route 18</ns1:lookup>
+        <ns1:lookup coordinates="44.59867, -71.5112" string="Groveton, New Hampshire, United States" uri="http://sws.geonames.org/5086978/">Groveton (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.04562, -71.67008" string="Lincoln, New Hampshire, United States" uri="http://sws.geonames.org/5088693/">Lincoln (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.2298, -68.69142" string="Northwest Harbor, Maine, United States" uri="http://sws.geonames.org/4973796/">Northwest Harbor (Hancock county, Maine : harbor)</ns1:lookup>
+        <ns1:lookup coordinates="44.16146, -71.19591" string="Eagle Mountain, New Hampshire, United States" uri="http://sws.geonames.org/5085644/">Eagle Mountain (Carroll county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup string="crawford notch state park, new hampshire">Crawford Notch State Park (New Hampshire : state park)</ns1:lookup>
+        <ns1:lookup string="maplewood cottage, grafton county, new hampshire">Maplewood Cottage (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.32173, -71.30035" string="Mount Sam Adams, New Hampshire, United States" uri="http://sws.geonames.org/5092318/">Sam Adams, Mount (Coos county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup coordinates="44.23062, -71.07785" string="South Baldface, New Hampshire, United States" uri="http://sws.geonames.org/5092850/">South Baldface (Carroll county, New Hampshire : mountain)</ns1:lookup>
+        <ns1:lookup string="what not, carroll county, new hampshire">What Not (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="milton, strafford county, new hampshire">Milton (Strafford county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="moat view cottage, carroll county, new hampshire">Moat View Cottage (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="-6.46667, -38.76667" uri="http://sws.geonames.org/3387720/" /><ns1:lookup coordinates="43.03091, -71.93897" string="Antrim, New Hampshire, United States" uri="http://sws.geonames.org/5082698/">Antrim (Hillsborough county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.51731, -70.37755" string="Old Orchard Beach, Maine, United States" uri="http://sws.geonames.org/4974194/">Old Orchard Beach (York county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.70229, -72.28954" string="Hanover, New Hampshire, United States" uri="http://sws.geonames.org/5087168/">Hanover (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="42.12371, -71.17866" string="Sharon, Massachusetts, United States" uri="http://sws.geonames.org/4950654/">Sharon (Norfolk county, Massachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup string="silver lake hotel, carroll county, new hampshire">Silver Lake Hotel (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.21758, -72.73982" string="North Windham, Vermont, United States" uri="http://sws.geonames.org/5239267/">North Windham (Windham county, Vermont : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.77862, -70.89344" string="Lower Richardson Lake, Maine, United States" uri="http://sws.geonames.org/4970762/">Lower Richardson Lake (Oxford county, Maine : reservoir)</ns1:lookup>
+        <ns1:lookup string="locke falls cottage, strafford county, new hampshire">Locke Falls Cottage (Strafford county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.02257, -71.00535" string="East Conway, New Hampshire, United States" uri="http://sws.geonames.org/5085690/">East Conway (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="42.76564, -73.23594" string="Pownal, Vermont, United States" uri="http://sws.geonames.org/5239997/">Pownal (Bennington county. Vermont : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.36757, -71.54553" string="Mount Washington Regional Airport, New Hampshire, United States" uri="http://sws.geonames.org/5089919/">Washington, Mount (Coos county, New Hampshire : mountain)</ns1:lookup>
+        <ns1:lookup coordinates="45.05116, -71.39147" string="Pittsburg, New Hampshire, United States" uri="http://sws.geonames.org/5091247/">Pittsburg (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="ammonoosuc ravine trail, new hampshire">Ammonoosuc Ravine Trail (New Hampshire : trail)</ns1:lookup>
+        <ns1:lookup string="Arctic Ocean (ocean)">Arctic Ocean (ocean)</ns1:lookup>
+        <ns1:lookup coordinates="43.84146, -70.62117" string="Long Beach, Maine, United States" uri="http://sws.geonames.org/4970285/">Long Beach (Cumberland county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.05231, -70.73339" string="Wentworth Golf Club, New Hampshire, United States" uri="http://sws.geonames.org/5094421/">The Wentworth (Rockingham county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="Earle Dwelly Town Shop">Earle Dwelly Town Shop</ns1:lookup>
+        <ns1:lookup coordinates="43.62036, -70.73534" string="North Waterboro, Maine, United States" uri="http://sws.geonames.org/4973711/">North Waterboro (York county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="42.70286, -73.16011" string="Blackington Historic District, Massachusetts, United States" uri="http://sws.geonames.org/4930723/">Blackington (Berkshire county, Massachusetts : neighborhood)</ns1:lookup>
+        <ns1:lookup coordinates="44.15117, -72.6565" string="Northfield, Vermont, United States" uri="http://sws.geonames.org/5239281/">Northfield (Washington county, Vermont : inhabited place)</ns1:lookup>
+        <ns1:lookup string="wakefield, carroll county, new hampshire">Wakefield (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="rocky birch, grafton county, new hampshire">Rocky Birch (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.52424, -71.70091" string="Hill, New Hampshire, United States" uri="http://sws.geonames.org/5087435/">Hill (Merrimack county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="glen road, coos county, new hampshire">Glen Road (Coos county, New Hampshire : road)</ns1:lookup>
+        <ns1:lookup string="carter-moriah range, coos county, new hampshire">Carter-Moriah Range (Coos county, New Hampshire : mountain range)</ns1:lookup>
+        <ns1:lookup coordinates="44.18118, -71.69758" string="Artists Bluff, New Hampshire, United States" uri="http://sws.geonames.org/5082746/">Artists Bluff (Grafton county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup string="lizzie bourne monument, coos county, new hampshire">Lizzie Bourne Monument (Coos county, New Hampshire : monument)</ns1:lookup>
+        <ns1:lookup string="wentworth hall and cottages, carroll county, new hampshire">Wentworth Hall and Cottages (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="merrymeeting river, new hampshire">Merrymeeting River (New Hampshire : river)</ns1:lookup>
+        <ns1:lookup string="malden, middlesex county, massachusetts">Malden (Middlesex county, Massachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.41117, -72.13926" string="Danville, Vermont, United States" uri="http://sws.geonames.org/5235353/">Danville (Caledonia county, Vermont : inhabited place)</ns1:lookup>
+        <ns1:lookup string="mount vernon house, hillsborough county, new hampshire">Mount Vernon House (Hillsborough county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="new hampshire state parks new hampshire, united states">New Hampshire State Parks New Hampshire (United States : state)</ns1:lookup>
+        <ns1:lookup coordinates="43.81814, -69.57088" string="Damariscotta River, Maine, United States" uri="http://sws.geonames.org/4962074/">Damariscotta River (Lincoln county, Maine : river)</ns1:lookup>
+        <ns1:lookup coordinates="43.88118, -70.79117" string="East Hiram, Maine, United States" uri="http://sws.geonames.org/4963283/">East Hiram (Oxford county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="42.33065, -71.1995" string="Newton Center, Massachusetts, United States" uri="http://sws.geonames.org/4945289/">Newton Center (Middlesex county, Massachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup string="beaver brook path, coos county, new hampshire">Beaver Brook Path (Coos county, New Hampshire : trail)</ns1:lookup>
+        <ns1:lookup coordinates="44.16451, -71.01118" string="Chatham, New Hampshire, United States" uri="http://sws.geonames.org/5084489/">Chatham (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="agassiz basin, grafton county, new hampshire">Agassiz Basin (Grafton county, New Hampshire : basin)</ns1:lookup>
+        <ns1:lookup coordinates="39.60678, -75.83327" string="Elkton, Maryland, United States" uri="http://sws.geonames.org/4354234/">Elkton (Cecil county, Maryland : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.83245, -72.23481" string="Lake Abenaki, Vermont, United States" uri="http://sws.geonames.org/5237766/">Abenaki</ns1:lookup>
+        <ns1:lookup coordinates="44.05453, -71.1601" string="Echo Lake, New Hampshire, United States" uri="http://sws.geonames.org/5085802/">Echo Lake (Carroll county, New Hampshire : lake)</ns1:lookup>
+        <ns1:lookup coordinates="43.10758, -71.9098" string="North Branch River, New Hampshire, United States" uri="http://sws.geonames.org/5090325/">North Branch (Hillsborough county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="42.87064, -71.95175" string="Peterborough, New Hampshire, United States" uri="http://sws.geonames.org/5091002/">Peterborough (Hillsborough county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="41.90205, -69.96891" string="Camp Wellfleet Dunes, Massachusetts, United States" uri="http://sws.geonames.org/4932158/">Camp Wellfleet Dunes (Barnstable county, Massachusetts : dunes)</ns1:lookup>
+        <ns1:lookup coordinates="43.76326, -71.7008" string="Plymouth Regional High School, New Hampshire, United States" uri="http://sws.geonames.org/5091317/">Plymouth High School (Grafton county, New Hampshire :  school)</ns1:lookup>
+        <ns1:lookup string="marblehead, essex county, masssachusetts">Marblehead (Essex county, Masssachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="-7.57286, 36.10884" string="Image, Iringa, Tanzania" uri="http://sws.geonames.org/11004315/">image</ns1:lookup>
+        <ns1:lookup string="carter lakes, coos county, new hampshire">Carter Lakes (Coos county, New Hampshire : ponds)</ns1:lookup>
+        <ns1:lookup string="jackson trail, carroll county, new hampshire">Jackson Trail (Carroll county, New Hampshire : trail)</ns1:lookup>
+        <ns1:lookup coordinates="44.0934, -71.44758" string="Mount Carrigain, New Hampshire, United States" uri="http://sws.geonames.org/5084245/">Carrigan, Mount (Grafton county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup coordinates="43.83313, -70.77784" string="West Baldwin, Maine, United States" uri="http://sws.geonames.org/4982440/">West Baldwin (Cumberland county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup string="strafford hills, coos county, new hampshire">Strafford Hills (Coos county, New Hampshire : hill)</ns1:lookup>
+        <ns1:lookup coordinates="44.22451, -70.31839" string="East Hebron, Maine, United States" uri="http://sws.geonames.org/4963290/">East Hebron (Androscoggin county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.15785, -71.18313" string="Great Brook, New Hampshire, United States" uri="http://sws.geonames.org/5086829/">Great Brook (Carroll county, New Hampshire : stream)</ns1:lookup>
+        <ns1:lookup coordinates="44.38147, -68.81892" string="Dice Head Light (historical), Maine, United States" uri="http://sws.geonames.org/4962522/">Dice Head Light (Hancock county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup string="shoal pond, grafton county, new hampshire">Shoal Pond (Grafton county, New Hampshire : lake)</ns1:lookup>
+        <ns1:lookup string="first connecticut lake, coos county, new hampshire">First Connecticut Lake (Coos county, New Hampshire : lake)</ns1:lookup>
+        <ns1:lookup coordinates="43.03342, -71.07423" string="Epping, New Hampshire, United States" uri="http://sws.geonames.org/5085913/">Epping (Rockingham county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.05368, -71.1284" string="North Conway, New Hampshire, United States" uri="http://sws.geonames.org/5090347/">North Conway (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="jackman's falls, grafton county, new hampshire">Jackman's Falls (Grafton county, New Hampshire : waterfall)</ns1:lookup>
+        <ns1:lookup coordinates="44.21534, -71.79953" string="Sugar Hill, New Hampshire, United States" uri="http://sws.geonames.org/5093309/">Sugar Hill (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="flume house, grafton county, new hampshire">Flume House (Grafton county, New Hampshire : inhabited place)
+Franconia (Grafton county, New Hampshire : inhabited place)
+Silver Lake (Carroll county, New Hampshire : lake)
+Madison (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="-18.24728, 177.83456" string="Women Hill, Central, Fiji" uri="http://sws.geonames.org/11104763/">Women</ns1:lookup>
+        <ns1:lookup coordinates="42.63759, -72.24814" string="Tully, Massachusetts, United States" uri="http://sws.geonames.org/4953410/">Tully (Franklin county, Massachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup string="taunton, bristol county, massachuesetts">Taunton (Bristol county, Massachuesetts : inhabited place)</ns1:lookup>
+        <ns1:lookup string="international paper company plant, coos county, new hampshire">International Paper Company Plant (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="big island, merrimack county, new hampshire">Big Island (Merrimack county, New Hampshire : island)</ns1:lookup>
+        <ns1:lookup coordinates="41.33484, -70.73697" string="Wequobsque Cliffs, Massachusetts, United States" uri="http://sws.geonames.org/4954815/">Cliffs</ns1:lookup>
+        <ns1:lookup coordinates="43.56476, -70.19888" string="Cape Elizabeth, Maine, United States" uri="http://sws.geonames.org/4963657/">Cape Elizabeth (Cumberland county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.16034, -71.7237" string="Bridalveil Falls, New Hampshire, United States" uri="http://sws.geonames.org/5083800/">Bridal Veil Falls (Grafton county, New Hampshire : cascade)</ns1:lookup>
+        <ns1:lookup string="indian leap, grafton county, new hampshire">Indian Leap (Grafton county, New Hampshire : rock)</ns1:lookup>
+        <ns1:lookup string="middle mountain, carroll county, new hampshire">Middle Mountain (Carroll county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup string="mount washington cog railway mount whittier station, carroll county, new hampshire">Mount Washington Cog Railway Mount Whittier Station (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.21479, -71.30924" string="Mount Isolation, New Hampshire, United States" uri="http://sws.geonames.org/5088020/">Isolation, Mount (Coos county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup coordinates="43.62424, -72.51843" string="Woodstock, Vermont, United States" uri="http://sws.geonames.org/5243145/">Woodstock (Windsor county, Vermont : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="30.65, 113.1" string="Jingling, Hubei, China" uri="http://sws.geonames.org/1805618/">Men</ns1:lookup>
+        <ns1:lookup coordinates="44.18201, -71.39952" string="Willey House Camps, New Hampshire, United States" uri="http://sws.geonames.org/5094769/">Willey House Camps (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="45.23371, -70.98604" string="Thrasher Peaks, Maine, United States" uri="http://sws.geonames.org/4980714/">Thrasher Peaks (Oxford county, Maine : peak)</ns1:lookup>
+        <ns1:lookup coordinates="32.95505, -117.11726" string="Views West Park, California, United States" uri="http://sws.geonames.org/5406310/">Views</ns1:lookup>
+        <ns1:lookup coordinates="42.89175, -71.31201" string="Derry Village, New Hampshire, United States" uri="http://sws.geonames.org/5085382/">Derry (Rockingham county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="bear mountain notch, new hampshire">Bear Mountain Notch (New Hampshire : trail)</ns1:lookup>
+        <ns1:lookup string="clarendon, the, carroll county, new hampshire">Clarendon, The (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="41.74816, -71.18977" string="Swansea, Massachusetts, United States" uri="http://sws.geonames.org/4952487/">Swansea (Bristol county, Massachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup string="sunset hill house, carroll county, new hampshire">Sunset Hill House (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="blazed trail, new hampshire">Blazed Trail (New Hampshire : trail)</ns1:lookup>
+        <ns1:lookup coordinates="44.32451, -69.86033" string="Manchester, Maine, United States" uri="http://sws.geonames.org/4971094/">Manchester (Kennebec county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.01342, -70.77089" string="Rye, New Hampshire, United States" uri="http://sws.geonames.org/5092018/">Rye (Rockingham county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.14812, -71.18118" string="Jackson Falls, New Hampshire, United States" uri="http://sws.geonames.org/5088057/">Jackson Falls (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="troy, chesire county, new hampshire">Troy (Chesire county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="oak birch inn, belknap county, new hampshire">Oak Birch Inn (Belknap county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.57869, -71.73952" string="Roundtop, New Hampshire, United States" uri="http://sws.geonames.org/5091955/">Roundtop (Grafton county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup coordinates="44.25812, -71.44119" string="Bretton Woods, New Hampshire, United States" uri="http://sws.geonames.org/5083784/">Bretton Woods (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="the eastman inn, carroll county, new hampshire">The Eastman Inn (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="the cow, carroll county, new hampshire">The Cow (Carroll county, New Hampshire : rock)</ns1:lookup>
+        <ns1:lookup string="massachusetts (united states : state)massachusetts, united states">Massachusetts (United States : state)Massachusetts (United States : state)</ns1:lookup>
+        <ns1:lookup string="Comeau's Canoe House">Comeau's Canoe House</ns1:lookup>
+        <ns1:lookup coordinates="44.9581, -71.29536" string="Diamond Ridge, New Hampshire, United States" uri="http://sws.geonames.org/5085410/">Diamond Ridge (Coos county, New Hampshire : ridge)</ns1:lookup>
+        <ns1:lookup string="the guillotine, grafton county, new hampshire">The Guillotine (Grafton county, New Hampshire : rock)</ns1:lookup>
+        <ns1:lookup coordinates="43.7548, -71.39674" string="Moultonborough, New Hampshire, United States" uri="http://sws.geonames.org/5089850/">Moultonborough (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="crawford notch depot, coos county, new hampshire">Crawford Notch Depot (Coos county, New Hampshire : railroad station)</ns1:lookup>
+        <ns1:lookup coordinates="42.31954, -71.64118" string="Northborough, Massachusetts, United States" uri="http://sws.geonames.org/4945840/">Northborough (Worcester county, Massachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="42.4201, -71.13033" string="Medford Public Library, Massachusetts, United States" uri="http://sws.geonames.org/4943639/">Medford Public Library (Middlesex county, Massachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup string="mount lafayette, grafton county, new hampshire">Mount Lafayette (Grafton county, New Hampshire : mountain)</ns1:lookup>
+        <ns1:lookup coordinates="43.70428, -71.51147" string="Town of Center Harbor, New Hampshire, United States" uri="http://sws.geonames.org/5084381/">Center Harbor (Belknap county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="turkey mountain, windham county, vermont">Turkey Mountain (Windham county, Vermont : peak)</ns1:lookup>
+        <ns1:lookup string="carter range, coos county, new hampshire">Carter Range (Coos county, New Hampshire : mountain range)</ns1:lookup>
+        <ns1:lookup string="howards general store, carroll county, new hampshire">Howards General Store (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="42.39593, -71.12255" string="West Somerville, Massachusetts, United States" uri="http://sws.geonames.org/4955085/">West Somerville (Middlesex county, Massachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup string="massachusetts, united states">Massachusetts (United States : state)</ns1:lookup>
+        <ns1:lookup coordinates="44.47117, -71.20091" string="Mount Forest, New Hampshire, United States" uri="http://sws.geonames.org/5086270/">Forest, Mount (Coos county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup coordinates="44.88856, -72.22526" string="Newport State Airport, Vermont, United States" uri="http://sws.geonames.org/5239066/">Newport (Orleans county, Vermont : inhabited place)</ns1:lookup>
+        <ns1:lookup string="swift river valley, carroll county, new hampshire">Swift River Valley (Carroll county, New Hampshire : valley)</ns1:lookup>
+        <ns1:lookup coordinates="44.11035, -70.67923" string="Harrison, Maine, United States" uri="http://sws.geonames.org/4966598/">Harrison (Cumberland county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.21396, -70.54478" string="Norway, Maine, United States" uri="http://sws.geonames.org/4973840/">Norway (Oxford county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.76674, -71.28674" string="Gulf Brook, New Hampshire, United States" uri="http://sws.geonames.org/5087001/">Gulf Brook (Carroll county, New Hampshire : stream)</ns1:lookup>
+        <ns1:lookup coordinates="44.47145, -71.03897" string="Mount Success, New Hampshire, United States" uri="http://sws.geonames.org/5093295/">Success, Mount (Coos county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup string="reynolds, the, grafton county, new hampshire">Reynolds, The (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="presidential inn, carroll county, new hampshire">Presidential Inn (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="dezhneva, mys, chukotskiy avtonomnyy okrug, rossiya republic">Dezhneva, Mys (Chukotskiy Avtonomnyy Okrug, Rossiya republic : cape)</ns1:lookup>
+        <ns1:lookup coordinates="44.25895, -71.20146" string="Wildcat Mountain, New Hampshire, United States" uri="http://sws.geonames.org/5094738/">Wildcat Mountain (Coos county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup coordinates="44.38784, -71.17313" string="Gorham, New Hampshire, United States" uri="http://sws.geonames.org/5086700/">Gorham (Coos County, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.07618, -71.18063" string="Dianas Baths, New Hampshire, United States" uri="http://sws.geonames.org/5085412/">Dianas Baths (Carroll county, New Hampshire: spring)</ns1:lookup>
+        <ns1:lookup coordinates="44.02785, -70.3595" string="Poland Spring, Maine, United States" uri="http://sws.geonames.org/4975614/">Poland Spring (Androscoggin county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="42.71882, -71.51098" string="Main Dunstable Elementary School, New Hampshire, United States" uri="http://sws.geonames.org/5089164/">Dunstable (Hillsborough county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="agassiz house, grafton county, new hampshire">Agassiz House (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="bartlett house, carroll county, new hampshire">Bartlett House (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.43923, -71.27035" string="Black Crescent Mountain, New Hampshire, United States" uri="http://sws.geonames.org/5083484/">Black Mountain (Coos county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup coordinates="44.36617, -71.28174" string="Randolph Trail, New Hampshire, United States" uri="http://sws.geonames.org/5091608/">Randolph Path (Coos county, New Hampshire : trail)</ns1:lookup>
+        <ns1:lookup string="falls of songs, carroll county, new hampshire">Falls of Songs (Carroll county, New Hampshire : waterfall)</ns1:lookup>
+        <ns1:lookup string="northwater gap, monroe county, pennsylvania">Northwater Gap (Monroe county, Pennsylvania : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="42.37649, -71.23561" string="Waltham, Massachusetts, United States" uri="http://sws.geonames.org/4954380/">Waltham (Middlesex county, Massachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.57369, -68.79559" string="Bucksport, Maine, United States" uri="http://sws.geonames.org/4959551/">Bucksport (Hancock county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="42.72648, -70.81616" string="Rowley River, Massachusetts, United States" uri="http://sws.geonames.org/4949149/">Rowley River (Essex county, Massachusetts : river)</ns1:lookup>
+        <ns1:lookup string="Steamer 'Lady of the Lake'">Steamer 'Lady of the Lake'</ns1:lookup>
+        <ns1:lookup string="weetamoo rock, grafton county, new hampshire">Weetamoo Rock (Grafton county, New Hampshire : rock)</ns1:lookup>
+        <ns1:lookup coordinates="43.16702, -72.37953" string="Langdon, New Hampshire, United States" uri="http://sws.geonames.org/5088542/">Langdon (Sullivan county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="south hiram, oxford county, maine">South Hiram (Oxford county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup string="biddeford, york county, new hampshire">Biddeford (York county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.99479, -71.0609" string="Center Conway, New Hampshire, United States" uri="http://sws.geonames.org/5084372/">Center Conway (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.26034, -71.2873" string="Hermit Lake, New Hampshire, United States" uri="http://sws.geonames.org/5087384/">Hermit Lake (Coos county, New Hampshire : lake)</ns1:lookup>
+        <ns1:lookup string="dublin, cheshire county, new hampshire">Dublin (Cheshire county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="-44.62835, 168.27006" string="Lake Unknown, Otago, New Zealand" uri="http://sws.geonames.org/6204277/">Unknown</ns1:lookup>
+        <ns1:lookup coordinates="44.2984, -71.54064" string="Carroll, New Hampshire, United States" uri="http://sws.geonames.org/5084246/">Carroll (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.55367, -70.5509" string="Rumford, Maine, United States" uri="http://sws.geonames.org/4977125/">Rumford (Oxford county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup string="wonalancet valley, carroll county, new hampshire">Wonalancet Valley (Carroll county, New Hampshire : valley)</ns1:lookup>
+        <ns1:lookup coordinates="43.8734, -72.58427" string="East Bethel, Vermont, United States" uri="http://sws.geonames.org/5235647/">East Bethel (Windsor county, Vermont : inhabited place)</ns1:lookup>
+        <ns1:lookup string="new exchange house, rockingham county, new hampshire">New Exchange House (Rockingham county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.27034, -71.30369" string="Summit House, New Hampshire, United States" uri="http://sws.geonames.org/5093343/">Summit House (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="42.81259, -70.87728" string="Newburyport, Massachusetts, United States" uri="http://sws.geonames.org/4945256/">Newburyport (Essex county, Massachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup string="park view, the, grafton county, new hampshire">Park View, The (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="mayhew program, grafton county, new hampshire">Mayhew Program (Grafton county, New Hampshire : summer camp)</ns1:lookup>
+        <ns1:lookup coordinates="44.26645, -71.6762" string="Mount Agassiz, New Hampshire, United States" uri="http://sws.geonames.org/5082545/">Agassiz, Mount (Grafton county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup string="randolph mountain club massachusetts, united states">Randolph Mountain Club Massachusetts (United States : state)</ns1:lookup>
+        <ns1:lookup coordinates="42.9787, -71.07284" string="Brentwood, New Hampshire, United States" uri="http://sws.geonames.org/5083780/">Brentwood (Rockingham county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="42.46954, -70.92727" string="East Lynn, Massachusetts, United States" uri="http://sws.geonames.org/4935441/">East Lynn (Essex county, Massachusetts : neighborhood)</ns1:lookup>
+        <ns1:lookup string="brown paper company cascade mill, coos county, new hampshire">Brown Paper Company Cascade Mill (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.25646, -70.25617" string="Turner, Maine, United States" uri="http://sws.geonames.org/4981250/">Turner (Androscoggin county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.07424, -71.14007" string="Intervale, New Hampshire, United States" uri="http://sws.geonames.org/5087992/">Intervale (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.72451, -72.45621" string="Millbrook, Vermont, United States" uri="http://sws.geonames.org/5238601/">Millbrook (Windsor county, Vermont : inhabited place)</ns1:lookup>
+        <ns1:lookup string="newry, oxford county, maine">Newry (Oxford county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup string="sanbornville junction, carroll county, new hamsphire">Sanbornville Junction (Carroll county, New Hamsphire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.13646, -71.33257" string="Mount Crawford, New Hampshire, United States" uri="http://sws.geonames.org/5085079/">Crawford, Mount (Coos county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup string="dingmaul rock, coos county, new hampshire">Dingmaul Rock (Coos county, New Hampshire : rock)</ns1:lookup>
+        <ns1:lookup string="north conway (carroll county, new hampshire : inhabited place) presidential inn, carroll county, new hampshire">North Conway (Carroll county, New Hampshire : inhabited place) Presidential Inn (Carroll county, New Hampshire : inhabited place) Putney Store Company</ns1:lookup>
+        <ns1:lookup coordinates="44.40784, -71.53758" string="Bray Hill, New Hampshire, United States" uri="http://sws.geonames.org/5083766/">Bray Hill (Coos county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup string="rockingham hotel, rockingham county, new hampshire">Rockingham Hotel (Rockingham county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.88563, -70.33172" string="Gray, Maine, United States" uri="http://sws.geonames.org/4965671/">Gray (Cumberland county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.88813, -71.17535" string="Silver Lake, New Hampshire, United States" uri="http://sws.geonames.org/5092672/">Silver Lake (Carroll county, New Hampshire : lake)</ns1:lookup>
+        <ns1:lookup coordinates="44.0434, -71.3148" string="Bear Notch, New Hampshire, United States" uri="http://sws.geonames.org/5083149/">Bear Mountain Notch (Carroll county, New Hampshire : trail)</ns1:lookup>
+        <ns1:lookup string="table rocks, coos county, new hampshire">Table Rocks (Coos county, New Hampshire : landmark)</ns1:lookup>
+        <ns1:lookup coordinates="44.18873, -70.67823" string="McWain Pond, Maine, United States" uri="http://sws.geonames.org/4971617/">Long Pond (Oxford county, Maine : lake)</ns1:lookup>
+        <ns1:lookup coordinates="43.48924, -71.5823" string="Sanbornton, New Hampshire, United States" uri="http://sws.geonames.org/5092338/">Sanbornton (Belknap county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="42.67092, -72.54953" string="Bernardston, Massachusetts, United States" uri="http://sws.geonames.org/4930437/">Bernardston (Franklin county, Massachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.33147, -71.11506" string="Blue Job Mountain, New Hampshire, United States" uri="http://sws.geonames.org/5083581/">Blue Job Mountain (Strafford county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup coordinates="43.78479, -71.66841" string="Livermore Falls, New Hampshire, United States" uri="http://sws.geonames.org/5088871/">Livermore Falls (Grafton county, New Hampshire : waterfall)</ns1:lookup>
+        <ns1:lookup coordinates="43.97618, -71.28702" string="Champney Falls Trail, New Hampshire, United States" uri="http://sws.geonames.org/5084425/">Champney Falls Trail (Carroll county, New Hampshire : trail)</ns1:lookup>
+        <ns1:lookup coordinates="44.06118, -71.17035" string="Echo Lake-Cathedral Ledge State Park, New Hampshire, United States" uri="http://sws.geonames.org/5085805/">Cathedral Ledge (Carroll county, New Hampshire: peak)</ns1:lookup>
+        <ns1:lookup coordinates="43.56868, -71.92758" string="East Grafton, New Hampshire, United States" uri="http://sws.geonames.org/5085701/">East Grafton (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="odd fellows hall, carroll county, new hampshire">Odd Fellows Hall (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="point lay, north slope division, alaska">Point Lay (North Slope division, Alaska : inhabited place)</ns1:lookup>
+        <ns1:lookup string="gale river road, grafton county, new hampshire">Gale River Road (Grafton county, New Hampshire : road)</ns1:lookup>
+        <ns1:lookup string="ossipee range, carroll county, new hampshire">Ossipee Range (Carroll county, New Hampshire : ridge)</ns1:lookup>
+        <ns1:lookup string="cold spring hill, coos county, new hampshire">Cold Spring Hill (Coos county, New Hampshire : hill)</ns1:lookup>
+        <ns1:lookup coordinates="44.43228, -71.35952" string="Upper Ammonoosuc Trail, New Hampshire, United States" uri="http://sws.geonames.org/5093996/">Ammonoosuc Trail (Coos county, New Hampshire : trail)</ns1:lookup>
+        <ns1:lookup coordinates="32.78764, -94.03102" string="Trees, Louisiana, United States" uri="http://sws.geonames.org/4343818/">Trees</ns1:lookup>
+        <ns1:lookup coordinates="43.76091, -70.52561" string="Sebago Lake, Maine, United States" uri="http://sws.geonames.org/4978135/">Sebago Lake (Cumberland county, Maine : lake)</ns1:lookup>
+        <ns1:lookup coordinates="42.41537, -71.15644" string="Arlington, Massachusetts, United States" uri="http://sws.geonames.org/4929180/">Arlington (Middlesex county, Massachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.59666, -71.15664" string="Lake Wentworth, New Hampshire, United States" uri="http://sws.geonames.org/5094434/">Lake Wentworth (Carroll county, New Hampshire : lake)</ns1:lookup>
+        <ns1:lookup string="bellevue, carroll county, new hampshire">Bellevue (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.20645, -71.42813" string="Mount Avalon, New Hampshire, United States" uri="http://sws.geonames.org/5082829/">Avalon, Mount (Grafton county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup coordinates="43.27027, -73.09838" string="Long Trail School, Vermont, United States" uri="http://sws.geonames.org/7181341/">Long Trail (Vermont : trail)</ns1:lookup>
+        <ns1:lookup coordinates="43.08425, -72.71176" string="West Townshend, Vermont, United States" uri="http://sws.geonames.org/5242786/">West Townsend (Windham county, Vermont : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.95063, -69.87755" string="Androscoggin River, Maine, United States" uri="http://sws.geonames.org/4956765/">Androscoggin River (United States : river)</ns1:lookup>
+        <ns1:lookup coordinates="44.89072, -71.58311" string="Town of Lemington, Vermont, United States" uri="http://sws.geonames.org/5237919/">Lemington (Essex county, Vermont : inhabited place)</ns1:lookup>
+        <ns1:lookup string="washington, knox county, maine">Washington (Knox county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="42.62425, -73.1176" string="Adams, Massachusetts, United States" uri="http://sws.geonames.org/4928733/">Adams (Berkshire county, Massachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup string="Cranmore Mountain (Carroll county, New Hampshire">Cranmore Mountain (Carroll county, New Hampshire</ns1:lookup>
+        <ns1:lookup string="three sisters range, carroll county, new hampshire">Three Sisters Range (Carroll county, New Hampshire : ridge)</ns1:lookup>
+        <ns1:lookup string="beecher cascade, grafton county, new hampshire">Beecher Cascade (Grafton county, New Hampshire : stream)</ns1:lookup>
+        <ns1:lookup string="wonalancet out-door club, carroll county, new hampshire">Wonalancet Out-Door Club (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="pemigewasset house, grafton county, new hampshire">Pemigewasset House (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.81563, -71.52174" string="Doublehead Mountain, New Hampshire, United States" uri="http://sws.geonames.org/5085499/">Doublehead Mountain (Carroll county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup string="blueberry ledges trail, carroll county, new hampshire">Blueberry Ledges Trail (Carroll county, New Hampshire : trail)</ns1:lookup>
+        <ns1:lookup coordinates="44.37284, -71.43869" string="Stag Hollow Brook, New Hampshire, United States" uri="http://sws.geonames.org/5093074/">Stag Hollow Brook (Coos county, New Hampshire : stream)</ns1:lookup>
+        <ns1:lookup coordinates="43.49147, -71.02312" string="Union, New Hampshire, United States" uri="http://sws.geonames.org/5093975/">Union (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="41.87871, -71.38256" string="Pawtucket, Rhode Island, United States" uri="http://sws.geonames.org/5223869/">Pawtucket (Providence county, Rhode Island : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.67455, -71.0213" string="Mollidgewock Pond, Maine, United States" uri="http://sws.geonames.org/4972340/">Mollidgewock Pond (Oxford county, Maine : lake)</ns1:lookup>
+        <ns1:lookup coordinates="43.37591, -72.05592" string="Sunapee Lake, New Hampshire, United States" uri="http://sws.geonames.org/5093351/">Sunapee Lake (New Hampshire : lake)</ns1:lookup>
+        <ns1:lookup string="albany valley, carroll county, new hampshire">Albany Valley (Carroll county, New Hampshire : valley)</ns1:lookup>
+        <ns1:lookup coordinates="43.63342, -70.04949" string="Casco Bay, Maine, United States" uri="http://sws.geonames.org/4960359/">Casco Bay (Cumberland county, Maine : bay)</ns1:lookup>
+        <ns1:lookup coordinates="43.27008, -71.96008" string="Bradford, New Hampshire, United States" uri="http://sws.geonames.org/5083731/">Bradford (Merrimack county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="Bethlehem House">Bethlehem House</ns1:lookup>
+        <ns1:lookup coordinates="44.24841, -68.97503" string="Tumble down Dick, Maine, United States" uri="http://sws.geonames.org/4981223/">Tumble down Dick (Waldo county, Maine : sand bar)</ns1:lookup>
+        <ns1:lookup string="wizard tree, carroll county, new hampshire">Wizard Tree (Carroll county, New Hampshire : landmark)</ns1:lookup>
+        <ns1:lookup coordinates="41.5626, -70.94254" string="Nonquitt, Massachusetts, United States" uri="http://sws.geonames.org/4945429/">Nonquitt (Bristol county, Massachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup string="sibir', russija, asia">Sibir' (Russija, Asia : general region)</ns1:lookup>
+        <ns1:lookup string="boulder trail, carroll county, new hampshire">Boulder Trail (Carroll county, New Hampshire : trail)</ns1:lookup>
+        <ns1:lookup coordinates="44.25562, -71.32202" string="Mount Monroe, New Hampshire, United States" uri="http://sws.geonames.org/5089744/">Monroe, Mount (Coos county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup string="medford, middlesex county, massachusetts">Medford (Middlesex county, Massachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="41.76011, -70.0828" string="Brewster, Massachusetts, United States" uri="http://sws.geonames.org/4931273/">Brewster (Barnstable county, Massachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup string="glen ellis falls, carroll county, new hampshire">Glen Ellis Falls (Carroll county, New Hampshire : stream)</ns1:lookup>
+        <ns1:lookup coordinates="31.11748, 30.88313" string="Mazra&#8216;at R&#363;waynah lil &#7720;&#257;&#351;il&#257;t az Zir&#257;&#8216;&#299;yah, Kafr el-Sheikh, Egypt" uri="http://sws.geonames.org/11547542/">Farm crops</ns1:lookup>
+        <ns1:lookup string="cardigan, mount, grafton county, new hampshire">Cardigan, Mount (Grafton county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup coordinates="44.97307, -71.01555" string="Aziscohos Lake, Maine, United States" uri="http://sws.geonames.org/4957043/">Aziscohos Lake (Oxford County, Maine : Reservoir)</ns1:lookup>
+        <ns1:lookup string="clark's hotel, middlesex county, massachusetts">Clark's Hotel (Middlesex county, Massachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup string="merrill house, merrimack county, new hampshire">Merrill House (Merrimack county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="dana place inn, carroll county, new hampshire">Dana Place Inn (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.05229, -71.16979" string="White Horse Ledge, New Hampshire, United States" uri="http://sws.geonames.org/5094610/">White Horse Ledge (Carroll county, New Hampshire : rock)</ns1:lookup>
+        <ns1:lookup string="grandview hotel, carroll county, new hampshire">Grandview Hotel (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.10369, -69.10893" string="Rockland, Maine, United States" uri="http://sws.geonames.org/4832458/">Rockland (Knox county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="42.74814, -71.85424" string="New Ipswich, New Hampshire, United States" uri="http://sws.geonames.org/5090183/">New Ipswich (Hillsborough county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.58397, -71.20729" string="Wolfeboro, New Hampshire, United States" uri="http://sws.geonames.org/5094877/">Wolfeboro (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.83147, -69.51505" string="Pemaquid Point, Maine, United States" uri="http://sws.geonames.org/4974917/">Pemaquid Point (Lincoln county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.2509, -71.4423" string="Church of the Transfiguration, New Hampshire, United States" uri="http://sws.geonames.org/5084617/">Stickney Memorial Chapel (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="45.01005, -71.79482" string="Norton, Vermont, United States" uri="http://sws.geonames.org/5239306/">Norton (Essex county, Vermont : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="13.3724, 144.6525" string="SW Route 2 - Apra Harbor to Unatac, Agat, Guam" uri="http://sws.geonames.org/7839335/">Route 2</ns1:lookup>
+        <ns1:lookup coordinates="28.75054, -82.5001" string="Florida, Florida, United States" uri="http://sws.geonames.org/4155751/">Florida (United States : state)</ns1:lookup>
+        <ns1:lookup coordinates="43.95424, -71.2734" string="Mount Chocorua, New Hampshire, United States" uri="http://sws.geonames.org/5084573/">Chocorua, Mount (Carroll county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup string="east jamaica, windham county, vermont">East Jamaica (Windham county, Vermont : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="42.24954, -71.22867" string="Hyde Park, Massachusetts, United States" uri="http://sws.geonames.org/4940203/">Hyde Park (Suffolk county, Massachusetts : neighborhood)</ns1:lookup>
+        <ns1:lookup coordinates="42.13565, -72.85788" string="Appalachian Mountain Club, Massachusetts, United States" uri="http://sws.geonames.org/4929141/">Appalachian Mountain Club</ns1:lookup>
+        <ns1:lookup coordinates="44.44923, -71.10258" string="Bald Cap, New Hampshire, United States" uri="http://sws.geonames.org/5082921/">Bald Cap (Coos county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup coordinates="44.12868, -71.73647" string="Kinsman Mountain, New Hampshire, United States" uri="http://sws.geonames.org/5088391/">Kinsman Mountain (Grafton county, New Hampshire : ridge)</ns1:lookup>
+        <ns1:lookup string="lakes of the clouds hut, coos county, new hampshire">Lakes of the Clouds Hut (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="odell pulp and paper company, coos county, new hampshire">Odell Pulp and Paper Company (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="port clarence, nome division, alaska">Port Clarence (Nome division, Alaska : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.07897, -69.18171" string="Thomaston, Maine, United States" uri="http://sws.geonames.org/4980629/">Thomaston (Knox county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup string="jefferson junction, coos county, new hampshire">Jefferson Junction (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="42.90758, -71.76646" string="Lyndeborough, New Hampshire, United States" uri="http://sws.geonames.org/5089118/">Lyndeborough (Hillsborough county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="42.81814, -71.85147" string="Temple, New Hampshire, United States" uri="http://sws.geonames.org/5093508/">Temple (Hillsborough county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.10895, -71.62786" string="Mount Flume, New Hampshire, United States" uri="http://sws.geonames.org/5086231/">Flume, Mount (Grafton county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup string="mill pond, carroll county, new hampshire">Mill Pond (Carroll county, New Hampshire : pond)</ns1:lookup>
+        <ns1:lookup coordinates="43.53634, -71.51101" string="Lake Winnisquam, New Hampshire, United States" uri="http://sws.geonames.org/5088496/">Winnisquam, Lake (Belknap county, New Hampshire : lake)</ns1:lookup>
+        <ns1:lookup coordinates="43.90453, -69.2656" string="Hart Island, Maine, United States" uri="http://sws.geonames.org/4966612/">Hart Island (Knox county, Maine : island)</ns1:lookup>
+        <ns1:lookup string="chaplino, chukotskiy avtonomnyy okrug, rossiya republic">Chaplino (Chukotskiy Avtonomnyy Okrug, Rossiya republic : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.96296, -69.71198" string="Wiscasset Airport, Maine, United States" uri="http://sws.geonames.org/4983360/">Wiscasset (Lincoln county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup string="mount washington house, coos county, new hampshire">Mount Washington House (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.79202, -71.17757" string="Ossipee Valley, New Hampshire, United States" uri="http://sws.geonames.org/5090691/">Ossipee Valley (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="42.81954, -70.812" string="Merrimack River, Massachusetts, United States" uri="http://sws.geonames.org/4943795/">Merrimack River (United States : river)</ns1:lookup>
+        <ns1:lookup string="sunset hill, carroll county, new hampshire">Sunset Hill (Carroll county, New Hampshire :peak)</ns1:lookup>
+        <ns1:lookup coordinates="43.67036, -70.28422" string="Woodfords Corner, Maine, United States" uri="http://sws.geonames.org/4983445/">Woodfords Corner (Cumberland county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup string="eastman house (carroll county, new hampshire : inhabited place), north conway, carroll county, new hampshire">Eastman House (Carroll county, New Hampshire : inhabited place), North Conway (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="42.35843, -71.05977" string="Boston, Massachusetts, United States" uri="http://sws.geonames.org/4930956/">Boston (Suffolk county, Massachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.20757, -71.4048" string="Flume Cascade, New Hampshire, United States" uri="http://sws.geonames.org/5086225/">Flume Cascade (New Hampshire : stream)</ns1:lookup>
+        <ns1:lookup coordinates="44.22216, -71.41734" string="Ammonoosuc Lake, New Hampshire, United States" uri="http://sws.geonames.org/5082648/">Ammonoosuc (New Hampshire, United States : river)</ns1:lookup>
+        <ns1:lookup coordinates="43.66029, -71.76813" string="Newfound Lake, New Hampshire, United States" uri="http://sws.geonames.org/5090223/">Newfound Lake (Grafton county, New Hampshire : lake)</ns1:lookup>
+        <ns1:lookup coordinates="43.83146, -71.24701" string="Swift River, New Hampshire, United States" uri="http://sws.geonames.org/5093444/">Swift River (Carroll county, New Hampshire : river)</ns1:lookup>
+        <ns1:lookup coordinates="42.78064, -72.14175" string="Fitzwilliam, New Hampshire, United States" uri="http://sws.geonames.org/5086182/">Fitzwilliam (Cheshire county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="narrows bridge, carroll county, new hampshire">Narrows Bridge (Carroll County, New Hampshire : structure)</ns1:lookup>
+        <ns1:lookup coordinates="44.57232, -71.04213" string="Success Pond, New Hampshire, United States" uri="http://sws.geonames.org/5093293/">Success Pond (Coos county, New Hampshire : lake)</ns1:lookup>
+        <ns1:lookup coordinates="43.96923, -71.66119" string="Johnson Brook, New Hampshire, United States" uri="http://sws.geonames.org/5088174/">Johnson (Grafton county, New Hampshire : abandoned town)</ns1:lookup>
+        <ns1:lookup coordinates="43.24311, -71.91301" string="Lake Massasecum, New Hampshire, United States" uri="http://sws.geonames.org/5089311/">Massasecum, Lake (Merrimack county, New Hampshire : lake)</ns1:lookup>
+        <ns1:lookup string="alpine house, coos county, new hampshire">Alpine House (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.34228, -71.29008" string="Durand Ridge, New Hampshire, United States" uri="http://sws.geonames.org/5085611/">Durand Ridge (Coos county, New Hampshire : ridge)</ns1:lookup>
+        <ns1:lookup string="suspended boulder, grafton county, new hampshire">Suspended Boulder (Grafton county, New Hampshire : rock)</ns1:lookup>
+        <ns1:lookup coordinates="44.07952, -69.48505" string="Nobleboro, Maine, United States" uri="http://sws.geonames.org/4973402/">Nobleboro (Lincoln county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="42.08343, -71.01838" string="Brockton, Massachusetts, United States" uri="http://sws.geonames.org/4931429/">Brockton (Plymouth county, Massachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup string="bethlehem house, grafton county, new hampshire">Bethlehem House (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="45.10005, -70.97452" string="Lynchtown Township, Maine, United States" uri="http://sws.geonames.org/4970864/">Lynchtown (Oxford county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.10118, -71.00701" string="South Chatham, New Hampshire, United States" uri="http://sws.geonames.org/5092876/">South Chatham (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="42.85092, -72.55787" string="Brattleboro, Vermont, United States" uri="http://sws.geonames.org/5234141/">Brattleboro (Windham county, Vermont : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.80064, -70.18672" string="Yarmouth, Maine, United States" uri="http://sws.geonames.org/4983572/">Yarmouth (Cumberland county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.4345, -71.43286" string="Mount Starr King, New Hampshire, United States" uri="http://sws.geonames.org/5093113/">Starr King, Mount (Coos county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup string="maple villa, carroll county, new hampshire">Maple Villa (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.12229, -71.68314" string="The Basin, New Hampshire, United States" uri="http://sws.geonames.org/5083061/">Basin, The (Grafton county, New Hampshire : basin)</ns1:lookup>
+        <ns1:lookup string="east lempster, sullivan county, new hampshire">East Lempster (Sullivan county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="42.05427, -71.02032" string="Campello, Massachusetts, United States" uri="http://sws.geonames.org/4932175/">Campello (Brockton, Plymouth county, Massachusetts : neighborhood)</ns1:lookup>
+        <ns1:lookup coordinates="42.78842, -71.20089" string="Salem, New Hampshire, United States" uri="http://sws.geonames.org/5092268/">Salem (Rockingham county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="Bering Sea (sea)">Bering Sea (sea)</ns1:lookup>
+        <ns1:lookup coordinates="44.15896, -71.36174" string="Crawford Notch, New Hampshire, United States" uri="http://sws.geonames.org/5085076/">Crawford Notch (New Hampshire : valley)</ns1:lookup>
+        <ns1:lookup string="mountain view house (coos county, new hampshire : inhabited place) whitefield nh, coos county, new hampshire">Mountain View House (Coos county, New Hampshire : inhabited place) Whitefield NH (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="enchanted woods, carroll county, new hampshire">Enchanted Woods (Carroll county, New Hampshire : woods)</ns1:lookup>
+        <ns1:lookup coordinates="43.54997, -96.70033" string="Sioux Falls, South Dakota, United States" uri="http://sws.geonames.org/5231851/">Sioux Falls (Minnehaha county, South Dakota : inahbited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.96644, -70.77368" string="Oquossoc, Maine, United States" uri="http://sws.geonames.org/4974276/">Oquossoc (Franklin county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup string="dundee, carroll county, new hampshire">Dundee (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="jefferson hill, orange county, vermont">Jefferson Hill (Orange county, Vermont : peak)</ns1:lookup>
+        <ns1:lookup coordinates="43.7928, -71.13116" string="Ossipee Lake, New Hampshire, United States" uri="http://sws.geonames.org/5090685/">Ossipee Lake (Carroll county, New Hampshire : lake)</ns1:lookup>
+        <ns1:lookup string="wonalancet falls, carroll county, new hampshire">Wonalancet Falls (Carroll county, New Hampshire : waterfall)</ns1:lookup>
+        <ns1:lookup string="redstone quarry, carroll county, new hampshire">Redstone Quarry (Carroll county, New Hampshire : inactive mine)</ns1:lookup>
+        <ns1:lookup string="maplewood casino, grafton county, new hampshire">Maplewood Casino (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.05479, -70.71284" string="Bridgton, Maine, United States" uri="http://sws.geonames.org/4959279/">Bridgton (Cumberland county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup string="peak house, carroll county, new hampshire">Peak House (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.2527, -71.4465" string="Mount Washington Hotel, New Hampshire, United States" uri="http://sws.geonames.org/6529314/">Mount Washington Hotel (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="deer park hotel, grafton county, new hampshire">Deer Park Hotel (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.72285, -72.47982" string="North Pomfret, Vermont, United States" uri="http://sws.geonames.org/5239220/">North Pomfret (Windsor county, Vermont : inhabited place)</ns1:lookup>
+        <ns1:lookup string="White Mountain National Forest">White Mountain National Forest</ns1:lookup>
+        <ns1:lookup string="humphrey's ledge, carroll county, new hampshire">Humphrey's Ledge (Carroll county, New Hampshire : rock)</ns1:lookup>
+        <ns1:lookup coordinates="45.10421, -71.25785" string="The Glen, New Hampshire, United States" uri="http://sws.geonames.org/5093567/">The Glen (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="42.98148, -70.94783" string="Exeter, New Hampshire, United States" uri="http://sws.geonames.org/5085966/">Exeter (Rockingham county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.99896, -71.27868" string="Albany Intervale, New Hampshire, United States" uri="http://sws.geonames.org/5082559/">Albany Intervale (New Hampshire : valley)</ns1:lookup>
+        <ns1:lookup coordinates="44.02451, -71.83092" string="Mount Moosilauke, New Hampshire, United States" uri="http://sws.geonames.org/5089810/">Moosilauke, Mount (Grafton county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup string="the langdon, carroll county, new hampshire">The Langdon (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="bald mountain, grafton county, new hampshire">Bald Mountain (Grafton county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup coordinates="44.31673, -71.33035" string="Castellated Ridge, New Hampshire, United States" uri="http://sws.geonames.org/5084300/">Castellated Ridge (Coos county, New Hampshire : ridge)</ns1:lookup>
+        <ns1:lookup string="eagle mountain house, carroll county, new hampshire">Eagle Mountain House (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.22645, -71.36591" string="Mount Pierce, New Hampshire, United States" uri="http://sws.geonames.org/5091079/">Pierce, Mount (Coos county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup coordinates="44.00618, -71.52063" string="Mount Osceola East Peak, New Hampshire, United States" uri="http://sws.geonames.org/5085730/">Osceola, Mount (Grafton county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup string="eastman house, carroll county, new hampshire">Eastman House (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="42.76953, -71.07589" string="Bradford, Massachusetts, United States" uri="http://sws.geonames.org/4931149/">Bradford (Haverhill, Essex county, Massachusetts : neighborhood)</ns1:lookup>
+        <ns1:lookup string="davis straits, know county, maine">Davis Straits (Know county, Maine : strait)</ns1:lookup>
+        <ns1:lookup coordinates="44.722, -70.63062" string="Byron, Maine, United States" uri="http://sws.geonames.org/4959809/">Byron (Oxford county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup string="Tourists">Tourists</ns1:lookup>
+        <ns1:lookup coordinates="43.89924, -71.1484" string="Madison, New Hampshire, United States" uri="http://sws.geonames.org/5089144/">Madison (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.21952, -72.27953" string="Lynn, New Hampshire, United States" uri="http://sws.geonames.org/5281182/">Lynn (Sullivan county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.46966, -71.6862" string="Webster Lake, New Hampshire, United States" uri="http://sws.geonames.org/5094352/">Webster (Merrimack county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.49145, -70.03894" string="Spruce Island, Maine, United States" uri="http://sws.geonames.org/4979601/">Spruce Island (Kennebec county, Maine : island)</ns1:lookup>
+        <ns1:lookup coordinates="44.02756, -72.57149" string="East Brookfield, Vermont, United States" uri="http://sws.geonames.org/5235663/">East Brookfield (Orange county, Vermont : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.14841, -68.6653" string="Two Bush Island, Maine, United States" uri="http://sws.geonames.org/4981372/">Two Bush Island (Hancock county, Maine : island)</ns1:lookup>
+        <ns1:lookup coordinates="42.67787, -71.82035" string="Ashby, Massachusetts, United States" uri="http://sws.geonames.org/4929262/">Ashby (Middlesex county, Massachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="41.06704, -73.70707" string="Westchester County Airport, New York, United States" uri="http://sws.geonames.org/5144051/">Westchester (New York state, United States : county)</ns1:lookup>
+        <ns1:lookup coordinates="43.95035, -71.33007" string="Mount Paugus, New Hampshire, United States" uri="http://sws.geonames.org/5090854/">Paugus, Mount (Carroll county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup coordinates="43.08961, -71.20103" string="Deer Pond, New Hampshire, United States" uri="http://sws.geonames.org/5085339/">Deer Pond (Rockingham county, New Hampshire : lake)</ns1:lookup>
+        <ns1:lookup string="martha washington profile, coos county, new hampshire">Martha Washington Profile (Coos county, New Hampshire : rock)</ns1:lookup>
+        <ns1:lookup coordinates="44.1084, -71.2723" string="Mount Langdon, New Hampshire, United States" uri="http://sws.geonames.org/5088548/">Langdon, Mount (Carroll county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup string="moulton store, carroll county, new hampshire">Moulton Store (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="artists falls house, carroll county, new hampshire">Artists Falls House (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="passaconaway trail, carroll county, new hampshire">Passaconaway Trail (Carroll county, New Hampshire : trail)</ns1:lookup>
+        <ns1:lookup coordinates="43.91064, -69.8206" string="Bath, Maine, United States" uri="http://sws.geonames.org/4957570/">Bath (Sagadahoc county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup string="mount madison house, coos county, new hampshire">Mount Madison House (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.80118, -68.77781" string="Bangor, Maine, United States" uri="http://sws.geonames.org/4957280/">Bangor (Penobscot county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup string="balance rock, carroll county, new hampshire">Balance Rock (Carroll county, New Hampshire : rock)</ns1:lookup>
+        <ns1:lookup coordinates="43.8809, -72.11703" string="Strawberry Hill, New Hampshire, United States" uri="http://sws.geonames.org/5093268/">Strawberry Hill (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.36757, -71.54553" string="Mount Washington Regional Airport, New Hampshire, United States" uri="http://sws.geonames.org/5089919/">Washington, Mount (Coos county, New Hampshire : mountain) Mount Washington Carriage Road</ns1:lookup>
+        <ns1:lookup coordinates="44.28951, -70.36534" string="Buckfield, Maine, United States" uri="http://sws.geonames.org/4959521/">Buckfield (Oxford county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.63035, -71.75702" string="Groton School Camp, New Hampshire, United States" uri="http://sws.geonames.org/5086968/">Groton School Camp (Grafton county, New Hampshire : summer camp)</ns1:lookup>
+        <ns1:lookup string="birchmont inn, carroll county, new hampshire">Birchmont Inn (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.17534, -71.39285" string="Kedron Brook, New Hampshire, United States" uri="http://sws.geonames.org/5088240/">Kedron Brook (Carroll county, New Hampshire : stream)</ns1:lookup>
+        <ns1:lookup string="conway scenic railroad, carroll county, new hampshire">Conway Scenic Railroad (Carroll county, New Hampshire : railroad station)</ns1:lookup>
+        <ns1:lookup coordinates="41.43732, -71.50145" string="Wakefield, Rhode Island, United States" uri="http://sws.geonames.org/5225455/">Wakefield (Washington county, Rhode Island : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.79273, -71.16431" string="Errol Airport, New Hampshire, United States" uri="http://sws.geonames.org/5085928/">Errol (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.87783, -71.51425" string="Columbia, New Hampshire, United States" uri="http://sws.geonames.org/5084846/">Columbia (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="starr king hotel, coos county, new hampshire">Starr King Hotel (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="42.97259, -70.82978" string="North Hampton, New Hampshire, United States" uri="http://sws.geonames.org/5090383/">North Hampton (Rockingham county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="charlotte, mecklenburg county, north carolina">Charlotte (Mecklenburg county, North Carolina : inhabited place)</ns1:lookup>
+        <ns1:lookup string="jockey cap, oxford county, maine">Jockey Cap (Oxford county, Maine : peak)</ns1:lookup>
+        <ns1:lookup coordinates="63.46944, -162.10744" string="City of Saint Michael, Alaska, United States" uri="http://sws.geonames.org/7117710/">Saint Michael (Nome division, Alaska : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.27229, -71.53897" string="Twin Mountain, New Hampshire, United States" uri="http://sws.geonames.org/5093896/">Twin Mountain (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="highland house (grafton county, new hampshire : inhabited place)' jackson, carroll county, new hampshire">Highland House (Grafton county, New Hampshire : inhabited place)' Jackson (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.17755, -71.32207" string="Presidential Range-Dry River Wilderness, New Hampshire, United States" uri="http://sws.geonames.org/5091468/">Presidential Range (Coos county, New Hampshire : ridge)</ns1:lookup>
+        <ns1:lookup coordinates="44.30534, -70.9898" string="Evans Notch, Maine, United States" uri="http://sws.geonames.org/4963872/">Evans Notch (Oxford county, Maine : valley)</ns1:lookup>
+        <ns1:lookup coordinates="44.76295, -71.04272" string="Umbagog Lake, New Hampshire, United States" uri="http://sws.geonames.org/5093916/">Umbagog, Lake (United States : lake)</ns1:lookup>
+        <ns1:lookup string="black cap mountain, carroll county, new hampshire">Black Cap Mountain (Carroll county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup string="railroad square, carroll county, new hampshire">Railroad Square (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="42.90435, -71.29796" string="Beaver Lake, New Hampshire, United States" uri="http://sws.geonames.org/5083196/">Beaver Lake (Rockingham county, New Hampshire : lake)</ns1:lookup>
+        <ns1:lookup coordinates="43.92091, -71.29813" string="Claybank Brook, New Hampshire, United States" uri="http://sws.geonames.org/5084692/">Claybank Brook (Carroll county, New Hampshire : stream)</ns1:lookup>
+        <ns1:lookup string="agassiz, the, grafton county, new hampshire">Agassiz, The (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="kearsarge hall, carroll county, new hampshire">Kearsarge Hall (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="42.7262, -71.19089" string="Methuen, Massachusetts, United States" uri="http://sws.geonames.org/4943828/">Methuen (Essex county, Massachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup string="robinson house, penobscot county, maine">Robinson House (Penobscot county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="42.72509, -70.99117" string="Georgetown, Massachusetts, United States" uri="http://sws.geonames.org/4937684/">Georgetown (Essex county, Massachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.16645, -71.47897" string="Zealand Notch, New Hampshire, United States" uri="http://sws.geonames.org/5094994/">Zealand Notch (Grafton county, New Hampshire : valley)</ns1:lookup>
+        <ns1:lookup string="merrimack square, hillsborough county, new hampshire">Merrimack Square (Hillsborough county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="iron mountain house, carroll county, new hampshire">Iron Mountain House (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.38202, -72.60815" string="Cavendish, Vermont, United States" uri="http://sws.geonames.org/5234679/">Cavendish (Windsor county, Vermont : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.66063, -72.33842" string="Hartford, Vermont, United States" uri="http://sws.geonames.org/5236879/">Hartford (Windsor county, Vermont : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="45.15206, -70.98634" string="Parmachenee Lake, Maine, United States" uri="http://sws.geonames.org/4974685/">Parmachenee Lake (Oxford county, Maine : lake)</ns1:lookup>
+        <ns1:lookup string="maple grove house, carroll county, new hampshire">Maple Grove House (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="woodstock, grafton county, new hampshire">Woodstock (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="hotel randall, carroll county, new hampshire">Hotel Randall (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="40.75766, -73.91327" string="New York-Northern New Jersey-Long Island, New York, United States" uri="http://sws.geonames.org/6955102/">Long Island (New York State : island)</ns1:lookup>
+        <ns1:lookup coordinates="43.91452, -69.96533" string="Brunswick, Maine, United States" uri="http://sws.geonames.org/4959473/">Brunswick (Cumberland county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.2859, -71.28341" string="Chandler Ridge, New Hampshire, United States" uri="http://sws.geonames.org/5084441/">Chandler Ridge (Coos county, New Hampshire : ridge)</ns1:lookup>
+        <ns1:lookup string="Robert Poisson">Robert Poisson</ns1:lookup>
+        <ns1:lookup string="connecticut river, new hampshire, vermont, massachusetts, connecticut">Connecticut River (New Hampshire, Vermont, Massachusetts, Connecticut : river)</ns1:lookup>
+        <ns1:lookup string="peru mountain, rutland county, vermont">Peru Mountain (Rutland county, Vermont : peak)</ns1:lookup>
+        <ns1:lookup string="franconia notch (grafton county, new hampshire : valley) flume, the (grafton county, new hampshire : valley) avalanche falls, grafton county, new hampshire">Franconia Notch (Grafton county, New Hampshire : valley) Flume, The (Grafton county, New Hampshire : valley) Avalanche Falls (Grafton county, New Hampshire : waterfall)</ns1:lookup>
+        <ns1:lookup string="giants pothole, grafton county, new hampshire">Giants Pothole (Grafton county, New Hampshire : rock)</ns1:lookup>
+        <ns1:lookup string="plummer's ridge, strafford county, new hampshire">Plummer's Ridge (Strafford county, New Hampshire : ridge)</ns1:lookup>
+        <ns1:lookup string="ammonoosuc falls, coos county, new hampshire">Ammonoosuc Falls (Coos county, New Hampshire : stream)</ns1:lookup>
+        <ns1:lookup coordinates="44.16062, -70.98507" string="Stow, Maine, United States" uri="http://sws.geonames.org/4980024/">Stow (Oxford county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup string="gibbs falls, coos county, new hampshire">Gibbs Falls (Coos county, New Hampshire : waterfall)</ns1:lookup>
+        <ns1:lookup coordinates="43.85314, -69.62171" string="Mount Pisgah, Maine, United States" uri="http://sws.geonames.org/4972765/">Mount Pisgah (Lincoln county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup string="tyngsboro, middlesex county, massachusetts">Tyngsboro (Middlesex county, Massachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup string="arlington house, grafton county, new hampshire">Arlington House (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="the falls, carroll county, new hampshire">The Falls (Carroll county, New Hampshire : waterfall)</ns1:lookup>
+        <ns1:lookup coordinates="42.70704, -71.16311" string="Lawrence, Massachusetts, United States" uri="http://sws.geonames.org/4941720/">Lawrence (Essex county, Massachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup string="moat mountain house, carroll county, new hampshire">Moat Mountain House (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.86397, -69.56116" string="South Bristol, Maine, United States" uri="http://sws.geonames.org/4979123/">South Bristol (Lincoln county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup string="the lakeside, carroll county, new hampshire">The Lakeside (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="woodlawn, the, grafton county, new hampshire">Woodlawn, The (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.8048, -70.80117" string="Cornish, Maine, United States" uri="http://sws.geonames.org/4961511/">Cornish (York county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.07618, -71.18063" string="Dianas Baths, New Hampshire, United States" uri="http://sws.geonames.org/5085412/">Diana's Baths (Carroll county, New Hampshire : cascade)</ns1:lookup>
+        <ns1:lookup coordinates="44.18701, -71.61092" string="Mount Garfield, New Hampshire, United States" uri="http://sws.geonames.org/5086461/">Garfield, Mount (Grafton county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup coordinates="44.07091, -68.82448" string="Vinalhaven Island, Maine, United States" uri="http://sws.geonames.org/4981807/">Vinalhaven (Knox county, Vinalhaven Island, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.82731, -69.62227" string="Spruce Point, Maine, United States" uri="http://sws.geonames.org/4979622/">Spruce Point (Lincoln county, Maine : cape)</ns1:lookup>
+        <ns1:lookup string="castner camps, carroll county, new hampshire">Castner Camps (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.27785, -71.87341" string="Newmarket, New Hampshire, United States" uri="http://sws.geonames.org/5090245/">Newmarket (Merrimack county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="moosilauke notch, grafton county, new hampshire">Moosilauke Notch (Grafton county, New Hampshire : valley)</ns1:lookup>
+        <ns1:lookup coordinates="43.58785, -71.38507" string="Belknap Point, New Hampshire, United States" uri="http://sws.geonames.org/5083271/">Belknap Point (Belknap county, New Hampshire : cape)</ns1:lookup>
+        <ns1:lookup string="weirs hotel, belknap county, laconia, new hampshire">Weirs Hotel (Belknap county, Laconia, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="41.82399, -71.41283" string="Providence, Rhode Island, United States" uri="http://sws.geonames.org/5224151/">Providence (Providence county, Rhode Island : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.4147, -72.90831" string="Wallingford Pond, Vermont, United States" uri="http://sws.geonames.org/5242468/">Wallingford (Rutland county, Vermont : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.98229, -71.39091" string="Potash Mountain, New Hampshire, United States" uri="http://sws.geonames.org/5091413/">Potash Mountain (Grafton county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup string="howard, providence county, rhode island">Howard (Providence county, Rhode Island : inhabited place)</ns1:lookup>
+        <ns1:lookup string="windover, carroll county, new hampshire">Windover (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="Society for the Protection of New Hampshire Forests">Society for the Protection of New Hampshire Forests</ns1:lookup>
+        <ns1:lookup coordinates="43.95007, -71.49952" string="Waterville Valley, New Hampshire, United States" uri="http://sws.geonames.org/5094304/">Waterville Valley (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="mount washington cog railway mount washington base station, coos county, new hampshire">Mount Washington Cog Railway Mount Washington Base Station (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.15645, -71.69842" string="Cannon Mountain, New Hampshire, United States" uri="http://sws.geonames.org/5084179/">Old Man of the Mountain (Grafton county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup string="leighton's corner, carroll county, new hampshire">Leighton's Corner (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.02757, -71.68564" string="Moosilauke Brook, New Hampshire, United States" uri="http://sws.geonames.org/5089805/">Moosilauke Brook (Grafton county, New Hampshire : stream)</ns1:lookup>
+        <ns1:lookup coordinates="44.5095, -71.84593" string="Victory, Vermont, United States" uri="http://sws.geonames.org/5242301/">Victory (Essex county, Vermont : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="42.67759, -72.18786" string="Royalston, Massachusetts, United States" uri="http://sws.geonames.org/4949161/">Royalston (Worcester county, Massachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.21145, -71.4048" string="Elephant Head, New Hampshire, United States" uri="http://sws.geonames.org/5085836/">Elephant Head (Carroll county, New Hampshire : rock)</ns1:lookup>
+        <ns1:lookup coordinates="43.76825, -71.38754" string="Moultonboro Airport, New Hampshire, United States" uri="http://sws.geonames.org/5089848/">Moultonboro (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.8598, -71.26313" string="Tamworth, New Hampshire, United States" uri="http://sws.geonames.org/5093469/">Tamworth (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="memorial hospital, carroll county, new hampshire">Memorial Hospital (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="41.87121, -71.55201" string="Greenville, Rhode Island, United States" uri="http://sws.geonames.org/5222476/">Greenville (Providence county, Rhode Island : inhabited place)</ns1:lookup>
+        <ns1:lookup string="thorn mountain park, carroll county, new hampshire">Thorn Mountain Park (Carroll county, New Hampshire : natural reserve)</ns1:lookup>
+        <ns1:lookup coordinates="43.86508, -69.58643" string="East Boothbay, Maine, United States" uri="http://sws.geonames.org/4963160/">East Boothbay (Lincoln county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="42.42287, -72.10508" string="Barre, Massachusetts, United States" uri="http://sws.geonames.org/4929785/">Barre (Worcester county, Massachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup string="camp mowglis, grafton county, new hampshire">Camp Mowglis (Grafton county, New Hampshire : summer camp)</ns1:lookup>
+        <ns1:lookup coordinates="43.69006, -71.11488" string="Ossipee Corner Fire Department, New Hampshire, United States" uri="http://sws.geonames.org/7712384/">Ossipee Corner (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="old oaken bucket, coos county, new hampshire">Old Oaken Bucket (Coos county, New Hampshire : landmark)</ns1:lookup>
+        <ns1:lookup string="north conway scenic railroad pearl cascade, grafton county, new hampshire">North Conway Scenic Railroad Pearl Cascade (Grafton county, New Hampshire : waterfall)</ns1:lookup>
+        <ns1:lookup coordinates="44.35867, -71.3523" string="Bowman, New Hampshire, United States" uri="http://sws.geonames.org/5083703/">Bowman (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.02697, -70.82226" string="Pleasant Mountain, Maine, United States" uri="http://sws.geonames.org/4975506/">Pleasant Mountain (Oxford county, Maine : peak)</ns1:lookup>
+        <ns1:lookup string="shelter house, grafton county, new hampshire">Shelter House (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="mirror lake, carroll county, coos county, new hampshire">Mirror Lake (Carroll county, Coos county, New Hampshire : lake)</ns1:lookup>
+        <ns1:lookup string="wonalancet, carroll county, new hampshire">Wonalancet (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.40117, -71.0748" string="Shelburne, New Hampshire, United States" uri="http://sws.geonames.org/5092608/">Shelburne (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="mount adams house, grafton county, new hampshire">Mount Adams House (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.96453, -71.4401" string="Mount Tripyramid Middle Peak, New Hampshire, United States" uri="http://sws.geonames.org/5089537/">Tripyramid, Mount (Grafton county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup coordinates="44.56339, -71.5587" string="Northumberland, New Hampshire, United States" uri="http://sws.geonames.org/5090464/">Northumberland (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string=") franconia, grafton county, new hampshire">) Franconia (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="brookfield inn, worcester county, massachusetts">Brookfield Inn (Worcester county, Massachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup string="Theodore Roosevelt Highway">Theodore Roosevelt Highway</ns1:lookup>
+        <ns1:lookup string="wonalancet, mount, grafton county, new hampshire">Wonalancet, Mount (Grafton county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup coordinates="44.10257, -71.19868" string="Rocky Branch, New Hampshire, United States" uri="http://sws.geonames.org/5091871/">Rocky Branch (New Hampshire : stream)</ns1:lookup>
+        <ns1:lookup coordinates="42.86147, -71.62535" string="Amherst, New Hampshire, United States" uri="http://sws.geonames.org/5082636/">Amherst (Hillsborough county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="woodshed cabins, carroll county, new hampshire">Woodshed Cabins (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.90199, -71.50203" string="Mohawk River, New Hampshire, United States" uri="http://sws.geonames.org/5089713/">Mohawk River (Coos county, New Hampshire : river)</ns1:lookup>
+        <ns1:lookup string="artists falls, carroll county, new hampshire">Artists Falls (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="gramercy, the, grafton county, new hampshire">Gramercy, The (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="chocorua inn, carroll county, new hampshire">Chocorua Inn (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="belknap range, belknap county, new hampshire">Belknap Range (Belknap county, New Hampshire : ridge)</ns1:lookup>
+        <ns1:lookup string="upland terrace, grafton county, new hampshire">Upland Terrace (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.2634, -71.45841" string="Fabyan, New Hampshire, United States" uri="http://sws.geonames.org/5085989/">Fabyan House (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.41895, -71.47453" string="Jefferson, New Hampshire, United States" uri="http://sws.geonames.org/5088090/">Jefferson (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="bow lake, strafford county, new hampshire">Bow Lake (Strafford county, New Hampshire : reservoir)</ns1:lookup>
+        <ns1:lookup coordinates="43.69396, -71.80564" string="Hebron, New Hampshire, United States" uri="http://sws.geonames.org/5087330/">Hebron (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.32397, -70.59144" string="Wells Beach Station, Maine, United States" uri="http://sws.geonames.org/4982394/">Wells (York county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup string="heart of the mountains ravine, carroll county, new hampshire">Heart of the Mountains Ravine (Carroll county, New Hampshire : valley)</ns1:lookup>
+        <ns1:lookup coordinates="44.07285, -71.07313" string="Hurricane Mountain, New Hampshire, United States" uri="http://sws.geonames.org/5087802/">Hurricane Mountain (Carroll county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup coordinates="44.30617, -71.77009" string="Littleton, New Hampshire, United States" uri="http://sws.geonames.org/5088856/">Littleton (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.64618, -72.41843" string="Quechee, Vermont, United States" uri="http://sws.geonames.org/5240108/">Quechee (Windsor county, Vermont : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="42.76537, -71.46757" string="Nashua, New Hampshire, United States" uri="http://sws.geonames.org/5090046/">Nashua (Hillsborough county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.49482, -71.39668" string="Kilkenny Township, New Hampshire, United States" uri="http://sws.geonames.org/5088331/">Kilkenny (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="massasecum rock, merrimack county, new hampshire">Massasecum Rock (Merrimack county, New Hampshire : rock)</ns1:lookup>
+        <ns1:lookup string="willey house station, carroll county, new hampshire">Willey House Station ( Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="42.97619, -71.69396" string="New Boston, New Hampshire, United States" uri="http://sws.geonames.org/5090096/">New Boston (Hillsborough county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.3284, -71.27785" string="Mount Madison, New Hampshire, United States" uri="http://sws.geonames.org/5089161/">Madison, Mount (Coos county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup coordinates="41.89871, -71.41311" string="Saylesville, Rhode Island, United States" uri="http://sws.geonames.org/5224765/">Saylesville (Providence county, Rhode Island : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.21951, -71.41285" string="Crawford House, New Hampshire, United States" uri="http://sws.geonames.org/5085077/">Crawford House (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.16701, -71.9662" string="Bath, New Hampshire, United States" uri="http://sws.geonames.org/5083075/">Bath (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="elysian land, grafton county, new hampshire">Elysian Land (Grafton county, New Hampshire : forest)</ns1:lookup>
+        <ns1:lookup string="mount jefferson tourist court and restaurant, coos county, new hampshire">Mount Jefferson Tourist Court and Restaurant (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="guildhall, essex county, vermont">Guildhall (Essex county, Vermont : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="42.26677, -70.95783" string="Houghs Neck, Massachusetts, United States" uri="http://sws.geonames.org/4939969/">Houghs Neck (Norfolk county, Massachusetts : neighborhood)</ns1:lookup>
+        <ns1:lookup string="nancy's bridge, carroll county, new hampshire">Nancy's Bridge (Carroll county, New Hampshire : structure)</ns1:lookup>
+        <ns1:lookup string="hazel dell, merrimack county, new hampshire">Hazel Dell (Merrimack county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.57092, -70.95365" string="Old Speck Mountain, Maine, United States" uri="http://sws.geonames.org/4974223/">Old Speck Mountain (Oxford county, Maine : mountain)</ns1:lookup>
+        <ns1:lookup string="sinclair house, grafton county, new hampshire">Sinclair House (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="little hedgehog, carroll county, new hampshire">Little Hedgehog (Carroll county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup coordinates="43.07704, -70.75766" string="Portsmouth, New Hampshire, United States" uri="http://sws.geonames.org/5091383/">Portsmouth (Rockingham county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="cave of silence, grafton county, new hampshire">Cave of Silence (Grafton county, New Hampshire : cave)</ns1:lookup>
+        <ns1:lookup coordinates="44.13369, -69.09421" string="Glen Cove, Maine, United States" uri="http://sws.geonames.org/4965288/">Glen Cove (Knox county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup string="crawford notch, new hampshire, united states">Crawford Notch (New Hampshire, United States : valley)</ns1:lookup>
+        <ns1:lookup coordinates="43.75508, -71.15201" string="Center Ossipee, New Hampshire, United States" uri="http://sws.geonames.org/5084387/">Ossipee Center (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="maplewood, grafton county, hillsborough county, new hampshire">Maplewood (Grafton county, Hillsborough county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.66839, -71.20675" string="Newell Brook, New Hampshire, United States" uri="http://sws.geonames.org/5090216/">Newell Brook (Coos county, New Hampshire : stream)</ns1:lookup>
+        <ns1:lookup coordinates="43.95479, -71.38146" string="Mount Passaconaway, New Hampshire, United States" uri="http://sws.geonames.org/5090835/">Passaconaway, Mount (Grafton county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup string="cannon mountain aerial tramway franconia notch, grafton county, new hampshire">Cannon Mountain Aerial Tramway Franconia Notch (Grafton county, New Hampshire : valley)</ns1:lookup>
+        <ns1:lookup string="fabyan station, coos county, new hampshire">Fabyan Station (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="double gate, carroll county, new hampshire">Double Gate (Carroll county, New Hampshire : valley)</ns1:lookup>
+        <ns1:lookup coordinates="44.0459, -71.69258" string="Fay State Forest, New Hampshire, United States" uri="http://sws.geonames.org/5086047/">Fay Reservation (Grafton county, New Hampshire : nature reserve)</ns1:lookup>
+        <ns1:lookup coordinates="44.27979, -71.23202" string="Emerald Pool, New Hampshire, United States" uri="http://sws.geonames.org/5085883/">Emerald Pool (Coos county, New Hampshire : lake)</ns1:lookup>
+        <ns1:lookup coordinates="43.64229, -72.25176" string="Lebanon, New Hampshire, United States" uri="http://sws.geonames.org/5088597/">Lebanon (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.02229, -71.73064" string="Jackman Brook, New Hampshire, United States" uri="http://sws.geonames.org/5088036/">Jackman Brook (Grafton county, New Hampshire : stream)</ns1:lookup>
+        <ns1:lookup coordinates="43.4087, -70.58144" string="West Kennebunk, Maine, United States" uri="http://sws.geonames.org/5281094/">Kennebunk (York county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup string="ludlow, windsor county, vermont">Ludlow (Windsor county, Vermont : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.25757, -71.25369" string="Pinkham Notch, New Hampshire, United States" uri="http://sws.geonames.org/5091187/">Pinkham Notch (Coos county, New Hampshire : valley)</ns1:lookup>
+        <ns1:lookup coordinates="41.48038, -71.52256" string="Kingston, Rhode Island, United States" uri="http://sws.geonames.org/5223006/">Kingston (Washington county, Rhode Island : inhabited place)</ns1:lookup>
+        <ns1:lookup string="farm, the, carroll country, new hampshire">Farm, The (Carroll country, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="frankenstein trestle, coos county, new hampshire">Frankenstein Trestle (Coos county, New Hampshire : structure)</ns1:lookup>
+        <ns1:lookup string="ammonoosuc falls (coos county, new hampshire : stream) ammonoosuc river, coos county, grafton county, new hampshire">Ammonoosuc Falls (Coos county, New Hampshire : stream) Ammonoosuc River (Coos county, Grafton county, New Hampshire : river)</ns1:lookup>
+        <ns1:lookup coordinates="44.20951, -71.27507" string="Rocky Branch Ridge, New Hampshire, United States" uri="http://sws.geonames.org/5091873/">Rocky Branch Ridge (Coos county, New Hampshire : ridge)</ns1:lookup>
+        <ns1:lookup coordinates="43.80951, -72.15592" string="Lyme, New Hampshire, United States" uri="http://sws.geonames.org/5089108/">Lyme (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.5473, -71.46257" string="Lakeport, New Hampshire, United States" uri="http://sws.geonames.org/4833000/">Lakeport (Belknap county, New Hampshire : neighborhood)</ns1:lookup>
+        <ns1:lookup string="mote mountain, carroll county, new hampshire">Mote Mountain (Carroll county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup coordinates="43.69095, -70.58357" string="Bonny Eagle Pond, Maine, United States" uri="http://sws.geonames.org/4958928/">Bonny Eagle (Cumberland county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup string="thayer cottage, cheshire county, new hampshire">Thayer Cottage (Cheshire county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.03563, -70.43867" string="West Poland, Maine, United States" uri="http://sws.geonames.org/4982698/">West Poland (Androscoggin county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup string="north conway railroad station, carroll county, new hampshire">North Conway Railroad Station (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.13341, -72.44398" string="Bellows Falls, Vermont, United States" uri="http://sws.geonames.org/5233738/">Bellows Falls (Windham county, Vermont : inhabited place)</ns1:lookup>
+        <ns1:lookup string="artists ledge, carroll county, new hampshire">Artists Ledge (Carroll county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup string="whitneys inn, carroll county, new hampshire">Whitneys Inn (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="gloriette, lake, coos county, new hampshire">Gloriette, Lake (Coos county, New Hampshire : lake)</ns1:lookup>
+        <ns1:lookup coordinates="42.47926, -71.15228" string="Woburn, Massachusetts, United States" uri="http://sws.geonames.org/4956032/">Woburn (Middlesex county, Massachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.09203, -69.07865" string="Lowell Ledge, Maine, United States" uri="http://sws.geonames.org/4970667/">Lowell Ledge (Knox county, Maine : sand bar)</ns1:lookup>
+        <ns1:lookup coordinates="44.40145, -72.31232" string="Cabot, Vermont, United States" uri="http://sws.geonames.org/5234462/">Cabot (Washington county, Vermont : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.79172, -71.14952" string="Akers Pond, New Hampshire, United States" uri="http://sws.geonames.org/5082551/">Akers Pond (Coos county, New Hampshire : lake)</ns1:lookup>
+        <ns1:lookup coordinates="42.99564, -71.45479" string="Manchester, New Hampshire, United States" uri="http://sws.geonames.org/5089178/">Manchester (Hillsborough county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.21951, -71.41285" string="Crawford House, New Hampshire, United States" uri="http://sws.geonames.org/5085077/">Notch House (Carroll county , New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="harpers brook, belknap county, new hampshire">Harpers Brook (Belknap county, New Hampshire : stream)</ns1:lookup>
+        <ns1:lookup coordinates="42.3751, -71.10561" string="Cambridge, Massachusetts, United States" uri="http://sws.geonames.org/4931972/">Cambridge (Middlesex county, Massachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.37563, -72.07092" string="Burkehaven, New Hampshire, United States" uri="http://sws.geonames.org/5083936/">Burkehaven (Sullivan county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="crystal cascade, coos county, new hampshire">Crystal Cascade (Coos county, New Hampshire : stream)</ns1:lookup>
+        <ns1:lookup string="northern peaks, coos county, new hampshire">Northern Peaks (Coos county, New Hampshire : ridge)</ns1:lookup>
+        <ns1:lookup string="Unidentified Location">Unidentified Location</ns1:lookup>
+        <ns1:lookup string="webster profile, coos county, new hampshire">Webster Profile (Coos county, New Hampshire : landmark)</ns1:lookup>
+        <ns1:lookup coordinates="44.00494, -71.28003" string="Falls Pond, New Hampshire, United States" uri="http://sws.geonames.org/5086013/">Falls Pond (Carroll county, New Hampshire : lake)</ns1:lookup>
+        <ns1:lookup string="chocorua hotel, carroll county, new hampshire">Chocorua Hotel (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.5729, -71.42576" string="Laconia Municipal Airport, New Hampshire, United States" uri="http://sws.geonames.org/5088444/">Laconia (Belknap county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.04313, -71.21535" string="North Moat Mountain, New Hampshire, United States" uri="http://sws.geonames.org/5090390/">North Moat Mountain (Carroll county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup string="kancamagus highway, grafton county, new hampshire">Kancamagus Highway (Grafton county, New Hampshire : highway)</ns1:lookup>
+        <ns1:lookup coordinates="42.6862, -72.04397" string="Winchendon, Massachusetts, United States" uri="http://sws.geonames.org/4955873/">Winchendon (Worcester county, Massachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup string="camp hale - united south end settlements, carroll county, new hampshire">Camp Hale - United South End Settlements (Carroll county, New Hampshire : summer camp)</ns1:lookup>
+        <ns1:lookup coordinates="43.20814, -71.53757" string="Concord, New Hampshire, United States" uri="http://sws.geonames.org/5084868/">Penacook (Merrimack county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="conway house, carroll county, new hampshire">Conway House (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.65424, -71.24729" string="Center Tuftonboro, New Hampshire, United States" uri="http://sws.geonames.org/5084401/">Tuftonboro (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="41.58227, -85.83444" string="Goshen, Indiana, United States" uri="http://sws.geonames.org/4920808/">Goshen (Elkhart county, Indiana : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.38784, -71.17313" string="Gorham, New Hampshire, United States" uri="http://sws.geonames.org/5086700/">Gorham (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.14895, -71.64453" string="Mount Lincoln, New Hampshire, United States" uri="http://sws.geonames.org/5088715/">Lincoln, Mount (Grafton county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup string="cannell's shop intervale, carroll county, new hampshire">Cannell's Shop Intervale (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="prospect mountain (carroll county, new hampshire : peak) lancaster, coos county, new hampshire">Prospect Mountain (Carroll county, New Hampshire : peak) Lancaster (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.44424, -71.6473" string="Franklin, New Hampshire, United States" uri="http://sws.geonames.org/5086344/">Franklin (Merrimack county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="campbell river, vancouver island, british columbia">Campbell River (Vancouver Island, British Columbia : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.32534, -71.30063" string="Mount Abigail Adams, New Hampshire, United States" uri="http://sws.geonames.org/5082524/">Adams, Mount (Coos county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup string="waumbek hotel and cottages, coos county, new hampshire">Waumbek Hotel and Cottages (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="la tuque, quebec province, canada">La Tuque (Quebec province, Canada : inhabited place)</ns1:lookup>
+        <ns1:lookup string="mount washington base station, coos county, new hampshire">Mount Washington Base Station (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.14549, -72.85398" string="Green Mountains, Vermont, United States" uri="http://sws.geonames.org/5236621/">Green Mountains (Vermont : mountains)</ns1:lookup>
+        <ns1:lookup string="bloomfield, essex county, vermont">Bloomfield (Essex county, Vermont : inhabited place)</ns1:lookup>
+        <ns1:lookup string="mount washington observatory, coos county, new hampshire">Mount Washington Observatory (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.26173, -71.19535" string="Carter Notch, New Hampshire, United States" uri="http://sws.geonames.org/5084264/">Carter Notch (Coos county, New Hampshire : valley)</ns1:lookup>
+        <ns1:lookup string="boston and maine railroad bretton woods, coos county, new hampshire">Boston and Maine Railroad Bretton Woods (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.26175, -70.86534" string="Somersworth, New Hampshire, United States" uri="http://sws.geonames.org/5092813/">Somersworth (Strafford county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="russell's observatory, carroll county, new hampshire">Russell's Observatory (Carroll county, New Hampshire : observatory)</ns1:lookup>
+        <ns1:lookup string="west ossipee station, carroll county, new hampshire">West Ossipee Station (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.11285, -71.35285" string="Nancy Brook, New Hampshire, United States" uri="http://sws.geonames.org/5090031/">Nancy's Brook (Carroll county, New Hampshire : brook)</ns1:lookup>
+        <ns1:lookup coordinates="43.90007, -71.49813" string="Sandwich Mountain, New Hampshire, United States" uri="http://sws.geonames.org/5092376/">Sandwich Dome (New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup string="saco lake, coos county, new hampshire">Saco Lake (Coos county, New Hampshire : lake)</ns1:lookup>
+        <ns1:lookup coordinates="42.62786, -72.86982" string="Charlemont, Massachusetts, United States" uri="http://sws.geonames.org/4932757/">Charlemont (Franklin county, Massachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup string="Canada (nation)">Canada (nation)</ns1:lookup>
+        <ns1:lookup string="androscoggin river, united states. north and central america">Androscoggin River (United States. North and Central America : river)</ns1:lookup>
+        <ns1:lookup coordinates="44.29673, -71.35369" string="Jefferson Notch, New Hampshire, United States" uri="http://sws.geonames.org/5088095/">Jefferson Notch (Coos county, New Hampshire : valley)</ns1:lookup>
+        <ns1:lookup coordinates="43.52896, -72.13092" string="North Grantham, New Hampshire, United States" uri="http://sws.geonames.org/5090362/">North Grantham (Sullivan county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="tuckerman ravine, coos county, new hampshire">Tuckerman Ravine (Coos county, New Hampshire : valley)</ns1:lookup>
+        <ns1:lookup string="thorn hill lodge, carroll county, new hampshire">Thorn Hill Lodge (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.97035, -70.8034" string="Denmark, Maine, United States" uri="http://sws.geonames.org/4962442/">Denmark (Oxford county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup string="story land, carroll county, new hampshire">Story Land (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="georgianna falls, grafton county, new hampshire">Georgianna Falls (Grafton county, New Hampshire : stream)</ns1:lookup>
+        <ns1:lookup string="churchill house, carroll county, new hampshire">Churchill House (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="westbrook, cumberland county, maine">Westbrook (Cumberland county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.63619, -71.05479" string="North Wakefield, New Hampshire, United States" uri="http://sws.geonames.org/5090440/">North Wakefield (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.09536, -69.3756" string="Waldoboro, Maine, United States" uri="http://sws.geonames.org/4982044/">Waldoboro (Lincoln county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="42.24398, -71.9923" string="Spencer, Massachusetts, United States" uri="http://sws.geonames.org/4951699/">Spencer (Worcester county, Massachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.20757, -71.4048" string="Flume Cascade, New Hampshire, United States" uri="http://sws.geonames.org/5086225/">Flume Cascade (New Hampshire, United States : stream)</ns1:lookup>
+        <ns1:lookup coordinates="44.89175, -67.02859" string="Cooper Island, Maine, United States" uri="http://sws.geonames.org/4961468/">Cooper Island (Washington county, Maine : island)</ns1:lookup>
+        <ns1:lookup coordinates="44.26536, -68.72892" string="Little Pickering Island, Maine, United States" uri="http://sws.geonames.org/4970018/">Pickering Island (Hancock county, Maine : island)</ns1:lookup>
+        <ns1:lookup string="ossipee mountain park ossipee range, carroll county, new hampshire">Ossipee Mountain Park Ossipee Range (Carroll county, New Hampshire : ridge)</ns1:lookup>
+        <ns1:lookup string="Atlantic Ocean (ocean)">Atlantic Ocean (ocean)</ns1:lookup>
+        <ns1:lookup coordinates="43.83535, -72.36621" string="South Strafford, Vermont, United States" uri="http://sws.geonames.org/5241344/">Strafford (Orange county, Vermont : inhabited place)</ns1:lookup>
+        <ns1:lookup string="echo lake, grafton county, carroll county, new hampshire">Echo Lake (Grafton county, Carroll county, New Hampshire : lake)</ns1:lookup>
+        <ns1:lookup string="hotel weirs, belknap county, new hampshire">Hotel Weirs (Belknap county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.99162, -70.82913" string="Cupsuptic Lake, Maine, United States" uri="http://sws.geonames.org/4961945/">Cupsuptic Lake (Oxford county, Maine : lake)</ns1:lookup>
+        <ns1:lookup string="flume house, grafton county, new hampshire">Flume House (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="mcmillan house, carroll county, new hampshire">McMillan House (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.15229, -72.03731" string="Woodsville, New Hampshire, United States" uri="http://sws.geonames.org/5094941/">Woodsville (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.64063, -72.14398" string="Enfield, New Hampshire, United States" uri="http://sws.geonames.org/5085900/">Enfield (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="40.71427, -74.00597" string="New York, New York, United States" uri="http://sws.geonames.org/5128581/">New York (United States : state)</ns1:lookup>
+        <ns1:lookup coordinates="43.75702, -71.68813" string="Plymouth, New Hampshire, United States" uri="http://sws.geonames.org/5091310/">Plymouth (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="42.71287, -71.54868" string="Hollis Depot, New Hampshire, United States" uri="http://sws.geonames.org/5087561/">Hollis Depot (Hillsborough county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="glacier park path, grafton county, new hampshire">Glacier Park Path (Grafton county, New Hampshire : national park)</ns1:lookup>
+        <ns1:lookup coordinates="43.69535, -71.63063" string="Ashland, New Hampshire, United States" uri="http://sws.geonames.org/5082756/">Ashland (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.567, -71.05174" string="Success Hill, New Hampshire, United States" uri="http://sws.geonames.org/5093292/">Success Hill (Coos county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup coordinates="38.89511, -77.03637" string="Washington, Washington, D.C., United States" uri="http://sws.geonames.org/4140963/">Washington (District of Colombia : inhabited place)</ns1:lookup>
+        <ns1:lookup string="russell house, grafton county, new hampshire">Russell House (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.67202, -71.3184" string="Geneva Point, New Hampshire, United States" uri="http://sws.geonames.org/5086498/">Geneva Point (Carroll county, New Hampshire : cape)</ns1:lookup>
+        <ns1:lookup coordinates="42.83536, -71.64896" string="Milford, New Hampshire, United States" uri="http://sws.geonames.org/5089578/">Milford (Hillsborough county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="brook path, carroll county, new hampshire">Brook Path (Carroll county, New Hampshire : trail)</ns1:lookup>
+        <ns1:lookup coordinates="42.68203, -72.33897" string="Warwick, Massachusetts, United States" uri="http://sws.geonames.org/4954537/">Warwick (Franklin county, Massachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup string="gilsum, chesire county, new hampshire">Gilsum (Chesire county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="presidential highway gorham, coos county, new hampshire">Presidential Highway Gorham (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="silver center for the arts, grafton county, new hampshire">Silver Center for the Arts (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.04146, -71.17924" string="Thompson Falls, New Hampshire, United States" uri="http://sws.geonames.org/5093624/">Thompson Falls (Carroll county, New Hampshire : waterfall)</ns1:lookup>
+        <ns1:lookup string="davis path, carroll county, new hampshire">Davis Path (Carroll county, New Hampshire : trail)</ns1:lookup>
+        <ns1:lookup string="lincoln's cottages, belknap county, new hampshire">Lincoln's Cottages (Belknap county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.1159, -71.64203" string="Mount Liberty, New Hampshire, United States" uri="http://sws.geonames.org/5088662/">Mount Liberty (Grafton county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup coordinates="44.14785, -71.18841" string="Wentworth Golf Club, New Hampshire, United States" uri="http://sws.geonames.org/5094420/">Wentworth Hall (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.25785, -72.71593" string="Simonsville, Vermont, United States" uri="http://sws.geonames.org/5241120/">Simonsville (Windsor county, Vermont : inhabited place)</ns1:lookup>
+        <ns1:lookup string="east northwood, hamilton county, new hampshire">East Northwood (Hamilton county, New Hampshire : former community)</ns1:lookup>
+        <ns1:lookup coordinates="44.14951, -71.68675" string="Franconia Notch State Park, New Hampshire, United States" uri="http://sws.geonames.org/5086334/">Franconia Notch State Park (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.39089, -71.15924" string="Peabody River, New Hampshire, United States" uri="http://sws.geonames.org/5090875/">Peabody River (Coos county, New Hampshire : river)</ns1:lookup>
+        <ns1:lookup string="massasecum bridge, merrimack county, new hampshire">Massasecum Bridge (Merrimack county, New Hampshire : monument)</ns1:lookup>
+        <ns1:lookup string="croyden flats, sullivan county, new hampshire">Croyden Flats (Sullivan county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.2134, -71.91092" string="Lisbon, New Hampshire, United States" uri="http://sws.geonames.org/5088728/">Lisbon (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="42.7762, -71.07728" string="Haverhill, Massachusetts, United States" uri="http://sws.geonames.org/4939085/">Haverhill (Essex county, Massachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup string="hammond path, carroll county, new hampshire">Hammond Path (Carroll county, New Hampshire : trail)</ns1:lookup>
+        <ns1:lookup string="chororua, carroll county, new hampshire">Chororua (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="46.69547, -68.04747" string="Northern Maine Regional Airport at Presque Isle, Maine, United States" uri="http://sws.geonames.org/4973770/">Presque Isle (Aroostook county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.84063, -71.39702" string="North Sandwich, New Hampshire, United States" uri="http://sws.geonames.org/5090425/">Sandwich (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="carter dome, coos county, new hampshire">Carter Dome (Coos county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup string="alpine, the, grafton county, new hampshire">Alpine, The (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="ammonoosuc river valley, coos county, grafton county, new hampshire">Ammonoosuc River Valley (Coos county, Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="berry's field, strafford county, new hampshire">Berry's Field (Strafford county, New Hampshire : field)</ns1:lookup>
+        <ns1:lookup coordinates="43.90174, -71.23618" string="Chocorua Lake, New Hampshire, United States" uri="http://sws.geonames.org/5084569/">Chocorua Lake (Carroll county, New Hampshire : lake)</ns1:lookup>
+        <ns1:lookup string="halfway house, coos county, new hampshire">Halfway House (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="42.76342, -72.51592" string="Central Park Station, Vermont, United States" uri="http://sws.geonames.org/5234739/">Central Park Station (Windham county, Vermont : inhabited place)</ns1:lookup>
+        <ns1:lookup string="wildcat valley, carroll county, new hampshire">Wildcat Valley (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.89285, -71.67591" string="Thornton, New Hampshire, United States" uri="http://sws.geonames.org/5093630/">Thornton (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="hillside inn, grafton county, new hampshire">Hillside Inn (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.15507, -71.31841" string="Stairs Mountain, New Hampshire, United States" uri="http://sws.geonames.org/5093077/">Stairs Mountain (Coos county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup string="monadnock inn, cheshire county, new hampshire">Monadnock Inn (Cheshire county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="Peckett's-on-Sugar Hill">Peckett's-on-Sugar Hill</ns1:lookup>
+        <ns1:lookup coordinates="42.87453, -71.18117" string="Hampstead, New Hampshire, United States" uri="http://sws.geonames.org/5087105/">Hampstead (Rockingham county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="Unidentified location">Unidentified location</ns1:lookup>
+        <ns1:lookup string="point surprise, carroll county, new hampshire">Point Surprise (Carroll county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup string="townsend harbor, middlesex county, massachusetts">Townsend Harbor (Middlesex county, Massachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.85122, -71.63401" string="Campton Elementary School, New Hampshire, United States" uri="http://sws.geonames.org/5084139/">Campton Elementary School (Grafton county, New Hampshire : school)</ns1:lookup>
+        <ns1:lookup coordinates="44.2759, -71.1698" string="Mount Hight, New Hampshire, United States" uri="http://sws.geonames.org/5087432/">Hight, Mount (Coos county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup coordinates="44.26923, -71.47425" string="Deception Brook, New Hampshire, United States" uri="http://sws.geonames.org/5085319/">White Mountain House (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="paradise falls, grafton county, new hampshire">Paradise Falls (Grafton county, New Hampshire : waterfall)</ns1:lookup>
+        <ns1:lookup string="woodbridge island, essex county, massacusetts">Woodbridge Island (Essex county, Massacusetts : island)</ns1:lookup>
+        <ns1:lookup string="community shopping center incorporated north conway, carroll county, new hampshire">Community Shopping Center Incorporated North Conway (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.75172, -71.6287" string="North Stratford, New Hampshire, United States" uri="http://sws.geonames.org/5090429/">North Stratford (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="garrison hill observatory, stafford county, new hampshire">Garrison Hill Observatory (Stafford county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="18.11432, -76.8759" string="Above Rocks, Saint Catherine, Jamaica" uri="http://sws.geonames.org/11495356/">Rocks</ns1:lookup>
+        <ns1:lookup string="silver cascade, new hampshire, united states">Silver Cascade (New Hampshire, United States : stream)</ns1:lookup>
+        <ns1:lookup string="whitefield nh whitefield, coos county, new hampshire">Whitefield NH Whitefield (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="lake wiloughby, orleans county, vermont">Lake Wiloughby (Orleans county, Vermont : lake)</ns1:lookup>
+        <ns1:lookup string="milliken bowlder, carroll county, new hampshire">Milliken Bowlder (Carroll county, New Hampshire : rock)</ns1:lookup>
+        <ns1:lookup coordinates="42.63898, -71.38284" string="North Chelmsford, Massachusetts, United States" uri="http://sws.geonames.org/4945584/">North Chelmsford (Middlesex county, Massachusetts : neighborhood)</ns1:lookup>
+        <ns1:lookup string="prospect mountain, carroll county, new hampshire">Prospect Mountain (Carroll county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup coordinates="43.92091, -71.22729" string="Pequawket, New Hampshire, United States" uri="http://sws.geonames.org/5090954/">Pequawket (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.59119, -71.73675" string="Bristol, New Hampshire, United States" uri="http://sws.geonames.org/5083812/">Bristol (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.36757, -71.54553" string="Mount Washington Regional Airport, New Hampshire, United States" uri="http://sws.geonames.org/5089919/">Washington, Mount (Coos county, New Hampshire : Mountain)</ns1:lookup>
+        <ns1:lookup coordinates="42.91531, -71.71601" string="Hillsborough, New Hampshire, United States" uri="http://sws.geonames.org/5087463/">Hillsborough (Hillsborough county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="eaton center, carroll county, new hampshire">Eaton Center (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.20143, -70.59509" string="Lake Carolyn, Maine, United States" uri="http://sws.geonames.org/4960247/">Carolyn, Lake (York county, Maine : lake)</ns1:lookup>
+        <ns1:lookup coordinates="42.52787, -70.92866" string="Peabody, Massachusetts, United States" uri="http://sws.geonames.org/4946863/">Peabody (Essex county, Massachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup string="londonderry, windham county, vermont">Londonderry (Windham county, Vermont : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.55425, -71.0309" string="Sanbornville, New Hampshire, United States" uri="http://sws.geonames.org/5092346/">Sanbornville (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="gray's inn, carroll county, new hampshire">Gray's Inn (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.85118, -71.57424" string="Mount Weetamoo, New Hampshire, United States" uri="http://sws.geonames.org/5094389/">Weetamoo, Mount (Grafton county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup string="meserve hall, carroll county, new hampshire">Meserve Hall (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="maplewood caddy camp, grafton county, new hampshire">Maplewood Caddy Camp (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="42.72647, -72.46425" string="West Northfield, Massachusetts, United States" uri="http://sws.geonames.org/4955037/">East Northfield (Franklin county, Massachusetts : neighborhood)</ns1:lookup>
+        <ns1:lookup coordinates="42.0451, -71.93007" string="Dudley, Massachusetts, United States" uri="http://sws.geonames.org/4935125/">Dudley (Worcester county, Massachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.88813, -71.17535" string="Silver Lake, New Hampshire, United States" uri="http://sws.geonames.org/5092672/">Silver Lake (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.50119, -70.96367" string="Milton Mills, New Hampshire, United States" uri="http://sws.geonames.org/5089651/">Milton Mills (Strafford county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.08313, -73.78457" string="Saratoga Springs, New York, United States" uri="http://sws.geonames.org/5136334/">Saratoga Springs (Saratoga county, New York state : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="42.93814, -72.70537" string="South Newfane, Vermont, United States" uri="http://sws.geonames.org/5241307/">Newfane (Windham county, Vermont : inhabited place)</ns1:lookup>
+        <ns1:lookup string="artists brook, carroll county, new hampshire">Artists Brook (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="pittston, kennebec county, maine">Pittston (Kennebec county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup string="thompson's inn, carroll county, new hampshire">Thompson's Inn (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="saint paul, aleutians west, alaska">Saint Paul (Aleutians West, Alaska : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.64866, -71.57203" string="Maidstone, Vermont, United States" uri="http://sws.geonames.org/5238236/">Maidstone (Essex county, Vermont : inhabited place)</ns1:lookup>
+        <ns1:lookup string="howard hotel, carroll county, new hampshire">Howard Hotel (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.00314, -71.92452" string="Bennington, New Hampshire, United States" uri="http://sws.geonames.org/5083316/">Bennington (Hillsborough county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="russell cottages, carroll county, new hampshire">Russell Cottages (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="west dunneston, windham county, vermont">West Dunneston (Windham county, Vermont : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.40591, -72.50592" string="Amsden, Vermont, United States" uri="http://sws.geonames.org/5233255/">Amsden (Windsor county, Vermont : inhabited place)</ns1:lookup>
+        <ns1:lookup string="lexington, middlesex county, massachusetts">Lexington (Middlesex county, Massachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.65424, -71.24729" string="Center Tuftonboro, New Hampshire, United States" uri="http://sws.geonames.org/5084401/">Tuftonboro (Carroll county, New Hampshire : inahbited place)</ns1:lookup>
+        <ns1:lookup string="pinkham notch trading post, coos county, new hampshire">Pinkham Notch Trading Post (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.67605, -72.27362" string="Dartmouth Hitchcock Medical Center, New Hampshire, United States" uri="http://sws.geonames.org/5085265/">Mary Hitchcock Hospital (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="harts ledge, carroll county, new hampshire">Harts Ledge (Carroll county, New Hampshire : rock)</ns1:lookup>
+        <ns1:lookup coordinates="43.97618, -71.28702" string="Champney Falls Trail, New Hampshire, United States" uri="http://sws.geonames.org/5084425/">Champney Falls (Carroll county, New Hampshire : waterfall)</ns1:lookup>
+        <ns1:lookup string="iona, carroll county, new hampshire">Iona (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="ravine house, coos county, new hampshire">Ravine House (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="turner house, grafton county, new hampshire">Turner House (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="israel ridge path, coos county, new hampshire">Israel Ridge Path (Coos county, New Hampshire : trail)</ns1:lookup>
+        <ns1:lookup coordinates="44.13985, -71.70124" string="Lonesome Lake, New Hampshire, United States" uri="http://sws.geonames.org/5088923/">Lonesome Lake (Grafton county, New Hampshire : lake)</ns1:lookup>
+        <ns1:lookup coordinates="44.33895, -71.49202" string="Owlshead, New Hampshire, United States" uri="http://sws.geonames.org/5090739/">Owlshead (Coos county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup coordinates="42.59981, -71.36728" string="Chelmsford, Massachusetts, United States" uri="http://sws.geonames.org/4932869/">Chelmsford (Middlesex county, Massachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="41.63706, -70.22141" string="Parkers River, Massachusetts, United States" uri="http://sws.geonames.org/4946748/">Parker River (Barnstable county, Massachusetts : river)</ns1:lookup>
+        <ns1:lookup string="the pool, grafton county, new hampshire">The Pool (Grafton county, New Hampshire : pool)</ns1:lookup>
+        <ns1:lookup coordinates="44.31089, -71.79703" string="The Dells, New Hampshire, United States" uri="http://sws.geonames.org/5093560/">The Dells (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.13433, -71.53001" string="Pemigewasset Wilderness, New Hampshire, United States" uri="http://sws.geonames.org/5090935/">Pemigewasset (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="45.0631, -71.16452" string="Magalloway Mountain, New Hampshire, United States" uri="http://sws.geonames.org/5089154/">Magalloway Mountain (Coos county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup coordinates="43.64896, -72.31926" string="White River Junction, Vermont, United States" uri="http://sws.geonames.org/5242889/">White River Junction (Windsor county, Vermont : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="42.43981, -72.48009" string="East Leverett, Massachusetts, United States" uri="http://sws.geonames.org/4935429/">East Leverett (Franklin county, Massachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.08286, -70.93506" string="Newmarket, New Hampshire, United States" uri="http://sws.geonames.org/5090246/">Newmarket (Rockingham county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.68897, -71.30424" string="Melvin Village, New Hampshire, United States" uri="http://sws.geonames.org/5089466/">Melvin Village (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.10007, -71.67564" string="The Flume, New Hampshire, United States" uri="http://sws.geonames.org/5086228/">Flume, The (Grafton county, New Hampshire : valley)</ns1:lookup>
+        <ns1:lookup coordinates="44.64144, -71.97871" string="West Burke, Vermont, United States" uri="http://sws.geonames.org/5242663/">West Burke (Caledonia county, Vermont : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.37841, -71.85425" string="Mount Kearsarge State Forest Park, New Hampshire, United States" uri="http://sws.geonames.org/5089886/">Kearsarge, Mount (Merrimack county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup coordinates="43.14591, -72.84038" string="Rawsonville, Vermont, United States" uri="http://sws.geonames.org/5240178/">Rawsonville (Windham county, Vermont : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.16812, -71.67119" string="Eagle Cliff, New Hampshire, United States" uri="http://sws.geonames.org/5085638/">Eagle Cliff (Grafton county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup string="artists falls (carroll county, new hampshire : inhabited place) bartlett (carroll county, new hampshire : inhabited place) diana's baths (carroll county, new hampshire : cascade) echo lake (grafton county, carroll county, new hampshire : lake) enchanted woods (carroll county, new hampshire : woods) intervale (carroll county, new hampshire : inhabited place) saco lake (coos county, new hampshire : lake) thompson falls, carroll county, new hampshire">Artists Falls (Carroll county, New Hampshire : inhabited place) Bartlett (Carroll county, New Hampshire : inhabited place) Diana's Baths (Carroll county, New Hampshire : cascade) Echo Lake (Grafton county, Carroll county, New Hampshire : lake) Enchanted Woods (Carroll county, New Hampshire : woods) Intervale (Carroll county, New Hampshire : inhabited place) Saco Lake (Coos county, New Hampshire : lake) Thompson Falls (Carroll county, New Hampshire : waterfall)</ns1:lookup>
+        <ns1:lookup string="wentworth castle, carroll county, new hampshire">Wentworth Castle (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.7928, -71.13116" string="Ossipee Lake, New Hampshire, United States" uri="http://sws.geonames.org/5090685/">Ossipee (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.14173, -71.18479" string="Honeymoon Bridge, New Hampshire, United States" uri="http://sws.geonames.org/5087605/">Jackson Covered Bridge (Carroll county, New Hampshire : landmark)</ns1:lookup>
+        <ns1:lookup string="loon mountain, grafton county, new hampshire">Loon Mountain (Grafton county, New Hampshire : ridge)</ns1:lookup>
+        <ns1:lookup string="cathedral woods, carroll county, new hampshire">Cathedral Woods (Carroll county, New Hampshire : forest)</ns1:lookup>
+        <ns1:lookup string="heritage-new hampshire, carroll county, new hampshire">Heritage-New Hampshire (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.2509, -71.4423" string="Church of the Transfiguration, New Hampshire, United States" uri="http://sws.geonames.org/5084617/">Joseph Stickney Memorial Church (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="giants stairs, coos county, new hampshire">Giants Stairs (Coos county, New Hampshire : rock)</ns1:lookup>
+        <ns1:lookup coordinates="43.43674, -71.64869" string="Pemigewasset River, New Hampshire, United States" uri="http://sws.geonames.org/5090933/">Pemigewasset River (New Hampshire : river)</ns1:lookup>
+        <ns1:lookup coordinates="44.53395, -70.4559" string="Dixfield, Maine, United States" uri="http://sws.geonames.org/4962589/">Dixfield (Oxford county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.37312, -71.61008" string="Whitefield, New Hampshire, United States" uri="http://sws.geonames.org/5094647/">Whitefield (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="south woodstock, windsor county, vermont">South Woodstock (Windsor county, Vermont : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.10562, -71.09424" string="Kearsarge North, New Hampshire, United States" uri="http://sws.geonames.org/5088232/">Kearsarge North (Carroll county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup coordinates="42.36676, -71.30311" string="Weston, Massachusetts, United States" uri="http://sws.geonames.org/4955259/">Weston (Middlesex county, Massachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.13479, -71.23924" string="Iron Mountain, New Hampshire, United States" uri="http://sws.geonames.org/5088003/">Iron Mountain (Carroll county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup coordinates="44.20312, -71.37424" string="Mount Jackson, New Hampshire, United States" uri="http://sws.geonames.org/5088054/">Jackson, Mount (Coos county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup coordinates="44.28347, -71.3089" string="Spaulding Lake, New Hampshire, United States" uri="http://sws.geonames.org/5092971/">Spaulding Lake (Coos county, New Hampshire : lake)</ns1:lookup>
+        <ns1:lookup coordinates="44.15729, -71.21118" string="Meserve Brook, New Hampshire, United States" uri="http://sws.geonames.org/5089507/">Meserve Brook (Carroll county, New Hampshire : stream)</ns1:lookup>
+        <ns1:lookup coordinates="45.1142, -71.05508" string="Bosebuck Mountain, Maine, United States" uri="http://sws.geonames.org/4958978/">Bosebuck Mountain (Oxford county, Maine : peak)</ns1:lookup>
+        <ns1:lookup string="arethusa falls, carroll county, new hampshire">Arethusa Falls (Carroll county, New Hampshire : stream)</ns1:lookup>
+        <ns1:lookup coordinates="43.99379, -71.15314" string="Red Eagle Pond, New Hampshire, United States" uri="http://sws.geonames.org/5091663/">Red Eagle Pond (Carroll county, New Hampshire : lake)</ns1:lookup>
+        <ns1:lookup coordinates="44.05201, -71.32702" string="Bartlett Haystack, New Hampshire, United States" uri="http://sws.geonames.org/5083041/">Bartlett Mountain (Carroll county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup coordinates="44.32534, -71.30063" string="Mount Abigail Adams, New Hampshire, United States" uri="http://sws.geonames.org/5082524/">Adams, Mount (Coos county, New Hampshire :peak)</ns1:lookup>
+        <ns1:lookup coordinates="44.30451, -71.31758" string="Mount Jefferson, New Hampshire, United States" uri="http://sws.geonames.org/5088099/">Jefferson, Mount (Coos county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup string="knowles path, carroll county, new hampshire">Knowles Path (Carroll county, New Hampshire : trail)</ns1:lookup>
+        <ns1:lookup coordinates="42.5612, -71.58979" string="Ayer, Massachusetts, United States" uri="http://sws.geonames.org/4929501/">Ayer Junction (Middlesex county, Massachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.26474, -71.93983" string="Town of Lyman, New Hampshire, United States" uri="http://sws.geonames.org/5089107/">Lyman (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.81213, -70.68822" string="Beaver Pond, Maine, United States" uri="http://sws.geonames.org/4957867/">Beaver Pond (Franklin county, Maine : lake)</ns1:lookup>
+        <ns1:lookup coordinates="44.57228, -71.22313" string="Milan Hill State Park, New Hampshire, United States" uri="http://sws.geonames.org/5089549/">Milan Hill (Coos county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup string="idlewild, carroll county, new hampshire">Idlewild (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="42.88731, -71.70813" string="Purgatory Falls, New Hampshire, United States" uri="http://sws.geonames.org/5091539/">Purgatory Falls (Hillsborough county, New Hampshire : waterfall)</ns1:lookup>
+        <ns1:lookup coordinates="44.21312, -71.75648" string="Robert From Museum, New Hampshire, United States" uri="http://sws.geonames.org/5091801/">Frost Place (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.33201, -71.34369" string="Mount Bowman, New Hampshire, United States" uri="http://sws.geonames.org/5083708/">Bowman, Mount (Coos county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup coordinates="43.07759, -70.7545" string="Warner House Museum, New Hampshire, United States" uri="http://sws.geonames.org/5094259/">Warner House (Rockingham county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="45.89115, -69.95201" string="North Branch Penobscot River, Maine, United States" uri="http://sws.geonames.org/4973498/">Penobscot River (Maine : river)</ns1:lookup>
+        <ns1:lookup string="provideniya, chukotskiy avtonomnyy okrug, rossiya republic">Provideniya (Chukotskiy Avtonomnyy Okrug, Rossiya republic : inhabited place)</ns1:lookup>
+        <ns1:lookup string="Twin Mountain (Coos county, New Hampshire : inhabited place">Twin Mountain (Coos county, New Hampshire : inhabited place</ns1:lookup>
+        <ns1:lookup string="cathedral woods, carroll county, new hampshire">Cathedral Woods (Carroll county, New Hampshire: forest)</ns1:lookup>
+        <ns1:lookup string="hollis, hillsborough county, new hampshire">Hollis (Hillsborough county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="great ox bow, grafton county, new hampshire">Great Ox Bow (Grafton county, New Hampshire : landmark)</ns1:lookup>
+        <ns1:lookup string="paugus falls, carroll county, new hampshire">Paugus Falls (Carroll county, New Hampshire : waterfall)</ns1:lookup>
+        <ns1:lookup coordinates="43.88313, -71.51008" string="Black Mountain Pond, New Hampshire, United States" uri="http://sws.geonames.org/5083499/">Black Mountain (Carroll county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup string="upton, oxford county, maine">Upton (Oxford county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup string="goodnows house, grafton county, new hampshire">Goodnows House (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="george washington profile, coos county, new hampshire">George Washington Profile (Coos county, New Hampshire : rock)</ns1:lookup>
+        <ns1:lookup coordinates="44.00034, -72.74983" string="Vermont, Vermont, United States" uri="http://sws.geonames.org/5242283/">Vermont (United States : state)</ns1:lookup>
+        <ns1:lookup string="White Mountain Wilderness Compromise of 1984">White Mountain Wilderness Compromise of 1984</ns1:lookup>
+        <ns1:lookup string="pittsfield, berkshire county, massachusetts">Pittsfield (Berkshire county, Massachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.00571, -70.93194" string="Lovewell Pond, Maine, United States" uri="http://sws.geonames.org/4970646/">Lovewell Pond (Oxford county, Maine : lake)</ns1:lookup>
+        <ns1:lookup string="bell hurst cabins, carroll county, new hampshire">Bell Hurst Cabins (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.65757, -71.50035" string="Meredith, New Hampshire, United States" uri="http://sws.geonames.org/5089449/">Meredith (Belknap county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.52645, -69.887" string="Belgrade Lakes, Maine, United States" uri="http://sws.geonames.org/4957964/">Belgrade Lakes (Kennebec county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.46869, -71.23201" string="Alton Bay, New Hampshire, United States" uri="http://sws.geonames.org/5082604/">Alton Bay (Belknap county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="altamonte, the, grafton county, new hampshire">Altamonte, The (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.90952, -71.07674" string="Crystal Lake, New Hampshire, United States" uri="http://sws.geonames.org/5085139/">Crystal Lake (Carroll county, New Hampshire : lake)</ns1:lookup>
+        <ns1:lookup coordinates="42.49065, -71.27617" string="Bedford, Massachusetts, United States" uri="http://sws.geonames.org/4930183/">Bedford (Middlesex county, Massachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.14423, -71.18091" string="Jackson, New Hampshire, United States" uri="http://sws.geonames.org/5088043/">Jackson (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.8523, -69.6281" string="Boothbay Harbor, Maine, United States" uri="http://sws.geonames.org/4958958/">Boothbay Harbor (Lincoln county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="42.19454, -71.1995" string="Norwood, Massachusetts, United States" uri="http://sws.geonames.org/4945952/">Norwood (Norfolk county, Massachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup string="thompsons falls, coos county, new hampshire">Thompsons Falls (Coos county, New Hampshire : stream)</ns1:lookup>
+        <ns1:lookup coordinates="37.77493, -122.41942" string="San Francisco, California, United States" uri="http://sws.geonames.org/5391959/">San Francisco (San Francisco county, California : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.81298, -71.71051" string="Bog Pond, New Hampshire, United States" uri="http://sws.geonames.org/5083627/">Campton (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.93396, -71.40591" string="Mount Whiteface, New Hampshire, United States" uri="http://sws.geonames.org/5094654/">Whiteface, Mount (Grafton county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup string="glen station, carroll county, new hampshire">Glen Station (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.26507, -71.29285" string="Lion Head, New Hampshire, United States" uri="http://sws.geonames.org/5088737/">Lion Head (Coos county, New Hampshire : rock)
+Huntington Ravine (Coos county, New Hampshire : valley)</ns1:lookup>
+        <ns1:lookup string="rockport, knox county, maine">Rockport (Knox county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.22314, -68.73419" string="Dunham Point Ledge, Maine, United States" uri="http://sws.geonames.org/4962993/">Dunham Point Ledge (Hancock county, Maine : sand bar)</ns1:lookup>
+        <ns1:lookup coordinates="45.54104, -122.41382" string="Interstate 84 Eastbound entrance from US Route 30 Bypass, Oregon, United States" uri="http://sws.geonames.org/11811733/">Route 16</ns1:lookup>
+        <ns1:lookup coordinates="43.90174, -71.23618" string="Chocorua Lake, New Hampshire, United States" uri="http://sws.geonames.org/5084569/">Chocorua (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.43756, -71.19091" string="Tinker Brook, New Hampshire, United States" uri="http://sws.geonames.org/5093689/">Tinker Brook (Coos county, New Hampshire : stream)</ns1:lookup>
+        <ns1:lookup coordinates="43.85425, -69.53227" string="Johns Bay, Maine, United States" uri="http://sws.geonames.org/4968394/">Johns Bay (Lincoln county, Maine : bay)</ns1:lookup>
+        <ns1:lookup string="center lovell, oxford county, maine">Center Lovell (Oxford county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup string="jacob's ladder, coos county, new hampshire">Jacob's Ladder (Coos county, New Hampshire : structure)</ns1:lookup>
+        <ns1:lookup coordinates="44.75172, -71.6287" string="North Stratford, New Hampshire, United States" uri="http://sws.geonames.org/5090429/">North Stratford (Coos county, New hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="randolph, orange county, vermont">Randolph (Orange county, Vermont : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="45.13452, -70.77108" string="Little Kennebago Lake, Maine, United States" uri="http://sws.geonames.org/4969898/">Kennebago Lake (Franklin county, Maine : Lake)</ns1:lookup>
+        <ns1:lookup string="melrose, middlesex county, massachusetts">Melrose (Middlesex county, Massachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.68285, -71.76425" string="Camp Pasquaney, New Hampshire, United States" uri="http://sws.geonames.org/5084094/">Camp Pasquaney (Grafton county, New Hampshire : summer camp)</ns1:lookup>
+        <ns1:lookup coordinates="42.81397, -72.02314" string="Jaffrey, New Hampshire, United States" uri="http://sws.geonames.org/5088061/">East Jaffrey (Cheshire county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="piper's trail, carroll county, new hampshire">Piper's Trail (Carroll county, New Hampshire : trail)</ns1:lookup>
+        <ns1:lookup string="stark, coos county, new hampshire">Stark (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="little's path, grafton county, new hampshire">Little's Path (Grafton county, New Hampshire : trail)</ns1:lookup>
+        <ns1:lookup coordinates="43.66702, -70.60311" string="West Buxton, Maine, United States" uri="http://sws.geonames.org/4982555/">West Buxton (York county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="42.27788, -70.86616" string="Nantasket Beach, Massachusetts, United States" uri="http://sws.geonames.org/4944895/">Nantasket Beach (Plymouth county, Massachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup string="four winds, grafton county, new hampshire">Four Winds (Grafton county, New Hampshire : hotel)</ns1:lookup>
+        <ns1:lookup string="union house, carroll county, new hampshire">Union House (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="smithurst cabins, carroll county, new hampshire">Smithurst Cabins (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="hammond house, carroll county, new hampshire">Hammond House (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="eastern slope ski club jackson, carroll county, new hampshire">Eastern Slope Ski Club Jackson (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="oakes gulf, coos county, new hampshire">Oakes Gulf (Coos county, New Hampshire : valley)</ns1:lookup>
+        <ns1:lookup coordinates="43.26175, -70.86534" string="Somersworth, New Hampshire, United States" uri="http://sws.geonames.org/5092813/">Great Falls (Strafford county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.65258, -71.10896" string="Whiteface Mountain, New Hampshire, United States" uri="http://sws.geonames.org/5094644/">Whiteface Mountain (Carroll county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup string="Profile House (Grafton county, New Hampshire : inhabited place">Profile House (Grafton county, New Hampshire : inhabited place</ns1:lookup>
+        <ns1:lookup coordinates="42.63342, -71.31617" string="Lowell, Massachusetts, United States" uri="http://sws.geonames.org/4942618/">Lowell (Middlesex county, Massachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup string="lost river gorge, grafton county, new hampshire">Lost River Gorge (Grafton county, New Hampshire : gorge)</ns1:lookup>
+        <ns1:lookup string="intervale house, carroll county, new hampshire">Intervale House (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="willey brook bridge, carroll county, new hampshire">Willey Brook Bridge (Carroll county, New Hampshire : structure)</ns1:lookup>
+        <ns1:lookup coordinates="42.40843, -71.05366" string="Everett, Massachusetts, United States" uri="http://sws.geonames.org/4936008/">Everett (Middlesex county, Massachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.65737, -70.2589" string="Portland, Maine, United States" uri="http://sws.geonames.org/4975802/">Portland (Cumberland county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.30453, -70.97562" string="Rochester, New Hampshire, United States" uri="http://sws.geonames.org/5091872/">Rochester (Strafford county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.16075, -71.64433" string="Mount Lafayette, New Hampshire, United States" uri="http://sws.geonames.org/5088464/">Lafayette, Mount (Grafton county, New Hampshire : mountain)</ns1:lookup>
+        <ns1:lookup coordinates="44.24951, -71.33063" string="Mount Franklin, New Hampshire, United States" uri="http://sws.geonames.org/5086364/">Franklin, Mount (Coos county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup coordinates="43.67952, -70.44422" string="Gorham, Maine, United States" uri="http://sws.geonames.org/4965481/">Gorham (Cumberland county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup string="sugar loaf , mount, franklin county, maine">Sugar Loaf , Mount (Franklin County, Maine : Mountain)</ns1:lookup>
+        <ns1:lookup coordinates="44.05757, -71.09285" string="Cranmore Mountain, New Hampshire, United States" uri="http://sws.geonames.org/5085069/">Cranmore Mountain (Carroll county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup string="old man of the lake, sullivan county, new hampshire">Old Man of the Lake (Sullivan county, New Hampshire : landmark)</ns1:lookup>
+        <ns1:lookup string="shaker bridge, grafton county, new hampshire">Shaker Bridge (Grafton county, New Hampshire : bridge)</ns1:lookup>
+        <ns1:lookup coordinates="44.57339, -71.18508" string="Milan, New Hampshire, United States" uri="http://sws.geonames.org/5089546/">Milan (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="chocorua peak house, carroll county, new hampshire">Chocorua Peak House (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.08483, -70.88697" string="Kezar Pond, Maine, United States" uri="http://sws.geonames.org/4968810/">Kezar Lake (Oxford county, Maine : lake)</ns1:lookup>
+        <ns1:lookup string="madison spring hut, coos county, new hampshire">Madison Spring Hut (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.55897, -71.06534" string="Brookfield, New Hampshire, United States" uri="http://sws.geonames.org/5083833/">Brookfield (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.14951, -71.68675" string="Franconia Notch State Park, New Hampshire, United States" uri="http://sws.geonames.org/5086334/">Franconia Notch (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.06118, -71.17035" string="Echo Lake-Cathedral Ledge State Park, New Hampshire, United States" uri="http://sws.geonames.org/5085805/">Cathedral Ledge (Carroll county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup coordinates="45.20364, -71.06354" string="Rump Mountain, Maine, United States" uri="http://sws.geonames.org/4977136/">Rump Mountain (Oxford county, Maine : mountain)</ns1:lookup>
+        <ns1:lookup coordinates="44.20256, -71.55786" string="North Twin Mountain, New Hampshire, United States" uri="http://sws.geonames.org/5090435/">Twin Mountain (Grafton county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup coordinates="43.81702, -71.19535" string="Chocorua River, New Hampshire, United States" uri="http://sws.geonames.org/5084570/">Chocorua River (Carroll county, New Hampshire : river)</ns1:lookup>
+        <ns1:lookup coordinates="42.47509, -71.47451" string="West Acton, Massachusetts, United States" uri="http://sws.geonames.org/4954831/">West Acton (Middlesex county, Massachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup string="androscoggin river, united states, north and central america">Androscoggin River (United States, North and Central America : river)</ns1:lookup>
+        <ns1:lookup string="north conway scenic railroad frankenstein cliff, carroll county, new hampshire">North Conway Scenic Railroad Frankenstein Cliff (Carroll county, New Hampshire : rock)</ns1:lookup>
+        <ns1:lookup coordinates="43.8248, -71.20479" string="West Ossipee, New Hampshire, United States" uri="http://sws.geonames.org/5094510/">West Ossipee (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.01479, -71.10118" string="Redstone, New Hampshire, United States" uri="http://sws.geonames.org/5091679/">Redstone (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="howard, the, grafton county, new hampshire">Howard, The (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.90063, -70.237" string="West Pownal, Maine, United States" uri="http://sws.geonames.org/4982702/">West Pownal (Cumberland county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.98978, -70.78312" string="Kennebago River, Maine, United States" uri="http://sws.geonames.org/4968702/">Kennebago River (Franklin County, Maine : river)</ns1:lookup>
+        <ns1:lookup coordinates="44.27378, -71.33148" string="Mount Washington Cog Railway, New Hampshire, United States" uri="http://sws.geonames.org/7648835/">Mount Washington Cog Railway</ns1:lookup>
+        <ns1:lookup string="glenwood, carroll county, new hampshire">Glenwood (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.89449, -71.49592" string="Colebrook, New Hampshire, United States" uri="http://sws.geonames.org/5084820/">Colebrook (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="weetamoo trail, grafton county, new hampshire">Weetamoo Trail (Grafton county, New Hampshire : trail)</ns1:lookup>
+        <ns1:lookup string="barnes hotel, grafton county, new hampshire">Barnes Hotel (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.06007, -71.89036" string="Long Pond Picnic Ground, New Hampshire, United States" uri="http://sws.geonames.org/5088966/">Long Pond (Grafton county, New Hampshire : lake)</ns1:lookup>
+        <ns1:lookup coordinates="43.89396, -71.29646" string="Paugus Brook, New Hampshire, United States" uri="http://sws.geonames.org/5090852/">Paugus Brook (Carroll county, New Hampshire : stream)</ns1:lookup>
+        <ns1:lookup coordinates="42.26259, -71.80229" string="Worcester, Massachusetts, United States" uri="http://sws.geonames.org/4956184/">Worcester (Worcester county, Massachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup string="pemigewasset valley branch, grafton county, new hampshire">Pemigewasset Valley Branch (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.4423, -71.58896" string="Tilton, New Hampshire, United States" uri="http://sws.geonames.org/5093669/">Tilton (Belknap county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.12229, -71.68314" string="The Basin, New Hampshire, United States" uri="http://sws.geonames.org/5083061/">The Basin (Grafton county, New Hampshire : basin)</ns1:lookup>
+        <ns1:lookup string="pine trees restaurant, carroll county, new hampshire">Pine Trees Restaurant (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.82617, -70.84868" string="Metallak Brook, Maine, United States" uri="http://sws.geonames.org/4971862/">Metallak Brook (Oxford county, Maine : stream)</ns1:lookup>
+        <ns1:lookup coordinates="44.61061, -71.20091" string="Dummer, New Hampshire, United States" uri="http://sws.geonames.org/5085591/">Dummer (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.53175, -71.26035" string="Littlemark Island, New Hampshire, United States" uri="http://sws.geonames.org/5088886/">Mark Island (Belknap county, New Hampshire : island)</ns1:lookup>
+        <ns1:lookup string="gardner, worcester county, massachusetts">Gardner (Worcester county, Massachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup string="augusta, kennebec county, maine">Augusta (Kennebec county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup string="grafton notch, oxford county, maine">Grafton Notch (Oxford county, Maine : peak)</ns1:lookup>
+        <ns1:lookup string="abenaki, mount, coos county, new hampshire">Abenaki, Mount (Coos county, New Hampshire : mountain)</ns1:lookup>
+        <ns1:lookup string="nashua junction, hillsborough county, new hampshire">Nashua Junction (Hillsborough county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="hotel barre, worcester county, massachusetts">Hotel Barre (Worcester county, Massachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.65737, -70.2589" string="Portland, Maine, United States" uri="http://sws.geonames.org/4975802/">Portland (Cumberland County, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.13433, -71.53001" string="Pemigewasset Wilderness, New Hampshire, United States" uri="http://sws.geonames.org/5090935/">Pemigewasset (New Hampshire : river)</ns1:lookup>
+        <ns1:lookup coordinates="44.6896, -71.30542" string="Coos, New Hampshire, United States" uri="http://sws.geonames.org/5084973/">Coos (New Hampshire : county)</ns1:lookup>
+        <ns1:lookup string="bretton woods caddy camp, coos county, new hampshire">Bretton Woods Caddy Camp (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="40.76732, -74.20487" string="East Orange, New Jersey, United States" uri="http://sws.geonames.org/5097441/">East Orange (Essex county, New Jersey : inhabited place)</ns1:lookup>
+        <ns1:lookup string="wildcat river, carroll county, new hampshire">Wildcat River (Carroll county, New Hampshire : river)</ns1:lookup>
+        <ns1:lookup coordinates="43.85924, -71.64536" string="Sunset Hill, New Hampshire, United States" uri="http://sws.geonames.org/5093386/">Sunset Hill (Grafton county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup coordinates="43.37369, -72.04203" string="Blodgett Landing, New Hampshire, United States" uri="http://sws.geonames.org/5083562/">Blodgett Landing (Merrimack county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.86452, -71.02227" string="Sturtevant Pond, Maine, United States" uri="http://sws.geonames.org/4980101/">Sturtevant Pond (Oxford county, Maine : lake)</ns1:lookup>
+        <ns1:lookup coordinates="43.90675, -69.51505" string="Pemaquid, Maine, United States" uri="http://sws.geonames.org/4974905/">Pemaquid (Lincoln county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.8825, -71.07167" string="Swift Diamond River, New Hampshire, United States" uri="http://sws.geonames.org/5093442/">Swift Diamond River (Coos county, New Hampshire : river)</ns1:lookup>
+        <ns1:lookup coordinates="42.77758, -72.4237" string="Ashuelot, New Hampshire, United States" uri="http://sws.geonames.org/5082764/">Ashuelot (New Hampshire : river)</ns1:lookup>
+        <ns1:lookup coordinates="44.64339, -70.76257" string="Abbott Brook, Maine, United States" uri="http://sws.geonames.org/4956405/">Abbott Brook (Oxford county, Maine : stream)</ns1:lookup>
+        <ns1:lookup coordinates="43.43925, -70.77422" string="Sanford, Maine, United States" uri="http://sws.geonames.org/4977762/">Sanford (York county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.07231, -70.71616" string="New Castle, New Hampshire, United States" uri="http://sws.geonames.org/5090100/">New Castle (Rockingham county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="old homestead tea room, carroll county, new hampshire">Old Homestead Tea Room (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="grafton, grafton county, new hampshire">Grafton (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="dunstable, hillsborogh county, new hampshire">Dunstable (Hillsborogh county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="wilsons cottages, carroll county, new hampshire">Wilsons Cottages (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="west tunbridge, orange county, vermont">West Tunbridge (Orange county, Vermont : inhabited place)</ns1:lookup>
+        <ns1:lookup string="east side boulevard, carroll county, new hampshire">East Side Boulevard (Carroll county, New Hampshire : road)</ns1:lookup>
+        <ns1:lookup string="elmwood inn, carroll county, new hampshire">Elmwood Inn (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="tuckerman ravine (coos county, new hampshire : valley) washington, mount, coos county, new hampshire">Tuckerman Ravine (Coos county, New Hampshire : valley) Washington, Mount (Coos county, New Hampshire : mountain)</ns1:lookup>
+        <ns1:lookup coordinates="44.05201, -71.32702" string="Bartlett Haystack, New Hampshire, United States" uri="http://sws.geonames.org/5083041/">Bartlett Haystack (Carroll county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup string="stratford mountains, coos county, new hampshire">Stratford Mountains (Coos county, New Hampshire : ridge)</ns1:lookup>
+        <ns1:lookup coordinates="43.98979, -72.4476" string="Chelsea, Vermont, United States" uri="http://sws.geonames.org/5234814/">Chelsea (Orange county, Vermont : inhabited place)</ns1:lookup>
+        <ns1:lookup string="maine general hospital, cumberland county, maine">Maine General Hospital (Cumberland county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.20423, -71.31063" string="Mount Davis, New Hampshire, United States" uri="http://sws.geonames.org/5085292/">Davis, Mount (Coos county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup string="sunset hill, carroll county, new hampshire">Sunset Hill (Carroll county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup coordinates="43.48952, -72.13759" string="Grantham, New Hampshire, United States" uri="http://sws.geonames.org/5086792/">Grantham (Sullivan county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.08368, -71.12646" string="Mount Surprise, New Hampshire, United States" uri="http://sws.geonames.org/5093399/">Surprise, Mount (Carroll county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup coordinates="44.45895, -72.09399" string="North Danville, Vermont, United States" uri="http://sws.geonames.org/5239163/">North Danville (Caledonia county, Vermont : inhabited place)</ns1:lookup>
+        <ns1:lookup string="rockwood administration building, coos county, new hampshire">Rockwood Administration Building (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.8909, -72.49121" string="Tunbridge, Vermont, United States" uri="http://sws.geonames.org/5242078/">Tunbridge (Orange county, Vermont : inhabited place)</ns1:lookup>
+        <ns1:lookup string="maplewood hotel, grafton county, new hampshire">Maplewood Hotel (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="davis trail, carroll county, new hampshire">Davis Trail (Carroll county, New Hampshire : trail)</ns1:lookup>
+        <ns1:lookup string="washington boulder, carroll county, new hampshire">Washington Boulder (Carroll county, New Hampshire : landmark)</ns1:lookup>
+        <ns1:lookup string="riverside cottage, coos county, new hampshire">Riverside Cottage (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.3034, -70.1195" string="Leeds, Maine, United States" uri="http://sws.geonames.org/4969332/">Leeds (Androscoggin county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup string="black mountain cabin, carroll county, new hampshire">Black Mountain Cabin (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.97924, -71.12035" string="Conway, New Hampshire, United States" uri="http://sws.geonames.org/5084939/">Conway (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.20423, -71.41285" string="Mount Willard, New Hampshire, United States" uri="http://sws.geonames.org/5094755/">Willard, Mount (Carroll county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup string="pulpit rock, coos county, new hampshire">Pulpit Rock (Coos county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup string="central house, grafton county, new hampshire">Central House  (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.70283, -71.17397" string="Thirteen Mile Woods, New Hampshire, United States" uri="http://sws.geonames.org/5093599/">Thirteen Mile Woods (Coos county, New Hampshire : woods)</ns1:lookup>
+        <ns1:lookup string="chester, rockingham county, new hampshire">Chester (Rockingham county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.0534, -71.3573" string="Mount Tremont, New Hampshire, United States" uri="http://sws.geonames.org/5093770/">Tremont, Mount (Carroll county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup coordinates="43.52563, -71.86175" string="Danbury, New Hampshire, United States" uri="http://sws.geonames.org/5085222/">Danbury (Merrimack county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="41.97324, -70.0384" string="Cape Cod National Seashore, Massachusetts, United States" uri="http://sws.geonames.org/4932251/">Cape Cod (Barnstable county, Massachusetts : peninsula)</ns1:lookup>
+        <ns1:lookup coordinates="31.23768, -89.21256" string="McCallum, Mississippi, United States" uri="http://sws.geonames.org/4435288/">McCallum (Forrest county, Mississippi : inhabited place)</ns1:lookup>
+        <ns1:lookup string="united states. forest service pinkham notch, coos county, new hampshire">United States. Forest Service Pinkham Notch (Coos county, New Hampshire : valley)</ns1:lookup>
+        <ns1:lookup coordinates="42.98758, -71.81258" string="Francestown, New Hampshire, United States" uri="http://sws.geonames.org/5086321/">Francestown (Hillsborough county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.93705, -71.86444" string="Norton Pond, Vermont, United States" uri="http://sws.geonames.org/5239313/">Norton Pond (Essex county, Vermont : pond)</ns1:lookup>
+        <ns1:lookup coordinates="44.38396, -70.24922" string="Livermore, Maine, United States" uri="http://sws.geonames.org/4970214/">Livermore (Androscoggin county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup string="new city hotel, strafford county, new hampshire">New City Hotel (Strafford county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.05981, -70.73505" string="Sagamore Creek, New Hampshire, United States" uri="http://sws.geonames.org/5092063/">Sagamore Creek (Rockingham county, New Hampshire : creek)</ns1:lookup>
+        <ns1:lookup coordinates="44.46867, -71.18508" string="Berlin, New Hampshire, United States" uri="http://sws.geonames.org/5083330/">Berlin (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="sunny villa restaurant, carroll county, new hampshire">Sunny Villa Restaurant (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.90924, -71.08368" string="Eaton Center, New Hampshire, United States" uri="http://sws.geonames.org/5085792/">Eaton (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="45.10755, -70.77146" string="Kennebago, Maine, United States" uri="http://sws.geonames.org/4968697/">Kennebago (Franklin county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup string="nineteen mile brook trail, carroll county, new hampshire">Nineteen Mile Brook Trail (Carroll county, New Hampshire : trail)</ns1:lookup>
+        <ns1:lookup coordinates="43.10009, -70.83367" string="Newington, New Hampshire, United States" uri="http://sws.geonames.org/5090231/">Newington (Rockingham county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.13312, -71.15646" string="Thorn Mountain, New Hampshire, United States" uri="http://sws.geonames.org/5093627/">Thorn Mountain (Carroll county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup coordinates="43.32452, -72.60676" string="Gassetts, Vermont, United States" uri="http://sws.geonames.org/5236355/">Gassetts (Windsor county, Vermont : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="42.84342, -71.73507" string="Wilton, New Hampshire, United States" uri="http://sws.geonames.org/5094802/">Wilton (Hillsborough county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="whitefield nh, coos county, new hampshire">Whitefield NH (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.78369, -71.15451" string="Lovell River, New Hampshire, United States" uri="http://sws.geonames.org/5089040/">Lovell River (Carroll county, New Hampshire : river)</ns1:lookup>
+        <ns1:lookup coordinates="42.55648, -72.51814" string="Lake Pleasant, Massachusetts, United States" uri="http://sws.geonames.org/4941545/">Lake Pleasant (Franklin county, Massachusetts : lake)</ns1:lookup>
+        <ns1:lookup string="harrison, cumberland county, new hampshire">Harrison (Cumberland county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.1437, -70.65089" string="York Village, Maine, United States" uri="http://sws.geonames.org/4983656/">York (York county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="45.05959, -70.94799" string="Lincoln Pond, Maine, United States" uri="http://sws.geonames.org/4969568/">Lincoln Pond (Oxford county, Maine : lake)</ns1:lookup>
+        <ns1:lookup coordinates="42.71202, -73.20372" string="Williamstown, Massachusetts, United States" uri="http://sws.geonames.org/4955786/">Williamstown (Berkshire county, Massachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup string="north adams, berkshire county, massachusetts">North Adams (Berkshire county, Massachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.18368, -71.42147" string="Mount Willey, New Hampshire, United States" uri="http://sws.geonames.org/5094762/">Willey, Mount (Grafton county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup coordinates="43.14619, -71.21645" string="Deerfield, New Hampshire, United States" uri="http://sws.geonames.org/5085344/">Deerfield (Rockingham county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="42.06677, -71.10366" string="North Easton, Massachusetts, United States" uri="http://sws.geonames.org/4945609/">North Easton (Bristol county, Massachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.1559, -71.36702" string="Frankenstein Cliff, New Hampshire, United States" uri="http://sws.geonames.org/5086343/">Frankenstein Cliff (Carroll county, New Hampshire : rock)</ns1:lookup>
+        <ns1:lookup string="dundee road, carroll county, new hampshire">Dundee Road (Carroll county, New Hampshire : road)</ns1:lookup>
+        <ns1:lookup coordinates="42.69593, -70.77866" string="Plum Island Sound, Massachusetts, United States" uri="http://sws.geonames.org/4947587/">Plum Island River (Essex county, Massachusetts : river)</ns1:lookup>
+        <ns1:lookup coordinates="44.48895, -71.56925" string="Lancaster, New Hampshire, United States" uri="http://sws.geonames.org/5088529/">Lancaster (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.2098, -69.06476" string="Camden, Maine, United States" uri="http://sws.geonames.org/4959908/">Camden (Knox county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup string="ogontz white mountain camp, grafton county, new hampshire">Ogontz White Mountain Camp (Grafton county, New Hampshire : summer camp)</ns1:lookup>
+        <ns1:lookup coordinates="44.25673, -71.8312" string="Gale River, New Hampshire, United States" uri="http://sws.geonames.org/5086435/">Gale River (Grafton county, New Hampshire : river)</ns1:lookup>
+        <ns1:lookup string="cold spring house, coos county, new hampshire">Cold Spring House (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="harpers ferry, jefferson county, virginia">Harpers Ferry (Jefferson county, Virginia : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.93035, -71.16979" string="Madison Boulder, New Hampshire, United States" uri="http://sws.geonames.org/5089145/">Madison Boulder (Carroll county, New Hampshire : rock)</ns1:lookup>
+        <ns1:lookup coordinates="44.32451, -71.28813" string="Mount Quincy Adams, New Hampshire, United States" uri="http://sws.geonames.org/5091570/">Quincy Adams, Mount (Coos county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup string="franconia notch (grafton county, new hampshire : valley) echo lake, grafton county, carroll county, new hampshire">Franconia Notch (Grafton county, New Hampshire : valley) Echo Lake (Grafton county, Carroll county, New Hampshire : lake)</ns1:lookup>
+        <ns1:lookup string="mizpah spring hut, coos county, new hampshire">Mizpah Spring Hut (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="Maine Central Railroad">Maine Central Railroad</ns1:lookup>
+        <ns1:lookup coordinates="44.24034, -71.35035" string="Mount Eisenhower, New Hampshire, United States" uri="http://sws.geonames.org/5085830/">Eisenhower, Mount (Coos county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup coordinates="43.73202, -71.58841" string="Holderness, New Hampshire, United States" uri="http://sws.geonames.org/5087552/">Holderness (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.1209, -70.97729" string="North Fryeburg, Maine, United States" uri="http://sws.geonames.org/4973570/">North Fryeburg (Oxford county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup string="sunset pavilion, carroll county, new hampshire">Sunset Pavilion (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="Route 302">Route 302</ns1:lookup>
+        <ns1:lookup coordinates="44.07618, -71.18063" string="Dianas Baths, New Hampshire, United States" uri="http://sws.geonames.org/5085412/">Dianas Baths (Carroll County, New Hampshire : spring)</ns1:lookup>
+        <ns1:lookup coordinates="44.12812, -71.18952" string="Goodrich Falls, New Hampshire, United States" uri="http://sws.geonames.org/5086661/">Goodrich Falls (Carroll county, New Hampshire : waterfall)</ns1:lookup>
+        <ns1:lookup string="tin mountain, carroll county, new hampshire">Tin Mountain (Carroll county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup coordinates="44.2634, -71.45841" string="Fabyan, New Hampshire, United States" uri="http://sws.geonames.org/5085989/">Fabyan House (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="dolly copp homestead, coos county, new hampshire">Dolly Copp Homestead (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="twin mountain house, coos county, new hampshire">Twin Mountain House (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="barrington, strafford county, new hampshire">Barrington (Strafford county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.15423, -72.04704" string="Wells River, Vermont, United States" uri="http://sws.geonames.org/5242616/">Wells River (Orange county, Vermont : inhabited place)</ns1:lookup>
+        <ns1:lookup string="ammonoosuc river, coos county, grafton county, new hampshire">Ammonoosuc River (Coos county, Grafton county, New Hampshire : river)</ns1:lookup>
+        <ns1:lookup coordinates="44.2634, -71.45841" string="Fabyan, New Hampshire, United States" uri="http://sws.geonames.org/5085989/">Fabyan (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.75089, -71.52459" string="Squam Lake, New Hampshire, United States" uri="http://sws.geonames.org/5093052/">Squam Lake (New Hampshire : lake)</ns1:lookup>
+        <ns1:lookup string="bugle cliff, carroll county, new hampshire">Bugle Cliff (Carroll county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup string="center ossipee inn, carroll county, new hampshire">Center Ossipee Inn (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="center of the earth, grafton county, new hampshire">Center of the Earth (Grafton county, New Hampshire : cave)</ns1:lookup>
+        <ns1:lookup coordinates="43.75508, -71.15201" string="Center Ossipee, New Hampshire, United States" uri="http://sws.geonames.org/5084387/">Center Ossipee (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="kearsarge house, carroll county, new hampshire">Kearsarge House (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="42.69592, -72.45287" string="Northfield, Massachusetts, United States" uri="http://sws.geonames.org/4945878/">Northfield (Franklin county, Massachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup string="beaver meadows, carroll county, new hampshire">Beaver Meadows (Carroll county, New Hampshire : meadow)</ns1:lookup>
+        <ns1:lookup string="camp shehadi, grafton county, new hampshire">Camp Shehadi (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.26508, -69.15893" string="Hope, Maine, United States" uri="http://sws.geonames.org/4832408/">Hope (Knox county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.12814, -68.8742" string="North Haven, Maine, United States" uri="http://sws.geonames.org/4973580/">North Haven (Knox county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.24034, -71.35035" string="Mount Eisenhower, New Hampshire, United States" uri="http://sws.geonames.org/5085830/">Pleasant, Mount (Coos county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup string="passaconawy valley, carroll county, new hampshire">Passaconawy Valley (Carroll county, New Hampshire : valley)</ns1:lookup>
+        <ns1:lookup coordinates="43.07704, -70.75766" string="Portsmouth, New Hampshire, United States" uri="http://sws.geonames.org/5091383/">Portsmouth (Rockingham county, New Hampshire : inhabited place)
+Atlantic Ocean (ocean)</ns1:lookup>
+        <ns1:lookup coordinates="42.55343, -70.85366" string="Beverly Cove, Massachusetts, United States" uri="http://sws.geonames.org/4930511/">Beverly (Essex county, Massachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.32146, -72.03592" string="Newbury, New Hampshire, United States" uri="http://sws.geonames.org/5090214/">Newbury (Merrimack county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.89896, -71.46424" string="Flat Mountain Pond Trail, New Hampshire, United States" uri="http://sws.geonames.org/5086197/">Flat Mountain Pond (Carroll county, New Hampshire : pond)</ns1:lookup>
+        <ns1:lookup coordinates="43.61445, -71.34397" string="Lake Winnipesaukee, New Hampshire, United States" uri="http://sws.geonames.org/5094864/">Lake Winnipesaukee (New Hampshire : lake)</ns1:lookup>
+        <ns1:lookup string="bridgewater, plymouth county, massachusetts">Bridgewater (Plymouth county, Massachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup string="gem theatre, coos county, new hampshire">Gem Theatre (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="42.6362, -71.90785" string="Ashburnham, Massachusetts, United States" uri="http://sws.geonames.org/4929256/">Ashburnham (Worcester county, Massachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.59035, -71.53452" string="Loon Island, New Hampshire, United States" uri="http://sws.geonames.org/5088974/">Loon Island (Belknap county, New Hampshire : island)</ns1:lookup>
+        <ns1:lookup coordinates="43.21036, -70.87034" string="Garrison Hill Park, New Hampshire, United States" uri="http://sws.geonames.org/5086475/">Garrison Hill (Strafford county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="whitehead lighthouse, hancock county, maine">Whitehead Lighthouse (Hancock county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.95841, -69.6306" string="Edgecomb, Maine, United States" uri="http://sws.geonames.org/4963559/">Edgecomb (Lincoln county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup string="mount lookoff, grafton county, new hampshire">Mount Lookoff (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="fryeberg, oxford county, maine">Fryeberg (Oxford county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.19786, -70.87367" string="Dover, New Hampshire, United States" uri="http://sws.geonames.org/5085520/">Dover Point (Strafford county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="notchland inn, carroll county, new hampshire">Notchland Inn (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.38285, -68.79892" string="Castine Harbor, Maine, United States" uri="http://sws.geonames.org/4960385/">Castine Harbor (Hancock county, Maine : bay)</ns1:lookup>
+        <ns1:lookup string="swift river falls, carroll county, new hampshire">Swift River Falls (Carroll county, New Hampshire : waterfall)</ns1:lookup>
+        <ns1:lookup coordinates="43.83786, -69.60227" string="Linekin Bay, Maine, United States" uri="http://sws.geonames.org/4969609/">Linekin Bay (Lincoln county, Maine : bay)</ns1:lookup>
+        <ns1:lookup coordinates="44.46867, -71.18508" string="Berlin, New Hampshire, United States" uri="http://sws.geonames.org/5083330/">Berlin (Coos County, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="webster, mount, coos county, carroll county, new hampshire">Webster, Mount (Coos county, Carroll county, New Hampshire: peak)</ns1:lookup>
+        <ns1:lookup coordinates="43.10036, -72.77843" string="Jamaica, Vermont, United States" uri="http://sws.geonames.org/5237436/">Jamaica (Windham county, Vermont : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="46.63115, -68.40615" string="Ashland, Maine, United States" uri="http://sws.geonames.org/4956929/">Ashland (Aroostook county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.04646, -71.23118" string="Big Attitash Mountain, New Hampshire, United States" uri="http://sws.geonames.org/5083396/">Attitash Mountain (Carroll county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup coordinates="44.25229, -71.29507" string="Boott Spur, New Hampshire, United States" uri="http://sws.geonames.org/5083671/">Boott Spur (Coos county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup string="profile shelter, grafton county, new hampshire">Profile Shelter (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="forest inn, carroll county, new hampshire">Forest Inn (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="42.83648, -71.09478" string="Plaistow, New Hampshire, United States" uri="http://sws.geonames.org/5091273/">Plaistow (Rockingham county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="42.20426, -72.6162" string="Holyoke, Massachusetts, United States" uri="http://sws.geonames.org/4939783/">Holyoke (Hampden County, Massachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="42.70898, -71.31728" string="Pulpit Rock, New Hampshire, United States" uri="http://sws.geonames.org/5091531/">Pulpit Rock (Hillsborough county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup coordinates="44.30119, -71.28097" string="Great Gulf Wilderness, New Hampshire, United States" uri="http://sws.geonames.org/5086852/">Great Gulf (Coos county, New Hampshire : valley)</ns1:lookup>
+        <ns1:lookup coordinates="44.24451, -71.33924" string="Crawford Path, New Hampshire, United States" uri="http://sws.geonames.org/5085078/">Crawford Path (New Hampshire : trail)</ns1:lookup>
+        <ns1:lookup coordinates="44.83116, -71.55842" string="Beaver Brook, New Hampshire, United States" uri="http://sws.geonames.org/5083174/">Beaver Brook (Coos county, New Hampshire : stream)</ns1:lookup>
+        <ns1:lookup coordinates="44.03451, -71.79175" string="Kinsman Notch Nature Area, New Hampshire, United States" uri="http://sws.geonames.org/5088393/">Lost River (Grafton county, New Hampshire : river)</ns1:lookup>
+        <ns1:lookup coordinates="44.50617, -71.1823" string="Cates Hill, New Hampshire, United States" uri="http://sws.geonames.org/5084321/">Cates Hill (Coos county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup string="boston and maine railroad conway, carroll county, new hampshire">Boston and Maine Railroad Conway (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.62741, -72.14736" string="Mascoma Lake, New Hampshire, United States" uri="http://sws.geonames.org/5089286/">Mascoma Lake (Grafton county, New Hampshire : lake)</ns1:lookup>
+        <ns1:lookup coordinates="43.04812, -76.14742" string="Syracuse, New York, United States" uri="http://sws.geonames.org/5140405/">Syracuse (Onondaga county, New York : inhabited place)</ns1:lookup>
+        <ns1:lookup string="lover's lane, grafton county, new hampshire">Lover's Lane (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="kearsarge peg mill, carroll county, new hampshire">Kearsarge Peg Mill (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.16979, -71.6887" string="Cannon Mountain Aerial Passenger Tramway, New Hampshire, United States" uri="http://sws.geonames.org/5084180/">Cannon Mountain Aerial Tramway</ns1:lookup>
+        <ns1:lookup string="pendexter mansion, carroll county, new hampshire">Pendexter Mansion (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="holy ghost hospital, middlesex county, massachusetts">Holy Ghost Hospital (Middlesex county, Massachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.34063, -72.07092" string="Mount Sunapee, New Hampshire, United States" uri="http://sws.geonames.org/5089911/">Mount Sunapee (Merrimack county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.2884, -71.22535" string="Glen House, New Hampshire, United States" uri="http://sws.geonames.org/5086593/">Glen House (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.40423, -70.79062" string="Bethel, Maine, United States" uri="http://sws.geonames.org/4958084/">Bethel (Oxford county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.00516, -71.09813" string="Kennett High School, New Hampshire, United States" uri="http://sws.geonames.org/5082489/">Kennett High School (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.26285, -72.59509" string="Chester, Vermont, United States" uri="http://sws.geonames.org/5234827/">Chester Depot (Windsor county, Vermont : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.60896, -71.46063" string="Weirs Beach, New Hampshire, United States" uri="http://sws.geonames.org/5094390/">Weirs (Belknap county, Laconia, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.07952, -72.42592" string="Walpole, New Hampshire, United States" uri="http://sws.geonames.org/5094235/">Walpole (Cheshire county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.28034, -71.68814" string="Bethlehem, New Hampshire, United States" uri="http://sws.geonames.org/5083374/">Bethlehem (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="42.66676, -71.70507" string="Townsend, Massachusetts, United States" uri="http://sws.geonames.org/4953221/">Townsend (Middlesex county, Massachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.70174, -71.83564" string="Groton, New Hampshire, United States" uri="http://sws.geonames.org/5086965/">Groton (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.75902, -71.68898" string="Plymouth State University, New Hampshire, United States" uri="http://sws.geonames.org/5091319/">Plymouth State University (Grafton county, New Hampshire : school)</ns1:lookup>
+        <ns1:lookup coordinates="43.13306, -72.44363" string="Boston and Maine Railroad Tunnel, Vermont, United States" uri="http://sws.geonames.org/5234023/">Boston and Maine Railroad</ns1:lookup>
+        <ns1:lookup coordinates="43.7651, -71.703" string="Plymouth Elementary School, New Hampshire, United States" uri="http://sws.geonames.org/5091312/">Plymouth Elementary School (Grafton county, New Hampshire : school)</ns1:lookup>
+        <ns1:lookup coordinates="44.24229, -71.01674" string="North Chatham, New Hampshire, United States" uri="http://sws.geonames.org/5090342/">North Chatham (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.27564, -70.58283" string="Moody Beach, Maine, United States" uri="http://sws.geonames.org/4972430/">Moody Beach (York county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.19786, -70.87367" string="Dover, New Hampshire, United States" uri="http://sws.geonames.org/5085520/">Dover (Strafford county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="willey brook, grafton county, new hampshire">Willey Brook (Grafton county, New Hampshire : stream)</ns1:lookup>
+        <ns1:lookup string="the pines, carroll county, new hampshire">The Pines (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="lancaster house, coos county, new hampshire">Lancaster House (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.17118, -70.36589" string="West Minot, Maine, United States" uri="http://sws.geonames.org/4982657/">West Minot (Androscoggin county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup string="magalloway river, united states, north and central america">Magalloway River (United States, North and Central America : river)</ns1:lookup>
+        <ns1:lookup string="lost river road, grafton county, new hampshire">Lost River Road (Grafton county, New Hampshire : road)</ns1:lookup>
+        <ns1:lookup string="profile house, grafton county, new hampshire">Profile House (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.23784, -71.27507" string="Glen Boulder, New Hampshire, United States" uri="http://sws.geonames.org/5086586/">Glen Boulder (Coos county, New Hampshire : rock)</ns1:lookup>
+        <ns1:lookup string="corbin park, sullivan county, new hampshire">Corbin Park (Sullivan county, New Hampshire : preserve)</ns1:lookup>
+        <ns1:lookup coordinates="44.09034, -72.02648" string="North Haverhill, New Hampshire, United States" uri="http://sws.geonames.org/5090375/">North Haverhill (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="42.8698, -72.28175" string="Swanzey, New Hampshire, United States" uri="http://sws.geonames.org/5093422/">Swanzey (Cheshire county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="middle mountain, carroll county, coos county, new hampshire">Middle Mountain (Carroll county, Coos county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup string="berwick, york county, maine">Berwick (York county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup string="base station, coos county, new hampshire">Base Station (Coos county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="saint johnsbury, caledonia couny, vermont">Saint Johnsbury (Caledonia couny, Vermont : inhabited place)</ns1:lookup>
+        <ns1:lookup string="steamer 'mount washington' wolfeboro, carroll county, new hampshire">Steamer 'Mount Washington' Wolfeboro (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.38008, -71.71702" string="Salisbury, New Hampshire, United States" uri="http://sws.geonames.org/5092276/">Salisbury (Merrimack county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.11007, -71.18257" string="Glen, New Hampshire, United States" uri="http://sws.geonames.org/5086607/">Glen (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="mote mountain, carroll county, new hampshire">Mote Mountain (Carroll county, New Hampshire : mountain)</ns1:lookup>
+        <ns1:lookup coordinates="44.30229, -71.38452" string="Mount Dartmouth, New Hampshire, United States" uri="http://sws.geonames.org/5085264/">Dartmouth, Mount (Coos county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup coordinates="43.45646, -72.53787" string="Felchville, Vermont, United States" uri="http://sws.geonames.org/5236096/">Felchville (Windsor county, Vermont : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="30.42131, -87.21691" string="Pensacola, Florida, United States" uri="http://sws.geonames.org/4168228/">Pensacola (Escambia county, Florida : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="41.56232, -72.65065" string="Middletown, Connecticut, United States" uri="http://sws.geonames.org/4838633/">Middletown (Middlesex county, Connecticut : inhabited place)</ns1:lookup>
+        <ns1:lookup string="old king rock, coos county, new hampshire">Old King Rock (Coos county, New Hampshire : landmark)</ns1:lookup>
+        <ns1:lookup coordinates="43.54758, -71.40674" string="Gilford, New Hampshire, United States" uri="http://sws.geonames.org/5086544/">Gilford (Belknap county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="42.21398, -72.1023" string="Brookfield, Massachusetts, United States" uri="http://sws.geonames.org/4931469/">Brookfield (Worcester county, Massachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="42.58342, -71.8023" string="Fitchburg, Massachusetts, United States" uri="http://sws.geonames.org/4936812/">Fitchburg (Worcester county, Massachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup string="mount pleasant house, carroll county, new hampshire">Mount Pleasant House (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="marlow, chesire county, new hampshire">Marlow (Chesire county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="reed's light, grafton county, new hampshire">Reed's Light (Grafton county, New Hampshire : lighthouse)</ns1:lookup>
+        <ns1:lookup coordinates="42.96537, -71.3699" string="Massabesic Lake, New Hampshire, United States" uri="http://sws.geonames.org/5089308/">Massabesic Lake (New Hampshire : lake)</ns1:lookup>
+        <ns1:lookup coordinates="44.03034, -71.68591" string="North Woodstock, New Hampshire, United States" uri="http://sws.geonames.org/5090448/">North Woodstock (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.60508, -70.59311" string="Hollis Center, Maine, United States" uri="http://sws.geonames.org/4967361/">Hollis (York county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="40.09789, -74.21764" string="Lakewood, New Jersey, United States" uri="http://sws.geonames.org/5100280/">Lakewood (Ocean county, New Jersey : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.49591, -68.50169" string="Surry, Maine, United States" uri="http://sws.geonames.org/4980248/">Surry (Hancock county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.27507, -71.17591" string="Carter Dome Trail, New Hampshire, United States" uri="http://sws.geonames.org/5281171/">Carter Trail (Coos county, New Hampshire : trail)</ns1:lookup>
+        <ns1:lookup string="hotel long, oxford county, maine">Hotel Long (Oxford county, Maine : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="42.54453, -72.60564" string="Deerfield, Massachusetts, United States" uri="http://sws.geonames.org/4934711/">Deerfield (Franklin county, Massachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.03034, -71.68591" string="North Woodstock, New Hampshire, United States" uri="http://sws.geonames.org/5090448/">North Woodstock (Grafton county, New Hampshire : inhabited place)
+Eskimo Sled Dog Ranch (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="eastern slope inn, carroll county, new hampshire">Eastern Slope Inn (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="highland house, grafton county, new hampshire">Highland House (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="44.30506, -71.30424" string="Six Husbands Trail, New Hampshire, United States" uri="http://sws.geonames.org/5092696/">Six Husbands (New Hampshire : trail)</ns1:lookup>
+        <ns1:lookup coordinates="42.19593, -70.72587" string="Scituate, Massachusetts, United States" uri="http://sws.geonames.org/4950395/">Scituate (Plymouth county, Massachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup string="farm cottage, grafton county, new hampshire">Farm Cottage (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="idlewild, the, grafton county, new hampshire">Idlewild, The (Grafton county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.91396, -70.57534" string="Songo River, Maine, United States" uri="http://sws.geonames.org/4978995/">Songo River (Cumberland county, Maine : river)</ns1:lookup>
+        <ns1:lookup coordinates="44.33397, -68.74114" string="Bucks Harbor, Maine, United States" uri="http://sws.geonames.org/4959541/">Buck Harbor (Hancock county, Maine : bay)</ns1:lookup>
+        <ns1:lookup string="Steamer 'Mt. Washington'">Steamer 'Mt. Washington'</ns1:lookup>
+        <ns1:lookup string="gulf of slides, coos county, new hampshire">Gulf of Slides (Coos county, New Hampshire : valley)</ns1:lookup>
+        <ns1:lookup coordinates="42.09177, -70.70559" string="Marshfield, Massachusetts, United States" uri="http://sws.geonames.org/4943204/">Marshfield (Plymouth county, Massachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="42.93369, -72.27814" string="Keene, New Hampshire, United States" uri="http://sws.geonames.org/5088262/">Keene (Cheshire county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="42.89453, -71.67424" string="Mont Vernon, New Hampshire, United States" uri="http://sws.geonames.org/5089746/">Mount Vernon (Hillsborough county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup string="albany, carroll county, new hampshire">Albany (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.84563, -71.4723" string="Mount Israel, New Hampshire, United States" uri="http://sws.geonames.org/5088026/">Israel, Mount (Carroll county, New Hampshire : peak)</ns1:lookup>
+        <ns1:lookup coordinates="42.33343, -71.04949" string="South Boston, Massachusetts, United States" uri="http://sws.geonames.org/4951305/">Dorchester (Suffolk county, Massachusetts : neighborhood)</ns1:lookup>
+        <ns1:lookup coordinates="42.34593, -71.55229" string="Marlborough, Massachusetts, United States" uri="http://sws.geonames.org/4943170/">Marlborough (Middlesex county, Massachusetts : inhabited place)</ns1:lookup>
+        <ns1:lookup coordinates="43.38229, -72.63843" string="Proctorsville, Vermont, United States" uri="http://sws.geonames.org/5240030/">Proctorsville (Windsor county, Vermont : inhabited place)</ns1:lookup>
+        <ns1:lookup string="sanmaur, quebec province, canada">Sanmaur (Quebec province, Canada : inhabited place)</ns1:lookup>
+        <ns1:lookup string="union congregational church, carroll county, new hampshire">Union Congregational Church (Carroll county, New Hampshire : inhabited place)</ns1:lookup>
+      </ns0:param>
 
-    <ns0:param name="gettySubtype">
+      <ns0:param name="gettySubtype">
         <ns1:lookup string="advertisements" uri="http://vocab.getty.edu/aat/300193993">advertisements</ns1:lookup>
         <ns1:lookup string="architectural documents" uri="http://vocab.getty.edu/aat/300343615">architectural documents</ns1:lookup>
         <ns1:lookup string="books" uri="http://vocab.getty.edu/aat/300028051">books</ns1:lookup>

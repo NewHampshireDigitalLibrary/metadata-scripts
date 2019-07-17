@@ -52,10 +52,10 @@ def main():
         if event == 'end':
             if elem.tag == fixtag("xsl", "param") and elem.attrib.get("name") == args.param:
                 for lookup in elem.iter(fixtag("nhdl", "lookup")):
-                    orig_value = lookup.attrib.get("string")
+                    orig_value = lookup.text
                     gn_uri = lookup.attrib.get("uri")
                     coords = lookup.attrib.get("coordinates")
-                    label = lookup.text
+                    label = lookup.attrib.get("string")
 
                     matched_dict[orig_value] = {}
                     matched_dict[orig_value]["uri"] = gn_uri
@@ -112,12 +112,12 @@ def main():
     for matched in set(matched_dict):
         new_item = etree.SubElement(param_node, fixtag("nhdl", "lookup"))
         if matched:
-            new_item.set('string', matched)
+            new_item.set('string', matched_dict[matched].get("label"))
         if matched_dict[matched].get("uri"):
             new_item.set('uri', matched_dict[matched].get("uri"))
         if matched_dict[matched].get("coords"):
             new_item.set('coordinates', matched_dict[matched].get("coords"))
-        new_item.text = matched_dict[matched].get("label")
+        new_item.text = matched
     outdata = etree.tostring(outfile)
     myfile = open("reconciled-" + args.reconciled, "wb")
     myfile.write(outdata)
